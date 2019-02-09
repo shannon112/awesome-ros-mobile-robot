@@ -94,3 +94,17 @@ ROS summer school
 ```
 
 ## [Note5] Famous ros relative people
+```
+斯科特·哈森(Scott Hassan) - Willow garage founder, stanford student
+史蒂夫·库辛斯(Steve Cousins) - Willow garage CEO
+埃里克·博格(Eric Berger) - PR1參與者, stanford student, STAIR參與者, PR2之父
+和基南·威罗拜克(Keenan Wyrobek) - PR1參與者, stanford student, PR2之父
+蕾拉·高山(Leila Takayama) - PR2外型設計，非工程專業
+肯尼斯·萨里斯伯里(Kenneth Salisbury) - 兩個做PR1學生的指導老師
+吳恩達(Andrew Yan-Tak Ng) - stanford教授，人工智能實驗室 SAIL
+摩根·奎格利(Morgan Quigley) - Andrew底下的博士學生，STAIR架構的開發，ROS之父，OSRF首席架構師 SAIL
+布莱恩·格基 (Brian Gerkey，OSRF CEO 創始人) USC畢業 SAIL
+罗伯特·弗里德曼(Roberta Friedman， OSRF CFO)
+凯特·考 尼(Nate Koenig， OSRF CTO)
+思特菲·派姬(Steffi Paepcke) OSRF co-founder 人機互動方面專業
+```
