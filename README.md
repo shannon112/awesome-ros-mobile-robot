@@ -1,6 +1,7 @@
 # awesome-ros-mobile-robot
 This repository provides some useful resources and informations about mobile robot(AGV,AMR) research.  
-It would not contain high level application, but focus on basic function of mobile robot(more at navigation).  
+It would not contain high level application, but focus on basic function of mobile robot(and more at navigation).  
+(including both Chinese and English materials)
 * content:  
 ```
 1.ROS
@@ -54,9 +55,19 @@ Service robot:
 AGV:  
 Drone:  
 
-## [Note2] Famous robotics conference&journal
+## [Note2] Famous robotics conferences & journals
 Top conference:  
 Top journal:  
 Minor conference:  
 
-## [Note3] Famous ros relative people
+## [Note3] Famous robotics competition in Taiwan
+
+
+## [Note4] Famous ros organizations & activities
+OSRF
+ROScon
+ROS summer school
+ROS.Taiwan
+ROS.Taipei
+
+## [Note5] Famous ros relative people
