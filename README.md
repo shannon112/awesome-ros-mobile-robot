@@ -4,6 +4,7 @@ It would not contain high level application, but focus on basic function of mobi
 (including both Chinese and English materials)
 * content:  
 ```
+0.Robotics
 1.ROS
 2.Robot platform
 3.Robot sensor
@@ -17,8 +18,14 @@ It would not contain high level application, but focus on basic function of mobi
 [Note2] Famous robotics conference&journal
 [Note3] Famous ros relative people
 ```
+## 0.Robotics
+Books(EN):
+Courses(EN):
 
 ## 1.ROS
+ROS blogs(CN):  
+Books(CN):
+Books(EN):
 
 ## 2.Robot platform
 holomic  
@@ -50,13 +57,21 @@ RecoveryBehavior:
 
 
 ## [Note1] Famous robotics company
-Manipulator:  
-Service robot:  
-AGV:  
-Drone:  
+Manipulator: 
+```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN  ```
+Service robot: 
+```willow_garage, softbank_robotics  ```
+Humanoid: 
+```boston_dynamics, softbank_robotics  ```
+AGV: 
+```omron_robotics, clearpath_robotics, amazon robotics  ```
+Drone: 
+```Dji  ```
+ROS2.0: 
+```ADLINK ``` 
 
 ## [Note2] Famous robotics conferences & journals
-Top conference:  
+Top conference: ieee_IROS, ieee_ICRA  
 Top journal:  
 Minor conference:  
 
@@ -64,10 +79,16 @@ Minor conference:
 
 
 ## [Note4] Famous ros organizations & activities
+organizations
+```
 OSRF
-ROScon
-ROS summer school
 ROS.Taiwan
 ROS.Taipei
+```
+activities: 
+```
+ROScon
+ROS summer school
+```
 
 ## [Note5] Famous ros relative people
