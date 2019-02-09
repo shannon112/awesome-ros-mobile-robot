@@ -57,18 +57,18 @@ RecoveryBehavior:
 
 
 ## [Note1] Famous robotics company
-Manipulator: 
-```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN  ```
-Service robot: 
-```willow_garage, softbank_robotics  ```
-Humanoid: 
-```boston_dynamics, softbank_robotics  ```
-AGV: 
-```omron_robotics, clearpath_robotics, amazon robotics  ```
-Drone: 
-```Dji  ```
-ROS2.0: 
-```ADLINK ``` 
+Manipulator:  
+```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN  ```  
+Service robot:  
+```willow_garage, softbank_robotics  ```  
+Humanoid:  
+```boston_dynamics, softbank_robotics  ```  
+AGV:  
+```omron_robotics, clearpath_robotics, amazon robotics  ```  
+Drone:  
+```Dji  ```  
+ROS2.0:  
+```ADLINK ```   
 
 ## [Note2] Famous robotics conferences & journals
 Top conference: ieee_IROS, ieee_ICRA  
