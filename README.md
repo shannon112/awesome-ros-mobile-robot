@@ -16,7 +16,9 @@ It would not contain high level application, but focus on basic function of mobi
 9.Navigation(advanced)
 [Note1] Famous robotics company
 [Note2] Famous robotics conference&journal
-[Note3] Famous ros relative people
+[Note3] Famous robotics competition in Taiwan
+[Note4] Famous ros organizations & activities
+[Note5] Famous ros relative people
 ```
 ## 0.Robotics
 Books(EN):
