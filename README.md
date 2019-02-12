@@ -59,14 +59,16 @@ RecoveryBehavior:
 
 
 ## [Note1] Famous robotics company
+Research:
+```豐田研究院```
 Manipulator:  
-```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN  ```  
+```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
 Service robot:  
 ```willow_garage, softbank_robotics  ```  
 Humanoid:  
 ```boston_dynamics, softbank_robotics  ```  
 AGV:  
-```omron_robotics, clearpath_robotics, amazon robotics  ```  
+```omron_robotics, clearpath_robotics&OTTO_Motors, amazon robotics(Kiva System), Yujin Robotics, ROBOTIS, fetch_robotics```  
 Drone:  
 ```Dji  ```  
 ROS2.0:  
@@ -84,6 +86,7 @@ Minor conference:
 organizations
 ```
 OSRF
+OSRC
 ROS.Taiwan
 ROS.Taipei
 ```
