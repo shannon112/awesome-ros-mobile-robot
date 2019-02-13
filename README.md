@@ -21,17 +21,40 @@ It would not contain high level application, but focus on basic function of mobi
 [Note5] Famous ros relative people
 ```
 ## 0.Robotics
-Books(EN):
-Courses(EN):
+Books:
+```
+"Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
+"Probabilistic Robotics", Sebastian Thrun 
+"視覺 SLAM 十四講：從理論到實踐", 高翔
+```
+Courses:
+```
+"Robot Mapping", Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
+"機器人學一 (Robotics (1))", 林沛群: https://www.coursera.org/learn/robotics1
+```
 
 ## 1.ROS
-ROS blogs(CN):  
-Books(CN):
-Books(EN):
+ROS blogs:  
+```
+半閒居士：https://www.cnblogs.com/gaoxiang12/
+MR.POJENLAI: https://pojenlai.wordpress.com/
+```
+Books:
+```
+"ROS by Example", python, Patrick Goebel
+"Mastering ROS for Robotics Programming", C++, Lentin Joseph
+"Learning ROS for Robotics Programming", C++, Enrique Fernandez
+"Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
+```
 
 ## 2.Robot platform
-holomic  
-non-holomic  
+holomic vs. non-holomic
+```
+Comparison: https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
+Caster wheel: https://en.wikipedia.org/wiki/Caster
+Mecanum wheel: https://en.wikipedia.org/wiki/Mecanum_wheel
+Omni wheel: https://en.wikipedia.org/wiki/Omni_wheel
+```
 race car  
 ros robot  
 processing unit:  
