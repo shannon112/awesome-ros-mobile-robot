@@ -1,7 +1,7 @@
-# awesome-ros-mobile-robot
-This repository provides some useful resources and informations about mobile robot(AGV,AMR) research.  
-It would not contain high level application, but focus on basic function of mobile robot(and more at navigation).  
-(including both Chinese and English materials)  
+## awesome-ros-mobile-robot
+This repository provides some useful resources and informations about **mobile robot(AGV,AMR)** research based on **ROS**.  
+It would not contain high level application, but focus on basic function of mobile robot(and more at **navigation**).  
+(including both **Chinese** and **English** materials)  
 content:  
 * 0.Robotics
 * 1.ROS
@@ -11,16 +11,16 @@ content:
 * 5.Map
 * 6.Localization
 * 7.Sensor fusion
-* 8.Navigation(move_base)
-* 9.Navigation(advanced)
+* 8.Navigation (move_base)
+* 9.Navigation (advanced)
+* 10.Others (Non-tech)
+  * (1)Famous robotics company  
+  * (2)Famous robotics conference&journal  
+  * (3)Famous robotics competition in Taiwan  
+  * (4)Famous ros organizations & activities  
+  * (5)Famous ros relative people  
 
-[Note] 1.Famous robotics company  
-[Note] 2.Famous robotics conference&journal  
-[Note] 3.Famous robotics competition in Taiwan  
-[Note] 4.Famous ros organizations & activities  
-[Note] 5.Famous ros relative people  
-
-## 0.Robotics
+# 0.Robotics
 Books:
 ```
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
@@ -33,7 +33,7 @@ Courses:
 "機器人學一 (Robotics (1))", 林沛群: https://www.coursera.org/learn/robotics1
 ```
 
-## 1.ROS
+# 1.ROS
 ROS blogs:  
 ```
 半閒居士：https://www.cnblogs.com/gaoxiang12/
@@ -51,7 +51,7 @@ more:
 https://hackmd.io/s/B1fv26WBz#
 ```
 
-## 2.Robot platform
+# 2.Robot platform
 holomic vs. non-holomic
 ```
 Comparison: https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
@@ -83,28 +83,28 @@ Faulhaber
 Maxon
 ```
 
-## 3.Robot sensor
+# 3.Robot sensor
 rgbd-camera:  
 lidar(laser scanner):  
 imu:  
 
-## 4.SLAM
+# 4.SLAM
 
-## 5.Map
+# 5.Map
 
-## 6.Localization
+# 6.Localization
 
-## 7.Sensor fusion (for odom-to-base_link or map-to-base_link)
+# 7.Sensor fusion (for odom-to-base_link or map-to-base_link)
 
-## 8.Navigation (move_base compatible, nav_core supported)
+# 8.Navigation (move_base compatible, nav_core supported)
 local_planner:  
 global_planner:  
 RecoveryBehavior:  
 
-## 9.Navigation (social aware, novel research)
+# 9.Navigation (social aware, novel research)
 
 
-## [Note1] Famous robotics company
+# [Note1] Famous robotics company
 Research:
 ```豐田研究院```
 Manipulator:  
@@ -120,15 +120,15 @@ Drone:
 ROS2.0:  
 ```ADLINK ```   
 
-## [Note2] Famous robotics conferences & journals
+# [Note2] Famous robotics conferences & journals
 Top conference: ieee_IROS, ieee_ICRA  
 Top journal:  
 Minor conference:  
 
-## [Note3] Famous robotics competition in Taiwan
+# [Note3] Famous robotics competition in Taiwan
 
 
-## [Note4] Famous ros organizations & activities
+# [Note4] Famous ros organizations & activities
 organizations
 ```
 OSRF
@@ -142,7 +142,7 @@ ROScon
 ROS summer school
 ```
 
-## [Note5] Famous ros relative people
+# [Note5] Famous ros relative people
 ```
 斯科特·哈森(Scott Hassan) - Willow garage founder, stanford student
 史蒂夫·库辛斯(Steve Cousins) - Willow garage CEO
