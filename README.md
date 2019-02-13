@@ -32,16 +32,16 @@ Courses:
 ```
 Papers:
 ```
-ieee xplore
-arxiv
-google
+"IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
+"arXiv.org e-Print archive": https://arxiv.org/
+"Google Scholar": https://scholar.google.com/
 ```
 
 # 1.ROS
 ROS blogs:  
 ```
-半閒居士：https://www.cnblogs.com/gaoxiang12/
-MR.POJENLAI: https://pojenlai.wordpress.com/
+"半閒居士"： https://www.cnblogs.com/gaoxiang12/
+"MR.POJENLAI": https://pojenlai.wordpress.com/
 ```
 Books:
 ```
@@ -58,18 +58,18 @@ https://hackmd.io/s/B1fv26WBz#
 # 2.Robot platform
 holomic vs. non-holomic
 ```
-Comparison: https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
-Caster wheel: https://en.wikipedia.org/wiki/Caster
-Mecanum wheel: https://en.wikipedia.org/wiki/Mecanum_wheel
-Omni wheel: https://en.wikipedia.org/wiki/Omni_wheel
+"Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
+"Caster wheel": https://en.wikipedia.org/wiki/Caster
+"Mecanum wheel": https://en.wikipedia.org/wiki/Mecanum_wheel
+"Omni wheel": https://en.wikipedia.org/wiki/Omni_wheel
 ```
 race car project  
 ```
-MIT: https://mit-racecar.github.io
-Penn: http://f1tenth.org/ [without slam, NAV]
-UCB: http://www.barc-project.com/projects/ [without laser] 
-Georgia Tech: https://github.com/AutoRally [for outdoor]
-Taiwan Hypharos: https://github.com/Hypha-ROS/hypharos_racecar
+"MIT": https://mit-racecar.github.io
+"Penn": http://f1tenth.org/ [without slam, NAV]
+"UCB": http://www.barc-project.com/projects/ [without laser] 
+"Georgia Tech": https://github.com/AutoRally [for outdoor]
+"Taiwan Hypharos": https://github.com/Hypha-ROS/hypharos_racecar
 ```
 ros robots  
 ```
@@ -133,13 +133,15 @@ Minor conference:```ieee_IECON, ieee_SII, ieee_ISIE, ieee_ICIT, ieee_ICPS```
 ## (3) Famous robotics competition
 Global:
 ```
-DARPA Robotics Challenge: https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
+"DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
+"RoboCup": https://en.wikipedia.org/wiki/RoboCup
+"Amazon Robotics/Picking Challenge": http://amazonpickingchallenge.org/
 ```
 In Taiwan:
 ```
-SKS
-PMC
-HIWIN
+SKS 新光保全智慧型保全機器人競賽
+PMC 智慧機器人競賽 Robot competition
+HIWIN 上銀智慧機械手實作競賽
 ```
 
 ## (4) Famous ros organizations & activities
