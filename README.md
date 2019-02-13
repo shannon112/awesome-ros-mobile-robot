@@ -46,6 +46,10 @@ Books:
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
 "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
 ```
+more:
+```
+https://hackmd.io/s/B1fv26WBz#
+```
 
 ## 2.Robot platform
 holomic vs. non-holomic
@@ -55,10 +59,29 @@ Caster wheel: https://en.wikipedia.org/wiki/Caster
 Mecanum wheel: https://en.wikipedia.org/wiki/Mecanum_wheel
 Omni wheel: https://en.wikipedia.org/wiki/Omni_wheel
 ```
-race car  
-ros robot  
+race car project  
+```
+MIT: https://mit-racecar.github.io
+Penn: http://f1tenth.org/ [without slam, NAV]
+UCB: http://www.barc-project.com/projects/ [without laser] 
+Georgia Tech: https://github.com/AutoRally [for outdoor]
+Taiwan Hypharos: https://github.com/Hypha-ROS/hypharos_racecar
+```
+ros robots  
+```
+https://robots.ros.org/
+```
 processing unit:  
-motor:  
+```
+Raspberry Pi
+NVIDIA Jetson TX1
+NVIDIA Jetson TX2
+```
+motor & controller:  
+```
+Faulhaber
+Maxon
+```
 
 ## 3.Robot sensor
 rgbd-camera:  
