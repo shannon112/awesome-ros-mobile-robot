@@ -1,25 +1,25 @@
 # awesome-ros-mobile-robot
 This repository provides some useful resources and informations about mobile robot(AGV,AMR) research.  
 It would not contain high level application, but focus on basic function of mobile robot(and more at navigation).  
-(including both Chinese and English materials)
-* content:  
-```
-0.Robotics
-1.ROS
-2.Robot platform
-3.Robot sensor
-4.SLAM
-5.Map
-6.Localization
-7.Sensor fusion
-8.Navigation(move_base)
-9.Navigation(advanced)
-[Note1] Famous robotics company
-[Note2] Famous robotics conference&journal
-[Note3] Famous robotics competition in Taiwan
-[Note4] Famous ros organizations & activities
-[Note5] Famous ros relative people
-```
+(including both Chinese and English materials)  
+content:  
+* 0.Robotics
+* 1.ROS
+* 2.Robot platform
+* 3.Robot sensor
+* 4.SLAM
+* 5.Map
+* 6.Localization
+* 7.Sensor fusion
+* 8.Navigation(move_base)
+* 9.Navigation(advanced)
+
+[Note] 1.Famous robotics company  
+[Note] 2.Famous robotics conference&journal  
+[Note] 3.Famous robotics competition in Taiwan  
+[Note] 4.Famous ros organizations & activities  
+[Note] 5.Famous ros relative people  
+
 ## 0.Robotics
 Books:
 ```
