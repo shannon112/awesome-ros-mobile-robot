@@ -29,6 +29,7 @@ Courses:
 ```
 "Robot Mapping", Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
 "機器人學一 (Robotics (1))", 林沛群: https://www.coursera.org/learn/robotics1
+"Control of Mobile Robots", Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
 ```
 Papers:
 ```
@@ -111,7 +112,7 @@ RecoveryBehavior:
 # 10.Others (Non-tech)
 ## (1) Famous robotics company
 Research center:  
-```Toyota Research Institute(TRI), Microsoft Research, Google AI```  
+```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator:  
 ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
 Service robot:  
@@ -119,7 +120,9 @@ Service robot:
 Humanoid:  
 ```boston_dynamics, softbank_robotics  ```  
 AGV:  
-```omron_robotics, clearpath_robotics&OTTO_Motors, amazon robotics(Kiva System), Yujin Robotics, ROBOTIS, fetch_robotics```  
+```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics```  
+Leg:
+```boston_dynamics, unitree_robotics```
 Drone:  
 ```Dji, Tello```  
 ROS2.0:  
