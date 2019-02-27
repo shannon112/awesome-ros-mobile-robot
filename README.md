@@ -120,7 +120,7 @@ Service robot:
 Humanoid:  
 ```boston_dynamics, softbank_robotics  ```  
 AGV:  
-```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics```  
+```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans```  
 Leg:  
 ```boston_dynamics, unitree_robotics```  
 Drone:  
