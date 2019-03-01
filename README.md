@@ -122,7 +122,7 @@ Humanoid:
 AGV:  
 ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans```  
 Leg:  
-```boston_dynamics, unitree_robotics```  
+```boston_dynamics, unitree_robotics, MIT_Cheetah```  
 Drone:  
 ```Dji, Tello```  
 ROS2.0:  
