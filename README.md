@@ -161,10 +161,19 @@ amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/am
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
 
 ## 7.Sensor fusion (for odom-to-base_link or map-to-base_link)
+odometry
+```
+Wheel encoder and actuator ros_control: http://wiki.ros.org/ros_control
+Laser odometry(old) laser_scan_matcher: http://wiki.ros.org/laser_scan_matcher�
+Laser odometry rf2o: https://github.com/MAPIRlab/rf2o_laser_odometry
+Visual odometry: 
+Visual-Inertial odometry: 
+Inertial odometry: 
+```
 sensor fusion  
 ```
-ekf robot_pose_ekf: http://wiki.ros.org/robot_pose_ekf
-ekf ukf robot_localization: http://docs.ros.org/melodic/api/robot_localization/html/index.html
+ekf "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
+ekf&ukf "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
 
 ## 8.Navigation (move_base compatible, nav_core supported)
