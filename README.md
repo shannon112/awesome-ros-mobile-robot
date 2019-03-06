@@ -20,7 +20,7 @@ content:
   * (4)Famous ros organizations & activities  
   * (5)Famous ros relative people  
 
-# 0.Robotics
+## 0.Robotics
 Books:
 ```
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
@@ -41,7 +41,7 @@ Papers:
 "Google Scholar": https://scholar.google.com/
 ```
 
-# 1.ROS
+## 1.ROS
 ROS blogs&channel:  
 ```
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
@@ -55,10 +55,10 @@ Books:
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
 "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
 ```
-more: ```https://hackmd.io/s/B1fv26WBz#```  
+more: https://hackmd.io/s/B1fv26WBz# 
 
-# 2.Robot platform
-ROS robots: ```https://robots.ros.org/```  
+## 2.Robot platform
+ROS robots: https://robots.ros.org/  
 holomic vs. non-holomic
 ```
 "Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
@@ -89,12 +89,12 @@ ROS mobile manipulator
 processing unit: ```Raspberry Pi, NVIDIA Jetson TX1, NVIDIA Jetson TX2```  
 motor & controller:  ```Faulhaber, Maxon```  
 
-# 3.Robot sensor
+## 3.Robot sensor
 rgbd-camera:  
 lidar(laser scanner):  
 imu:  
 
-# 4.SLAM
+## 4.SLAM
 ```
 The classical SLAM theorem
 “Simultaneous localisation and map- ping (SLAM): Part II”
@@ -113,45 +113,44 @@ Survey paper
 Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard
 IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
 ```
+Cartographer from Google: https://google-cartographer-ros.readthedocs.io/en/latest/
 ```
-Cartographer from Google
 “Real-time loop closure in 2D LIDAR SLAM ”
 Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor 
 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
 ```
+RTABmap: http://introlab.github.io/rtabmap/
 ```
-RTABmap
 “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation” 
 M. Labbé and F. Michaud
 Journal of Field Robotics, accepted, 2018
 Universit ́e de Sherbrooke
 ```
+gmapping: http://wiki.ros.org/gmapping
 ```
-gmapping
 "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters,"
 G. Grisetti, C. Stachniss and W. Burgard,  in 
 IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
 ```
 
-# 5.Map
+## 5.Map
+OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
-OctoMap - 3D occupancy mapping
 OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.
 Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram. (2013).  
 Autonomous Robots Journal. 34. 10.1007/s10514-012-9321-0. 
-https://octomap.github.io/
 ```
 
-# 6.Localization
+## 6.Localization
 
-# 7.Sensor fusion (for odom-to-base_link or map-to-base_link)
+## 7.Sensor fusion (for odom-to-base_link or map-to-base_link)
 
-# 8.Navigation (move_base compatible, nav_core supported)
+## 8.Navigation (move_base compatible, nav_core supported)
 local_planner:  
 global_planner:  
 RecoveryBehavior:  
 
-# 9.Navigation (social aware, novel research)
+## 9.Navigation (social aware, novel research)
 ```
 MIT AerospaceControlsLab
 "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning,"
@@ -182,8 +181,8 @@ A. Faust et al.,
 https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ```
 
-# 10.Others (Non-tech)
-### (1) Famous robotics company
+## 10.Others (Non-tech)
+### (1) Famous robotics related company
 Research center: ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator: ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
 Service robot: ```willow_garage, softbank_robotics, fetch_robotics```  
