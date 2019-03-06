@@ -55,12 +55,10 @@ Books:
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
 "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
 ```
-more:
-```
-https://hackmd.io/s/B1fv26WBz#
-```
+more:```https://hackmd.io/s/B1fv26WBz#```  
 
 # 2.Robot platform
+ros robots:```https://robots.ros.org/```  
 holomic vs. non-holomic
 ```
 "Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
@@ -76,21 +74,8 @@ race car project
 "Georgia Tech": https://github.com/AutoRally [for outdoor]
 "Taiwan Hypharos": https://github.com/Hypha-ROS/hypharos_racecar
 ```
-ros robots  
-```
-https://robots.ros.org/
-```
-processing unit:  
-```
-Raspberry Pi
-NVIDIA Jetson TX1
-NVIDIA Jetson TX2
-```
-motor & controller:  
-```
-Faulhaber
-Maxon
-```
+processing unit: ```Raspberry Pi, NVIDIA Jetson TX1, NVIDIA Jetson TX2```  
+motor & controller:  ```Faulhaber, Maxon```  
 
 # 3.Robot sensor
 rgbd-camera:  
@@ -145,9 +130,9 @@ https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ### (1) Famous robotics company
 Research center: ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator: ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
-Service robot: ```willow_garage, softbank_robotics  ```  
-Humanoid: ```boston_dynamics, softbank_robotics  ```  
-AGV: ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans```  
+Service robot: ```willow_garage, softbank_robotics, fetch_robotics```  
+Humanoid: ```boston_dynamics, softbank_robotics```  
+AGV: ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA```  
 Leg: ```boston_dynamics, unitree_robotics, MIT_Cheetah```  
 Drone: ```Dji, Tello```  
 ROS2.0: ```ADLINK ```   
