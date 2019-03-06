@@ -55,10 +55,10 @@ Books:
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
 "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
 ```
-more:```https://hackmd.io/s/B1fv26WBz#```  
+more: ```https://hackmd.io/s/B1fv26WBz#```  
 
 # 2.Robot platform
-ros robots:```https://robots.ros.org/```  
+ROS robots: ```https://robots.ros.org/```  
 holomic vs. non-holomic
 ```
 "Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
@@ -158,7 +158,7 @@ HIWIN 上銀智慧機械手實作競賽
 ```
 
 ### (4) Famous ros organizations & activities
-organizations
+organizations:
 ```
 "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
 "Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
