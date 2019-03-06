@@ -1,5 +1,7 @@
 ## awesome-ros-mobile-robot
-This repository provides some useful resources and informations about **mobile robot(AGV,AMR)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robot(and more at **navigation**). (including both **Chinese** and **English** materials)  
+Autonomous Mobile Robots aka. AMR  
+Autonomous Mobile Manipulators aka. AMM  
+This repository provides some useful resources and informations about **mobile robots (AMR&AMM)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **navigation**). (including both **Chinese** and **English** materials)  
 content:  
 * 0.Robotics
 * 1.ROS
@@ -30,6 +32,7 @@ Courses:
 "Robot Mapping", Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
 "機器人學一 (Robotics (1))", 林沛群: https://www.coursera.org/learn/robotics1
 "Control of Mobile Robots", Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
+"Modern Robotics: Mechanics, Planning, and Control", Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
 ```
 Papers:
 ```
@@ -107,7 +110,35 @@ global_planner:
 RecoveryBehavior:  
 
 # 9.Navigation (social aware, novel research)
-
+```
+MIT AerospaceControlsLab
+"Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning,"
+ Y. F. Chen, M. Liu, M. Everett and J. P. How
+2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 285-292. 
+https://www.youtube.com/watch?v=PS2UoyCTrSw
+https://www.youtube.com/watch?v=BryJ9jeBkbU
+```
+```
+MIT AerospaceControlsLab
+"Socially aware motion planning with deep reinforcement learning,"
+Y. F. Chen, M. Everett, M. Liu and J. P. How, 
+2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, 2017, pp. 1343-1350.
+https://www.youtube.com/watch?v=CK1szio7PyA&t=2s
+```
+```
+MIT AerospaceControlsLab
+"Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning,"
+M. Everett, Y. F. Chen and J. P. How, 
+2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018, pp. 3052-3059.
+https://www.youtube.com/watch?v=XHoXkWLhwYQ
+```
+```
+Google AI Research
+"PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning,"
+A. Faust et al.,  
+2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
+https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
+```
 
 # 10.Others (Non-tech)
 ## (1) Famous robotics company
@@ -132,6 +163,7 @@ ROS2.0:
 Top conference: ```ieee_IROS, ieee_ICRA```  
 Top journal: ```ieee_Transactions_on_Robotics_and_Automation```  
 Minor conference:```ieee_IECON, ieee_SII, ieee_ISIE, ieee_ICIT, ieee_ICPS```  
+Minor journal: ```ieee_Access```  
 
 ## (3) Famous robotics competition
 Global:
