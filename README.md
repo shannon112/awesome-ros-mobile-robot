@@ -74,6 +74,18 @@ race car project
 "Georgia Tech": https://github.com/AutoRally [for outdoor]
 "Taiwan Hypharos": https://github.com/Hypha-ROS/hypharos_racecar
 ```
+ROS mobile robot
+```
+"turtlebot": https://github.com/turtlebot
+"clearpath husky": https://github.com/husky
+"clearpath jackel": https://github.com/jackal
+```
+ROS mobile manipulator
+```
+"kuka youbot": https://github.com/youbot
+"clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
+"clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
+```
 processing unit: ```Raspberry Pi, NVIDIA Jetson TX1, NVIDIA Jetson TX2```  
 motor & controller:  ```Faulhaber, Maxon```  
 
@@ -83,8 +95,52 @@ lidar(laser scanner):
 imu:  
 
 # 4.SLAM
+```
+The classical SLAM theorem
+“Simultaneous localisation and map- ping (SLAM): Part II”
+T. Bailey and H. F. Durrant-Whyte
+IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
+```
+```
+The classical SLAM theorem
+“Simultaneous localisation and map- ping (SLAM): Part I”
+H. F. Durrant-Whyte and T. Bailey
+IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
+```
+```
+Survey paper
+“Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”
+Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard
+IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
+```
+```
+Cartographer from Google
+“Real-time loop closure in 2D LIDAR SLAM ”
+Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor 
+2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+```
+```
+RTABmap
+“RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation” 
+M. Labbé and F. Michaud
+Journal of Field Robotics, accepted, 2018
+Universit ́e de Sherbrooke
+```
+```
+gmapping
+"Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters,"
+G. Grisetti, C. Stachniss and W. Burgard,  in 
+IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
+```
 
 # 5.Map
+```
+OctoMap - 3D occupancy mapping
+OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.
+Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram. (2013).  
+Autonomous Robots Journal. 34. 10.1007/s10514-012-9321-0. 
+https://octomap.github.io/
+```
 
 # 6.Localization
 
