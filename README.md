@@ -42,10 +42,11 @@ Papers:
 ```
 
 # 1.ROS
-ROS blogs:  
+ROS blogs&channel:  
 ```
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
 "MR.POJENLAI": https://pojenlai.wordpress.com/
+"The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
 ```
 Books:
 ```
