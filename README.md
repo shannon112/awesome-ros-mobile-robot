@@ -2,7 +2,8 @@
 Autonomous Mobile Robots aka. AMR  
 Autonomous Mobile Manipulators aka. AMM  
 This repository provides some useful resources and informations about **mobile robots (AMR&AMM)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **navigation**). (including both **Chinese** and **English** materials)  
-content:  
+
+## contents:  
 * 0.Robotics
 * 1.ROS
 * 2.Robot platform
