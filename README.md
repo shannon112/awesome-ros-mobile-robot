@@ -142,7 +142,7 @@ https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ```
 
 # 10.Others (Non-tech)
-## (1) Famous robotics company
+### (1) Famous robotics company
 Research center:  
 ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator:  
@@ -160,13 +160,13 @@ Drone:
 ROS2.0:  
 ```ADLINK ```   
 
-## (2) Famous robotics conferences & journals
+### (2) Famous robotics conferences & journals
 Top conference: ```ieee_IROS, ieee_ICRA```  
 Top journal: ```ieee_Transactions_on_Robotics_and_Automation```  
 Minor conference:```ieee_IECON, ieee_SII, ieee_ISIE, ieee_ICIT, ieee_ICPS```  
 Minor journal: ```ieee_Access```  
 
-## (3) Famous robotics competition
+### (3) Famous robotics competition
 Global:
 ```
 "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
@@ -180,7 +180,7 @@ PMC 智慧機器人競賽 Robot competition
 HIWIN 上銀智慧機械手實作競賽
 ```
 
-## (4) Famous ros organizations & activities
+### (4) Famous ros organizations & activities
 organizations
 ```
 "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
