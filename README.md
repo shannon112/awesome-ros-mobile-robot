@@ -220,12 +220,13 @@ https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ### (1) Famous robotics related company
 Research center: ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator: ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
-Service robot: ```willow_garage, softbank_robotics, fetch_robotics```  
-Humanoid: ```boston_dynamics, softbank_robotics```  
-AGV: ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA```  
-Leg: ```boston_dynamics, unitree_robotics, MIT_Cheetah```  
+Mobile Robot(AGV, base only): ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA, iRobot```  
+Service robot(with torso): ```willow_garage, softbank_robotics, fetch_robotics```  
+Humanoid: ```boston_dynamics, softbank_robotics, PAL_Robotics```  
+Four-Leg: ```boston_dynamics, unitree_robotics, MIT_Cheetah```  
 Drone: ```Dji, Tello```  
-ROS2.0: ```ADLINK ```   
+ROS2.0: ```ADLINK ```
+Cleaning: ```iRobot```
 
 ### (2) Famous robotics conferences & journals
 Top conference: ```ieee_IROS, ieee_ICRA```  
