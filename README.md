@@ -178,12 +178,18 @@ ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localizati
 ```
 
 ## 8.Navigation (move_base compatible, nav_core supported)
+dwa_local_planner, base_local_planner
+```
+"The dynamic window approach to collision avoidance,"
+D. Fox, W. Burgard and S. Thrun,  
+in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
+```
 navigation_stack: http://wiki.ros.org/navigation  
 local_planner:  
 ```base_local_planner, dwa_local_planner, eband_local_planner, teb_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```  
 global_planner:  
 ```carrot_planner, navfn, global_planner, sbpl_lattice_planner, srl_global_planner, voronoi_planner```  
-RecoveryBehavior: ```rotate_recovery, move_slow_and_clear```  
+RecoveryBehavior: ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
 ## 9.Navigation (social aware, novel research)
 ```
