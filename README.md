@@ -178,11 +178,20 @@ ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localizati
 ```
 
 ## 8.Navigation (move_base compatible, nav_core supported)
-dwa_local_planner, base_local_planner
+dwa_local_planner, base_local_planner http://wiki.ros.org/dwa_local_planner
 ```
 "The dynamic window approach to collision avoidance,"
 D. Fox, W. Burgard and S. Thrun,  
 in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
+```
+teb_local_planner http://wiki.ros.org/teb_local_planner
+```
+C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
+C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.
+C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.
+C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories in Distinctive Topologies, Proc. IEEE European Conference on Mobile Robots, UK, Lincoln, Sept. 2015.
+C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
+Source code: https://github.com/rst-tu-dortmund/teb_local_planner
 ```
 navigation_stack: http://wiki.ros.org/navigation  
 local_planner:  
