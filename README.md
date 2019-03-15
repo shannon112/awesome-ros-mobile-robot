@@ -230,6 +230,13 @@ A. Faust et al.,
 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
 https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ```
+```
+ETHz Autonomous System Lab
+"Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models,"
+M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models,"
+2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
+https://www.youtube.com/watch?v=GPp5mnybm8g
+```
 
 ## 10.Others (Non-tech)
 ### (1) Famous robotics related company
