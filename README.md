@@ -31,12 +31,12 @@ Books:
 ```
 Courses:
 ```
-"Robot Mapping", Universität of Freiburg, Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
-"機器人學一 (Robotics (1))", National Taiwan University, 林沛群: https://www.coursera.org/learn/robotics1
-"Control of Mobile Robots", Georgia Institute of Technology, Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
-"Modern Robotics: Mechanics, Planning, and Control", northwestern university, Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
-"Linear algebra", National Taiwan University, Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
-"Linear algebra", Massachusetts Institute of Technology, Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
+"Robot Mapping" {Universität of Freiburg} Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
+"機器人學一 (Robotics (1))" {National Taiwan University} 林沛群: https://www.coursera.org/learn/robotics1
+"Control of Mobile Robots" {Georgia Institute of Technology} Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
+"Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
+"Linear algebra" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
+"Linear algebra" {Massachusetts Institute of Technology} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
 ```
 Papers:
 ```
