@@ -264,6 +264,8 @@ Global:
 "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
 "RoboCup": https://en.wikipedia.org/wiki/RoboCup
 "Amazon Robotics/Picking Challenge": http://amazonpickingchallenge.org/
+"ICRA Robot Competitions: including lots of competitions would be different every years"
+"IROS Robot Competitions: including lots of competitions would be different every years"
 ```
 In Taiwan:
 ```
