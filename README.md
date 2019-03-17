@@ -229,9 +229,7 @@ https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ```
 ```
 ETHz Autonomous System Lab
-"Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models,"
-M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models,"
-2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
+M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models," 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
 https://www.youtube.com/watch?v=GPp5mnybm8g
 ```
 
