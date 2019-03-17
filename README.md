@@ -206,31 +206,25 @@ RecoveryBehavior: ```rotate_recovery, move_slow_and_clear, stepback_and_steertur
 condition: ```in crowded spaces, in cluttered environments```
 ```
 MIT AerospaceControlsLab
-"Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning,"
- Y. F. Chen, M. Liu, M. Everett and J. P. How
-2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 285-292. 
+Y. F. Chen, M. Liu, M. Everett and J. P. How "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 285-292. 
 https://www.youtube.com/watch?v=PS2UoyCTrSw
 https://www.youtube.com/watch?v=BryJ9jeBkbU
 ```
 ```
 MIT AerospaceControlsLab
-"Socially aware motion planning with deep reinforcement learning,"
-Y. F. Chen, M. Everett, M. Liu and J. P. How, 
-2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, 2017, pp. 1343-1350.
+Y. F. Chen, M. Everett, M. Liu and J. P. How, "Socially aware motion planning with deep reinforcement learning," 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, 2017, pp. 1343-1350.
 https://www.youtube.com/watch?v=CK1szio7PyA&t=2s
 ```
 ```
 MIT AerospaceControlsLab
-"Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning,"
-M. Everett, Y. F. Chen and J. P. How, 
-2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018, pp. 3052-3059.
+M. Everett, Y. F. Chen and J. P. How, "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018, pp. 3052-3059.
 https://www.youtube.com/watch?v=XHoXkWLhwYQ
 ```
 ```
 Google AI Research
-"PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning,"
-A. Faust et al.,  
-2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
+A. Faust et al., "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
+Francis, Anthony & Faust, Aleksandra & Chiang, Hao-Tien Lewis & Hsu, Jasmine & Chase Kew, J & Fiser, Marek & Edward Lee, Tsang-Wei. (2019). Long-Range Indoor Navigation with PRM-RL. 
+H. L. Chiang, A. Faust, M. Fiser and A. Francis, "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.
 https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ```
 ```
