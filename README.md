@@ -203,6 +203,7 @@ global_planner:
 RecoveryBehavior: ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
 ## 9.Navigation (social aware, novel research)
+condition: ```in crowded spaces, in cluttered environments```
 ```
 MIT AerospaceControlsLab
 "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning,"
@@ -275,8 +276,14 @@ In Taiwan:
 ```
 
 ### (4) Famous ros organizations & activities
-organizations:
+ros related work:
+```js
+"ROS-industrial": https://rosindustrial.org/
+"ROS2.0": https://design.ros2.org/
+"ROS-H": https://acutronicrobotics.com/technology/H-ROS/"
 ```
+organizations:
+```js
 "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
 "Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
 "ROS.Taiwan": https://www.facebook.com/groups/ros.taiwan/
