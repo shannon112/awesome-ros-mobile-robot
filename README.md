@@ -237,8 +237,8 @@ https://www.youtube.com/watch?v=GPp5mnybm8g
 ### (1) Famous robotics related company
 Research center: ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator: ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
-Mobile Robot(AGV, base only): ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA, iRobot, pal_robotics```  
-Service robot(with torso): ```willow_garage, softbank_robotics, fetch_robotics, pal_robotics```  
+Mobile Robot(AGV, base only): ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA, iRobot, pal_robotics, Robotnik_Automation```  
+Service robot(with torso): ```willow_garage, softbank_robotics, fetch_robotics, pal_robotics, Robotnik_Automation```  
 Humanoid: ```boston_dynamics, softbank_robotics, pal_robotics```  
 Quadruped: ```boston_dynamics, unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal)```  
 Drone: ```Dji, Tello```  
