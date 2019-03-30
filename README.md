@@ -244,6 +244,8 @@ Quadruped: ```boston_dynamics, unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal
 Drone: ```Dji, Tello```  
 ROS2.0: ```ADLINK ```
 Cleaning: ```iRobot```
+Gripper: ```ROBOTIQ```
+Self-Driving Cars : ```Alphabet Waymo, Uber, Apple Project Titan```
 
 ### (2) Famous robotics conferences & journals
 Top conference: ```ieee_IROS, ieee_ICRA```  
