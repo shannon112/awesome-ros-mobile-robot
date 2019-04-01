@@ -37,6 +37,7 @@ Courses:
 "Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
 "Linear algebra" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
 "Linear algebra" {Massachusetts Institute of Technology} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
+"Machine Learning" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
 ```
 Papers:
 ```
