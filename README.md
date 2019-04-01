@@ -38,6 +38,8 @@ Courses:
 "Linear algebra" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
 "Linear algebra" {Massachusetts Institute of Technology} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
 "Machine Learning" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
+"Probabilistic Systems Analysis and Applied Probability" {Massachusetts Institute of Technology} John Tsitsiklis https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
+"Deep Reinforcement Learning" {UC Berkeley} Sergey Levine: http://rail.eecs.berkeley.edu/deeprlcourse/
 ```
 Papers:
 ```
