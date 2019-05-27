@@ -4,11 +4,11 @@ Autonomous Mobile Manipulators aka. AMM
 This repository provides some useful resources and informations about **mobile robots (AMR&AMM)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **navigation**). (including both **Chinese** and **English** materials)  
 
 ## contents:  
-* [0.Robotics](README.md#robotics)
+* [0.Robotics](README.md#0_robotics)
 * [1.ROS](README.md#1.ros)
 * [2.Robot platform](README.md#2.robot_platform)
 
-## Robotics
+## 0_Robotics
 Books:
 ```
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
