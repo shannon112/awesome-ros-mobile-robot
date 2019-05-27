@@ -93,8 +93,8 @@ ROS mobile manipulator
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
 ```
-processing unit: ```Raspberry Pi, NVIDIA Jetson TX1, NVIDIA Jetson TX2```  
-motor & controller:  ```Faulhaber, Maxon```  
+processing unit: ```Raspberry Pi 3, NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, Odroid XU4, Odroid N2, BBB, asus tinker board```  
+motor & controller:  ```Faulhaber, Maxon, Dexmart```  
 
 ## 3.Robot sensor
 rgbd-camera:  
@@ -109,6 +109,11 @@ lidar(laser scanner):
 hokuyo_urg: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 hokuyo_utm: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 rplidar: http://wiki.ros.org/rplidar
+sick: http://wiki.ros.org/sick_scan
+```
+3Dlidar:
+```
+velodyne: http://wiki.ros.org/velodyne
 ```
 imu:  
 ```
