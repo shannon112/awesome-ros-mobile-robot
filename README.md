@@ -4,22 +4,9 @@ Autonomous Mobile Manipulators aka. AMM
 This repository provides some useful resources and informations about **mobile robots (AMR&AMM)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **navigation**). (including both **Chinese** and **English** materials)  
 
 ## contents:  
-* 0.Robotics
-* 1.ROS
-* 2.Robot platform
-* 3.Robot sensor
-* 4.SLAM
-* 5.Map
-* 6.Localization
-* 7.Sensor fusion
-* 8.Navigation (move_base)
-* 9.Navigation (advanced)
-* 10.Others (Non-tech)
-  * (1)Famous robotics company  
-  * (2)Famous robotics conference&journal  
-  * (3)Famous robotics competition in Taiwan  
-  * (4)Famous ros organizations & activities  
-  * (5)Famous ros relative people  
+* [0.Robotics](README.md#robotics)
+* [1.ROS](README.md#ros)
+* [2.Robot platform](README.md#robot_platform)
 
 ## 0.Robotics
 Books:
@@ -64,7 +51,7 @@ Books:
 ```
 more: https://hackmd.io/s/B1fv26WBz# 
 
-## 2.Robot platform
+## 2.Robot_platform
 ROS robots: https://robots.ros.org/  
 holomic vs. non-holomic
 ```
