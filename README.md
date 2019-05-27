@@ -5,8 +5,21 @@ This repository provides some useful resources and informations about **mobile r
 
 ## contents:  
 * [0.Robotics](README.md#0_robotics)
-* [1.ROS](README.md#1.ros)
-* [2.Robot platform](README.md#2.robot_platform)
+* [1.ROS](README.md#1_ros)
+* [2.Robot platform](README.md#2_robot_platform)
+* [3.Robot sensor](README.md#3_robot_sensor)
+* [4.Odometry](README.md#4_odometry)
+* [5.SLAM](README.md#5_slam)
+* [6.Localization](README.md#6_localization)
+* [7.MAP](README.md#7_map)
+* [8.Navigation (move_base)](README.md#8_navigation_movebase)
+* [9.Navigation (advanced)](README.md#9_navigation_advanced)
+* [10.Others (Non-tech)](README.md#10_others_non_tech_part)
+  * (1)Famous robotics company  
+  * (2)Famous robotics conference&journal  
+  * (3)Famous robotics competition in Taiwan  
+  * (4)Famous ros organizations & activities  
+  * (5)Famous ros relative people  
 
 ## 0_Robotics
 Books:
@@ -35,7 +48,7 @@ Papers:
 "Google Scholar": https://scholar.google.com/
 ```
 
-## 1.ROS
+## 1_ROS
 ROS blogs&channel:  
 ```
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
@@ -51,7 +64,7 @@ Books:
 ```
 more: https://hackmd.io/s/B1fv26WBz# 
 
-## 2.Robot_platform
+## 2_Robot_platform
 ROS robots: https://robots.ros.org/  
 holomic vs. non-holomic
 ```
@@ -83,7 +96,7 @@ ROS mobile manipulator
 processing unit: ```Raspberry Pi 3, NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, Odroid XU4, Odroid N2, BBB, asus tinker board```  
 motor & controller:  ```Faulhaber, Maxon, Dexmart```  
 
-## 3.Robot sensor
+## 3_Robot_sensor
 rgbd-camera:  
 ```
 microsoft kinectv1 with openni: https://github.com/ros-drivers/openni_camera
@@ -107,7 +120,25 @@ imu:
 SparkFun 9DOF Razor IMUM0: http://wiki.ros.org/razor_imu_9dof
 ```
 
-## 4.SLAM
+
+## 4_odometry
+odometry
+```
+Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
+Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
+Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
+Visual odometry: 
+Visual-Inertial odometry: 
+Inertial odometry: 
+```
+sensor fusion  
+```
+ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
+ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
+```
+
+
+## 5_SLAM
 ```
 The classical SLAM theorem
 “Simultaneous localisation and map- ping (SLAM): Part II”
@@ -146,7 +177,13 @@ G. Grisetti, C. Stachniss and W. Burgard,  in
 IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
 ```
 
-## 5.Map
+
+## 6_Localization
+amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
+mrpt_localization: http://wiki.ros.org/mrpt_localization  
+
+
+## 7_Map
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
 OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.
@@ -154,27 +191,9 @@ Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wol
 Autonomous Robots Journal. 34. 10.1007/s10514-012-9321-0. 
 ```
 
-## 6.Localization
-amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
-mrpt_localization: http://wiki.ros.org/mrpt_localization  
 
-## 7.Sensor fusion (for odom-to-base_link or map-to-base_link)
-odometry
-```
-Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
-Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
-Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
-Visual odometry: 
-Visual-Inertial odometry: 
-Inertial odometry: 
-```
-sensor fusion  
-```
-ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
-ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
-```
-
-## 8.Navigation (move_base compatible, nav_core supported)
+## 8_Navigation_moveBase
+(move_base compatible, nav_core supported)
 dwa_local_planner, base_local_planner http://wiki.ros.org/dwa_local_planner
 ```
 "The dynamic window approach to collision avoidance,"
@@ -197,7 +216,8 @@ global_planner:
 ```carrot_planner, navfn, global_planner, sbpl_lattice_planner, srl_global_planner, voronoi_planner```  
 RecoveryBehavior: ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
-## 9.Navigation (social aware, novel research)
+## 9_Navigation_advanced
+(social aware, novel research)
 condition: ```in crowded spaces, in cluttered environments```
 ```
 MIT AerospaceControlsLab
@@ -228,7 +248,7 @@ M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting
 https://www.youtube.com/watch?v=GPp5mnybm8g
 ```
 
-## 10.Others (Non-tech)
+## 10_Others_Non_tech_part
 ### (1) Famous robotics related company
 Research center: ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator: ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
