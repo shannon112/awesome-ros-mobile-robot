@@ -4,9 +4,9 @@ Autonomous Mobile Manipulators aka. AMM
 This repository provides some useful resources and informations about **mobile robots (AMR&AMM)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **navigation**). (including both **Chinese** and **English** materials)  
 
 ## contents:  
-* [0.Robotics](README.md#robotics)
-* [1.ROS](README.md#ros)
-* [2.Robot platform](README.md#robot_platform)
+* [0.Robotics](README.md#0.robotics)
+* [1.ROS](README.md#1.ros)
+* [2.Robot platform](README.md#2.robot_platform)
 
 ## 0.Robotics
 Books:
