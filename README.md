@@ -119,9 +119,10 @@ imu:
 ```
 SparkFun 9DOF Razor IMUM0: http://wiki.ros.org/razor_imu_9dof
 ```
-odometry&map generator
-``
+odometry&3D scanning environment
+```
 Kaarta: https://www.kaarta.com/
+matterport: https://matterport.com/
 ```
 
 ## 4_odometry
