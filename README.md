@@ -286,6 +286,7 @@ In Taiwan:
 "SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
 "PMC 智慧機器人競賽 Robot competition": http://www.pmccontest.com/
 "HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
+"SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
 ```
 
 ### (4) Famous ros organizations & activities
