@@ -139,31 +139,31 @@ sensor fusion ros pkg
 ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
-LOAM - lidar
+LOAM - lidar 
 ```
-Laser Odometry and Mapping (Loam) is a realtime method for state estimation and mapping using a 3D lidar.
+201905KITTI#2 - Laser Odometry and Mapping (Loam) is a realtime method for state estimation and mapping using a 3D lidar.
 https://github.com/laboshinl/loam_velodyne
 https://github.com/cuitaixiang/LOAM_NOTED
 ```
 VINS - Stereo, mono, RGBD + inertial
 ```
-An optimization-based multi-sensor state estimator
+201905KITTI#34 - An optimization-based multi-sensor state estimator
 https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
 https://github.com/HKUST-Aerial-Robotics/VINS-Mono
 ```
 LIMO - mono + lidar
 ```
-Lidar-Monocular Visual Odometry
+201905KITTI#11,13,23 - Lidar-Monocular Visual Odometry
 https://github.com/johannes-graeter/limo
 ```
 ORB-SLAM2 - Stereo, mono, RGBD
 ```
-Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
+201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
 https://github.com/raulmur/ORB_SLAM2
 ```
-SOFT - Stereo
+SOFT - Stereo 
 ```
-Stereo Odometry based on careful Feature selection and Tracking. 
+201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
 https://github.com/Mayankm96/Stereo-Odometry-SOFT
 ```
 
