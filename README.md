@@ -39,6 +39,7 @@ Courses:
 "Machine Learning" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
 "Probabilistic Systems Analysis and Applied Probability" {Massachusetts Institute of Technology} John Tsitsiklis https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
 "Deep Reinforcement Learning" {UC Berkeley} Sergey Levine: http://rail.eecs.berkeley.edu/deeprlcourse/
+"Vision Algorithms for Mobile Robotics" {ETHz} 	D. Scaramuzza: http://rpg.ifi.uzh.ch/teaching.html
 ```
 Papers:
 ```
