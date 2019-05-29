@@ -60,6 +60,7 @@ Books:
 "Mastering ROS for Robotics Programming", C++, Lentin Joseph
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
 "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
+"ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 ```
 more: https://hackmd.io/s/B1fv26WBz# 
 
