@@ -128,13 +128,13 @@ matterport: https://matterport.com/
 ```
 
 ## 4_odometry
-odometry
+ros pkg odometry
 ```
 Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
 Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
 Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
 ```
-sensor fusion  
+sensor fusion ros pkg 
 ```
 ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
@@ -160,6 +160,11 @@ ORB-SLAM2 - Stereo, mono, RGBD
 ```
 Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
 https://github.com/raulmur/ORB_SLAM2
+```
+SOFT - Stereo
+```
+Stereo Odometry based on careful Feature selection and Tracking. 
+https://github.com/Mayankm96/Stereo-Odometry-SOFT
 ```
 
 ## 5_SLAM
