@@ -292,10 +292,11 @@ Gripper: ```ROBOTIQ```
 Self-Driving Cars : ```Alphabet Waymo, Uber, Apple Project Titan```  
 
 ### (2) Famous robotics conferences & journals
-Top conference: ```ieee_IROS, ieee_ICRA```  
-Top journal: ```ieee_Transactions_on_Robotics_and_Automation```  
-Minor conference:```ieee_IECON, ieee_SII, ieee_ISIE, ieee_ICIT, ieee_ICPS```  
-Minor journal: ```ieee_Access```  
+Top conference: ```IROS, ICRA```  
+Top journal: ```IEEE_Transactions_on_Robotics_and_Automation, IEEE_Transactions_on_Robotics```  
+Minor conference:```IECON, SII, ISIE, ICIT, ICPS```  
+Minor journal: ```IEEE_Access```  
+google scholar rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics
 
 ### (3) Famous robotics competition
 Global:
