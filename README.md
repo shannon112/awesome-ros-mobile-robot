@@ -55,6 +55,7 @@ ROS blogs&channel:
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
 "MR.POJENLAI": https://pojenlai.wordpress.com/
 "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
+"泡泡機器人": https://space.bilibili.com/38737757/
 ```
 Books:
 ```
@@ -95,7 +96,12 @@ ROS mobile manipulator
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
 ```
-processing unit: ```Raspberry Pi 3, NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, Odroid XU4, Odroid N2, BBB, asus tinker board```  
+processing unit: 
+```
+Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
+Odroid XU4, Odroid N2, Asus tinker board
+NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO
+```  
 motor & controller:  ```Faulhaber, Maxon, Dexmart```  
 
 ## 3_Robot_sensor
