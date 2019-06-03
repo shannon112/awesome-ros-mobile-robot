@@ -17,7 +17,6 @@ This repository provides some useful resources and informations about **autonomo
   * (2)Famous robotics conference&journal  
   * (3)Famous robotics competition in Taiwan  
   * (4)Famous ros organizations & activities  
-  * (5)Famous ros relative people  
 
 ## 0_Robotics
 Books:
