@@ -168,29 +168,21 @@ https://github.com/Mayankm96/Stereo-Odometry-SOFT
 ```
 
 ## 5_SLAM
-```
 The classical SLAM theorem
-“Simultaneous localisation and map- ping (SLAM): Part II”
-T. Bailey and H. F. Durrant-Whyte
-IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
 ```
-```
-The classical SLAM theorem
-“Simultaneous localisation and map- ping (SLAM): Part I”
-H. F. Durrant-Whyte and T. Bailey
-IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
-```
+T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
+H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
 ```
 Survey paper
-“Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”
+```
 Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard
-IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
+, “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
 ```
-Cartographer from Google: https://google-cartographer-ros.readthedocs.io/en/latest/
+Cartographer - odom + rangeSensor + IMU
 ```
-“Real-time loop closure in 2D LIDAR SLAM ”
-Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor 
-2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+https://github.com/googlecartographer/cartographer
+https://github.com/googlecartographer/cartographer_ros
 ```
 RTABmap: http://introlab.github.io/rtabmap/
 ```
