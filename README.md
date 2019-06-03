@@ -99,6 +99,10 @@ processing unit: ```Raspberry Pi 3, NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA
 motor & controller:  ```Faulhaber, Maxon, Dexmart```  
 
 ## 3_Robot_sensor
+rgb-camera:  
+```
+mono-usb-camera: http://wiki.ros.org/usb_cam
+```
 rgbd-camera:  
 ```
 microsoft kinectv1 with openni: https://github.com/ros-drivers/openni_camera
@@ -106,14 +110,16 @@ microsoft kinectv1 with freenect: https://github.com/ros-drivers/freenect_stack
 asus xtion with openni2: https://github.com/ros-drivers/openni2_camera
 intel realsense d435: https://github.com/intel-ros/realsense
 ```
-lidar(laser scanner):  
+**Laser rangefinder** [laser scanners] [scanning rangefinder]  
+– often represent 2D laser scanning
 ```
 hokuyo_urg: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 hokuyo_utm: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 rplidar: http://wiki.ros.org/rplidar
 sick: http://wiki.ros.org/sick_scan
 ```
-3Dlidar:
+**LIDAR** [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
+– often represent 3D laser scanning
 ```
 velodyne: http://wiki.ros.org/velodyne
 ```
@@ -184,18 +190,15 @@ Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop clo
 https://github.com/googlecartographer/cartographer
 https://github.com/googlecartographer/cartographer_ros
 ```
-RTABmap: http://introlab.github.io/rtabmap/
+RTAB-Map - RGB-D, Stereo and Lidar
 ```
-“RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation” 
-M. Labbé and F. Michaud
-Journal of Field Robotics, accepted, 2018
-Universit ́e de Sherbrooke
+A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
+M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
+http://introlab.github.io/rtabmap/
 ```
-gmapping: http://wiki.ros.org/gmapping
+Gmapping - http://wiki.ros.org/gmapping
 ```
-"Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters,"
-G. Grisetti, C. Stachniss and W. Burgard,  in 
-IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
+G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
 ```
 
 
