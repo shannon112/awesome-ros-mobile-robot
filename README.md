@@ -1,6 +1,5 @@
 # awesome-ros-mobile-robot  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/shannon112/awesome-ros-mobile-robot)  
-Autonomous Mobile Robots aka. AMR  
-This repository provides some useful resources and informations about **mobile robots (AMR)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **odometry**). (including both **Chinese** and **English** materials)  
+This repository provides some useful resources and informations about **autonomous mobile robots (AMR)** research based on **ROS**. It would not contain high level application, but focus on basic function of mobile robots(and more at **odometry**). (including both **Chinese** and **English** materials)  
 
 ## contents:  
 * [0.Robotics](README.md#0_robotics)
@@ -332,5 +331,6 @@ organizations:
 activities: 
 ```
 "ROScon": https://roscon.ros.org/
+"ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
 "ROS summer school(CN)": http://www.roseducation.org/
 ```
