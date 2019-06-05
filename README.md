@@ -182,6 +182,19 @@ SOFT - Stereo
 201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
 https://github.com/Mayankm96/Stereo-Odometry-SOFT
 ```
+DeepVO - learning_based: RGB
+```
+S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
+https://github.com/ChiWeiHsiao/DeepVO-pytorch
+https://github.com/ildoonet/deepvo
+https://github.com/krrish94/DeepVO
+https://github.com/linjian93/pytorch-deepvo
+```
+VINET - learning_based: RGB + IMU
+```
+Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
+https://github.com/HTLife/VINet
+```
 
 ## 5_SLAM
 The classical SLAM theorem
