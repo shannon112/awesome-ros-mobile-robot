@@ -103,11 +103,11 @@ NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO
 motor & controller:  ```Faulhaber, Maxon, Dexmart```  
 
 ## 3_Robot_sensor
-rgb-camera:  
+RGB-camera:  
 ```
 mono-usb-camera: http://wiki.ros.org/usb_cam
 ```
-rgbd-camera:  
+RGBD-camera:  
 ```
 microsoft kinectv1 with openni: https://github.com/ros-drivers/openni_camera
 microsoft kinectv1 with freenect: https://github.com/ros-drivers/freenect_stack
@@ -128,18 +128,19 @@ sick: http://wiki.ros.org/sick_scan
 ```
 velodyne: http://wiki.ros.org/velodyne
 ```
-imu:  
+IMU:  
 ```
 SparkFun 9DOF Razor IMUM0: http://wiki.ros.org/razor_imu_9dof
 ```
-odometry&3D scanning environment
+Odometry&3D scanning environment
 ```
 Kaarta: https://www.kaarta.com/
 matterport: https://matterport.com/
 ```
-microphone array
+Microphone array
 ```
 microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
+ReSpeaker Mic Array v2.0: http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
 ```
 
 ## 4_odometry
