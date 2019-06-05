@@ -137,6 +137,10 @@ odometry&3D scanning environment
 Kaarta: https://www.kaarta.com/
 matterport: https://matterport.com/
 ```
+microphone array
+```
+microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
+```
 
 ## 4_odometry
 ros pkg odometry
