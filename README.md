@@ -20,7 +20,7 @@ This repository provides some useful resources and informations about **autonomo
 
 ## 0_Robotics
 Books:
-```
+```js
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
 "Probabilistic Robotics", Sebastian Thrun 
 "視覺 SLAM 十四講：從理論到實踐", 高翔
@@ -41,7 +41,7 @@ Courses:
 "Vision Algorithms for Mobile Robotics" {ETHZ} 	D. Scaramuzza: http://rpg.ifi.uzh.ch/teaching.html
 ```
 Papers:
-```
+```js
 "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
 "arXiv.org e-Print archive": https://arxiv.org/
 "Google Scholar": https://scholar.google.com/
@@ -49,14 +49,14 @@ Papers:
 
 ## 1_ROS
 ROS blogs&channel:  
-```
+```js
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
 "MR.POJENLAI": https://pojenlai.wordpress.com/
 "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
 "泡泡機器人": https://space.bilibili.com/38737757/
 ```
 Books:
-```
+```js
 "ROS by Example", python, Patrick Goebel
 "Mastering ROS for Robotics Programming", C++, Lentin Joseph
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
@@ -68,14 +68,14 @@ more: https://hackmd.io/s/B1fv26WBz#
 ## 2_Robot_platform
 ROS robots: https://robots.ros.org/  
 holomic vs. non-holomic
-```
+```js
 "Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
 "Caster wheel": https://en.wikipedia.org/wiki/Caster
 "Mecanum wheel": https://en.wikipedia.org/wiki/Mecanum_wheel
 "Omni wheel": https://en.wikipedia.org/wiki/Omni_wheel
 ```
 race car project  
-```
+```js
 "MIT": https://mit-racecar.github.io
 "Penn": http://f1tenth.org/ [without slam, NAV]
 "UCB": http://www.barc-project.com/projects/ [without laser] 
@@ -83,19 +83,19 @@ race car project
 "Taiwan Hypharos": https://github.com/Hypha-ROS/hypharos_racecar
 ```
 ROS mobile robot
-```
+```js
 "turtlebot": https://github.com/turtlebot
 "clearpath husky": https://github.com/husky
 "clearpath jackel": https://github.com/jackal
 ```
 ROS mobile manipulator
-```
+```js
 "kuka youbot": https://github.com/youbot
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
 ```
 processing unit: 
-```
+```js
 Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
 Odroid XU4, Odroid N2, Asus tinker board
 NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO
@@ -104,11 +104,11 @@ motor & controller:  ```Faulhaber, Maxon, Dexmart```
 
 ## 3_Robot_sensor
 RGB-camera:  
-```
+```js
 mono-usb-camera: http://wiki.ros.org/usb_cam
 ```
 RGBD-camera:  
-```
+```js
 microsoft kinectv1 with openni: https://github.com/ros-drivers/openni_camera
 microsoft kinectv1 with freenect: https://github.com/ros-drivers/freenect_stack
 microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
@@ -117,7 +117,7 @@ intel realsense d435: https://github.com/intel-ros/realsense
 ```
 **Laser rangefinder** [laser scanners] [scanning rangefinder]  
 – often represent 2D laser scanning
-```
+```js
 hokuyo_urg: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 hokuyo_utm: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 rplidar: http://wiki.ros.org/rplidar
@@ -125,20 +125,20 @@ sick: http://wiki.ros.org/sick_scan
 ```
 **LIDAR** [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
 – often represent 3D laser scanning
-```
+```js
 velodyne: http://wiki.ros.org/velodyne
 ```
 IMU:  
-```
+```js
 SparkFun 9DOF Razor IMUM0: http://wiki.ros.org/razor_imu_9dof
 ```
 Odometry&3D scanning environment
-```
+```js
 Kaarta: https://www.kaarta.com/
 matterport: https://matterport.com/
 ```
 Microphone array
-```
+```js
 microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
 ReSpeaker Mic Array v2.0: http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
 ```
