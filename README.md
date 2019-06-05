@@ -95,7 +95,7 @@ ROS mobile manipulator
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
 ```
 processing unit: 
-```js
+```
 Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
 Odroid XU4, Odroid N2, Asus tinker board
 NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO
@@ -105,42 +105,42 @@ motor & controller:  ```Faulhaber, Maxon, Dexmart```
 ## 3_Robot_sensor
 RGB-camera:  
 ```js
-mono-usb-camera: http://wiki.ros.org/usb_cam
+"mono-usb-camera": http://wiki.ros.org/usb_cam
 ```
 RGBD-camera:  
 ```js
-microsoft kinectv1 with openni: https://github.com/ros-drivers/openni_camera
-microsoft kinectv1 with freenect: https://github.com/ros-drivers/freenect_stack
-microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
-asus xtion with openni2: https://github.com/ros-drivers/openni2_camera
-intel realsense d435: https://github.com/intel-ros/realsense
+"microsoft kinectv1 with openni": https://github.com/ros-drivers/openni_camera
+"microsoft kinectv1 with freenect": https://github.com/ros-drivers/freenect_stack
+"microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
+"asus xtion with openni2": https://github.com/ros-drivers/openni2_camera
+"intel realsense d435": https://github.com/intel-ros/realsense
 ```
 **Laser rangefinder** [laser scanners] [scanning rangefinder]  
 – often represent 2D laser scanning
 ```js
-hokuyo_urg: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
-hokuyo_utm: http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
-rplidar: http://wiki.ros.org/rplidar
-sick: http://wiki.ros.org/sick_scan
+"hokuyo_urg": http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
+"hokuyo_utm": http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
+"rplidar": http://wiki.ros.org/rplidar
+"sick": http://wiki.ros.org/sick_scan
 ```
 **LIDAR** [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
 – often represent 3D laser scanning
 ```js
-velodyne: http://wiki.ros.org/velodyne
+"velodyne": http://wiki.ros.org/velodyne
 ```
 IMU:  
 ```js
-SparkFun 9DOF Razor IMUM0: http://wiki.ros.org/razor_imu_9dof
+"SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
 ```
 Odometry&3D scanning environment
 ```js
-Kaarta: https://www.kaarta.com/
-matterport: https://matterport.com/
+"Kaarta": https://www.kaarta.com/
+"matterport": https://matterport.com/
 ```
 Microphone array
 ```js
-microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
-ReSpeaker Mic Array v2.0: http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
+"microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
+"ReSpeaker Mic Array v2.0": http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
 ```
 
 ## 4_odometry
