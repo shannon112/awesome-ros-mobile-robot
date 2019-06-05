@@ -111,6 +111,7 @@ rgbd-camera:
 ```
 microsoft kinectv1 with openni: https://github.com/ros-drivers/openni_camera
 microsoft kinectv1 with freenect: https://github.com/ros-drivers/freenect_stack
+microsoft azure-kinect-dk: https://azure.microsoft.com/zh-tw/services/kinect-dk/
 asus xtion with openni2: https://github.com/ros-drivers/openni2_camera
 intel realsense d435: https://github.com/intel-ros/realsense
 ```
