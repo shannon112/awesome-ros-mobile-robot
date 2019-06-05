@@ -27,18 +27,18 @@ Books:
 "Introduction to Linear Algebra", 5th Edition, Gilbert Strang
 ```
 Courses:
-```
+```js
 "Robot Mapping" {Universität of Freiburg} Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
-"機器人學一 (Robotics (1))" {National Taiwan University} 林沛群: https://www.coursera.org/learn/robotics1
-"Control of Mobile Robots" {Georgia Institute of Technology} Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
+"機器人學一 (Robotics (1))" {NTU} 林沛群: https://www.coursera.org/learn/robotics1
+"Control of Mobile Robots" {Georgia Tech} Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
 "Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
 "Robotics" {UPenn} https://zh-tw.coursera.org/specializations/robotics
-"Linear algebra" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
-"Linear algebra" {Massachusetts Institute of Technology} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
-"Machine Learning" {National Taiwan University} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
-"Probabilistic Systems Analysis and Applied Probability" {Massachusetts Institute of Technology} John Tsitsiklis https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
-"Deep Reinforcement Learning" {UC Berkeley} Sergey Levine: http://rail.eecs.berkeley.edu/deeprlcourse/
-"Vision Algorithms for Mobile Robotics" {ETHz} 	D. Scaramuzza: http://rpg.ifi.uzh.ch/teaching.html
+"Linear algebra" {NTU} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
+"Linear algebra" {MIT} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
+"Machine Learning" {NTU} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
+"Probabilistic Systems Analysis and Applied Probability" {MIT} John Tsitsiklis https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
+"Deep Reinforcement Learning" {UCB} Sergey Levine: http://rail.eecs.berkeley.edu/deeprlcourse/
+"Vision Algorithms for Mobile Robotics" {ETHZ} 	D. Scaramuzza: http://rpg.ifi.uzh.ch/teaching.html
 ```
 Papers:
 ```
@@ -305,7 +305,7 @@ google scholar rank: https://scholar.google.com/citations?view_op=top_venues&hl=
 
 ### (3) Famous robotics competition
 Global:
-```
+```js
 "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
 "RoboCup": https://en.wikipedia.org/wiki/RoboCup
 "Amazon Robotics/Picking Challenge": http://amazonpickingchallenge.org/
@@ -313,7 +313,7 @@ Global:
 "IROS Robot Competitions: including lots of competitions would be different every years"
 ```
 In Taiwan:
-```
+```js
 "SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
 "PMC 智慧機器人競賽 Robot competition": http://www.pmccontest.com/
 "HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
@@ -335,7 +335,7 @@ organizations:
 "ROS.Taipei": https://www.facebook.com/groups/ros.taipei/
 ```
 activities: 
-```
+```js
 "ROScon": https://roscon.ros.org/
 "ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
 "ROS summer school(CN)": http://www.roseducation.org/
