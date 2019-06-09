@@ -314,7 +314,9 @@ Top conference: ```IROS, ICRA```
 Top journal: ```IEEE_Transactions_on_Robotics_and_Automation, IEEE_Transactions_on_Robotics```  
 Minor conference:```IECON, SII, ISIE, ICIT, ICPS```  
 Minor journal: ```IEEE_Access```  
-google scholar rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics
+The IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-workshops  
+The Industrial Electronics Society: http://www.ieee-ies.org/conferences  
+google scholar rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 
 ### (3) Famous robotics competition
 Global:
