@@ -174,6 +174,8 @@ VINS - Stereo, mono, RGBD + inertial
 201905KITTI#34 - An optimization-based multi-sensor state estimator
 https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
 https://github.com/HKUST-Aerial-Robotics/VINS-Mono
+Online Temporal Calibration for Monocular Visual-Inertial Systems, Tong Qin, Shaojie Shen, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2018), best student paper award pdf
+VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Roboticspdf
 ```
 LIMO_GP, LIMO2, LIMO - mono + lidar
 ```
@@ -218,6 +220,7 @@ VINET - learning_based: RGB + IMU
 Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 https://github.com/HTLife/VINet
 ```
+
 
 ## 5_SLAM
 The classical SLAM theorem
