@@ -220,7 +220,8 @@ VINET - learning_based: RGB + IMU
 Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 https://github.com/HTLife/VINet
 ```
-
+VoBa - IMU, visual-aided
+J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
 
 ## 5_SLAM
 The classical SLAM theorem
