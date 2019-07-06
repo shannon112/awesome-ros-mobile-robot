@@ -169,19 +169,12 @@ J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IE
 201905KITTI#3#5
 Jean-Emmanuel Deschaud, "IMLS-SLAM: scan-to-model matching based on 3D data", arXiv:1802.08633 [cs.RO]
 ```
-#34 VINS - Stereo, mono, RGBD + inertial
+#4,17 SOFT, SOFT2 - Stereo 
 ```
-201905KITTI#34 - An optimization-based multi-sensor state estimator
-https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
-https://github.com/HKUST-Aerial-Robotics/VINS-Mono
-Online Temporal Calibration for Monocular Visual-Inertial Systems, Tong Qin, Shaojie Shen, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2018), best student paper award pdf
-VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Roboticspdf
-```
-#11,13,23 LIMO_GP, LIMO2, LIMO - mono + lidar
-```
-201905KITTI#11,13,23 - Lidar-Monocular Visual Odometry
-https://github.com/johannes-graeter/limo
-Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
+201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
+https://github.com/Mayankm96/Stereo-Odometry-SOFT
+Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
+Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
 ```
 #10#19 RotRocc+, RotRocc, ROCC, MonoROCC - stereo?
 ```
@@ -192,6 +185,20 @@ M. Buczko: Automotive Visual Odometry. 2018.
 M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.
 M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.
 ```
+#11,13,23 LIMO_GP, LIMO2, LIMO - mono + lidar
+```
+201905KITTI#11,13,23 - Lidar-Monocular Visual Odometry
+https://github.com/johannes-graeter/limo
+Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
+```
+#34 VINS - Stereo, mono, RGBD + inertial
+```
+201905KITTI#34 - An optimization-based multi-sensor state estimator
+https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
+https://github.com/HKUST-Aerial-Robotics/VINS-Mono
+Online Temporal Calibration for Monocular Visual-Inertial Systems, Tong Qin, Shaojie Shen, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2018), best student paper award pdf
+VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Roboticspdf
+```
 #40 ORB-SLAM2 - Stereo, mono, RGBD
 ```
 201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
@@ -200,17 +207,16 @@ https://github.com/raulmur/ORB_SLAM2
 [Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
 [DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
 ```
-#4,17 SOFT, SOFT2 - Stereo 
-```
-201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
-https://github.com/Mayankm96/Stereo-Odometry-SOFT
-Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
-Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
-```
 #48 VoBa - IMU, visual-aided
 ```
 201905KITTI#48
 J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
+```
+#54 RTAB-Map - RGB-D, Stereo and Lidar
+```
+A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
+M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
+http://introlab.github.io/rtabmap/
 ```
 DeepVO - learning_based: RGB
 ```
@@ -243,7 +249,7 @@ Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop clo
 https://github.com/googlecartographer/cartographer
 https://github.com/googlecartographer/cartographer_ros
 ```
-RTAB-Map - RGB-D, Stereo and Lidar
+#54 RTAB-Map - RGB-D, Stereo and Lidar
 ```
 A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
 M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
