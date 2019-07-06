@@ -155,7 +155,7 @@ sensor fusion ros pkg
 ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
-LOAM, V-LOAM, DEMO - lidar 
+#1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
 201905KITTI#1#2 - Laser Odometry and Mapping (Loam) is a realtime method for state estimation and mapping using a 3D lidar.
 https://github.com/laboshinl/loam_velodyne
@@ -164,12 +164,12 @@ J Zhang, S Singh, "LOAM: Lidar Odometry and Mapping in Real-time", Robotics: Sci
 J Zhang, S Singh, "Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast", IEEE International Conference on Robotics and Automation (ICRA)
 J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2014.
 ```
-IMLS-SLAM, IMLS-SLAM++ - lidar
+#3#5 IMLS-SLAM, IMLS-SLAM++ - lidar
 ```
 201905KITTI#3#5
 Jean-Emmanuel Deschaud, "IMLS-SLAM: scan-to-model matching based on 3D data", arXiv:1802.08633 [cs.RO]
 ```
-VINS - Stereo, mono, RGBD + inertial
+#34 VINS - Stereo, mono, RGBD + inertial
 ```
 201905KITTI#34 - An optimization-based multi-sensor state estimator
 https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
@@ -177,13 +177,13 @@ https://github.com/HKUST-Aerial-Robotics/VINS-Mono
 Online Temporal Calibration for Monocular Visual-Inertial Systems, Tong Qin, Shaojie Shen, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2018), best student paper award pdf
 VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Roboticspdf
 ```
-LIMO_GP, LIMO2, LIMO - mono + lidar
+#11,13,23 LIMO_GP, LIMO2, LIMO - mono + lidar
 ```
 201905KITTI#11,13,23 - Lidar-Monocular Visual Odometry
 https://github.com/johannes-graeter/limo
 Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 ```
-RotRocc+, RotRocc, ROCC, MonoROCC - stereo?
+#10#19 RotRocc+, RotRocc, ROCC, MonoROCC - stereo?
 ```
 201905KITTI#10#19
 M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.
@@ -192,7 +192,7 @@ M. Buczko: Automotive Visual Odometry. 2018.
 M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.
 M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.
 ```
-ORB-SLAM2 - Stereo, mono, RGBD
+#40 ORB-SLAM2 - Stereo, mono, RGBD
 ```
 201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
 https://github.com/raulmur/ORB_SLAM2
@@ -200,14 +200,14 @@ https://github.com/raulmur/ORB_SLAM2
 [Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
 [DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
 ```
-SOFT, SOFT2 - Stereo 
+#4,17 SOFT, SOFT2 - Stereo 
 ```
 201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
 https://github.com/Mayankm96/Stereo-Odometry-SOFT
 Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
 Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
 ```
-VoBa - IMU, visual-aided
+#48 VoBa - IMU, visual-aided
 ```
 201905KITTI#48
 J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
