@@ -207,6 +207,11 @@ https://github.com/Mayankm96/Stereo-Odometry-SOFT
 Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
 Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
 ```
+VoBa - IMU, visual-aided
+```
+201905KITTI#48
+J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
+```
 DeepVO - learning_based: RGB
 ```
 S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
@@ -220,8 +225,6 @@ VINET - learning_based: RGB + IMU
 Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 https://github.com/HTLife/VINet
 ```
-VoBa - IMU, visual-aided
-J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
 
 ## 5_SLAM
 The classical SLAM theorem
