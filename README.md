@@ -54,6 +54,7 @@ ROS blogs&channel:
 "MR.POJENLAI": https://pojenlai.wordpress.com/
 "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
 "泡泡機器人": https://space.bilibili.com/38737757/
+"泡泡機器人論壇": http://paopaorobot.org/bbs/
 ```
 Books:
 ```js
