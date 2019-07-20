@@ -23,8 +23,8 @@ Books:
 ```js
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
 "Probabilistic Robotics", Sebastian Thrun 
-"視覺 SLAM 十四講：從理論到實踐", 高翔
 "Introduction to Linear Algebra", Five Edition, Gilbert Strang
+"視覺 SLAM 十四講：從理論到實踐", 高翔
 ```
 Courses:
 ```js
@@ -63,6 +63,7 @@ Books:
 "Mastering ROS for Robotics Programming", C++, Lentin Joseph
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
 "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
+"机器人操作系统（ROS）浅析", Jason M. O'Kane著, 肖军浩译
 "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 ```
 more: https://hackmd.io/s/B1fv26WBz# 
@@ -107,7 +108,9 @@ motor & controller:  ```Faulhaber, Maxon, Dexmart```
 ## 3_Robot_sensor
 RGB-camera:  
 ```js
-"mono-usb-camera": http://wiki.ros.org/usb_cam
+"usb camera": http://wiki.ros.org/usb_cam
+"gstream-based camera": http://wiki.ros.org/gscam
+"opencv camera": http://wiki.ros.org/cv_camera
 ```
 RGBD-camera:  
 ```js
@@ -124,6 +127,7 @@ RGBD-camera:
 "hokuyo_utm": http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 "rplidar": http://wiki.ros.org/rplidar
 "sick": http://wiki.ros.org/sick_scan
+"ydlidar": https://github.com/YDLIDAR/ydlidar_ros
 ```
 **LIDAR** [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
 – often represent 3D laser scanning
@@ -266,14 +270,13 @@ G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping 
 ## 6_Localization
 amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
+google_cartographer: https://google-cartographer-ros.readthedocs.io/en/latest/demos.html#pure-localization
 
 
 ## 7_Map
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
-OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.
-Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram. (2013).  
-Autonomous Robots Journal. 34. 10.1007/s10514-012-9321-0. 
+Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 ```
 
 
@@ -281,9 +284,7 @@ Autonomous Robots Journal. 34. 10.1007/s10514-012-9321-0.
 (move_base compatible, nav_core supported)
 dwa_local_planner, base_local_planner http://wiki.ros.org/dwa_local_planner
 ```
-"The dynamic window approach to collision avoidance,"
-D. Fox, W. Burgard and S. Thrun,  
-in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
+D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
 ```
 teb_local_planner http://wiki.ros.org/teb_local_planner
 ```
@@ -302,8 +303,7 @@ global_planner:
 RecoveryBehavior: ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
 ## 9_Navigation_advanced
-(social aware, novel research)
-condition: ```in crowded spaces, in cluttered environments```
+condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
 ```
 MIT AerospaceControlsLab
 Y. F. Chen, M. Liu, M. Everett and J. P. How "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 285-292. 
@@ -340,7 +340,7 @@ Manipulator: ```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robot
 Mobile Robot(AGV, base only): ```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA, iRobot, pal_robotics, Robotnik_Automation```  
 Service robot(with torso): ```willow_garage, softbank_robotics, fetch_robotics, pal_robotics, Robotnik_Automation```  
 Humanoid: ```boston_dynamics, softbank_robotics, pal_robotics```  
-Quadruped: ```boston_dynamics, unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal)```  
+Quadruped: ```boston_dynamics, unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo```  
 Drone: ```Dji, Tello```  
 ROS2.0: ```ADLINK ```  
 Cleaning: ```iRobot```  
