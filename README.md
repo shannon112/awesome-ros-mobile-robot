@@ -95,9 +95,16 @@ ROS mobile robot
 ```
 ROS mobile manipulator
 ```js
+"Personal Robot 2 (PR2)": https://github.com/PR2
 "kuka youbot": https://github.com/youbot
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
+```
+ROS manipulator
+```js
+"Franka Emika panda": https://github.com/frankaemika/franka_ros | https://github.com/ros-planning/panda_moveit_config
+"Universal Robot 3/5/10/e": https://github.com/ros-industrial/universal_robot
+"Techman Robot": https://github.com/kentsai0319/techman_robot
 ```
 processing unit: 
 ```
