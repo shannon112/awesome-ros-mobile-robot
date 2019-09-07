@@ -272,17 +272,24 @@ M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Li
 http://introlab.github.io/rtabmap/
 https://github.com/introlab/rtabmap_ros
 ```
-Gmapping - http://wiki.ros.org/gmapping
+Gmapping - laser, odom
 ```
 G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
+http://wiki.ros.org/gmapping
 ```
-
+hector_slam - laser, imu
+```
+S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
+http://wiki.ros.org/hector_slam
+```
 
 ## 6_Localization
 amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
-google_cartographer: https://google-cartographer-ros.readthedocs.io/en/latest/demos.html#pure-localization
-
+SLAM algorithms support pure localization:
+```
+google_cartographer, ORB_SLAM2, RTAB-Map, ...
+```
 
 ## 7_Map
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
