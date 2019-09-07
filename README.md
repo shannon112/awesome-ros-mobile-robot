@@ -36,12 +36,13 @@ Courses:
 "Linear algebra" {NTU} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
 "Linear algebra" {MIT} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
 "Machine Learning" {NTU} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
+"Machine Learning" {STANFORD} Andrew Ng: https://www.coursera.org/learn/machine-learning
 "Probabilistic Systems Analysis and Applied Probability" {MIT} John Tsitsiklis https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
 "Deep Reinforcement Learning" {UCB} Sergey Levine: http://rail.eecs.berkeley.edu/deeprlcourse/
 "Vision Algorithms for Mobile Robotics" {ETHZ} 	D. Scaramuzza: http://rpg.ifi.uzh.ch/teaching.html
 "Self-Driving Cars" {TORONTO} https://www.coursera.org/specializations/self-driving-cars
 ```
-Papers:
+Paper libraries:
 ```js
 "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
 "arXiv.org e-Print archive": https://arxiv.org/
@@ -350,8 +351,6 @@ Self-Driving Cars : ```Alphabet Waymo, Uber, Apple Project Titan```
 ### (2) Famous robotics conferences & journals
 Top conference: ```IROS, ICRA```  
 Top journal: ```IEEE_Transactions_on_Robotics_and_Automation, IEEE_Transactions_on_Robotics```  
-Minor conference:```IECON, SII, ISIE, ICIT, ICPS```  
-Minor journal: ```IEEE_Access```  
 The IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-workshops  
 The Industrial Electronics Society: http://www.ieee-ies.org/conferences  
 google scholar rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
