@@ -132,6 +132,16 @@ RGBD-camera:
 "asus xtion with openni2": https://github.com/ros-drivers/openni2_camera
 "intel realsense d435": https://github.com/intel-ros/realsense
 ```
+Stereo camera:
+```js
+"Stereolabs ZED": http://wiki.ros.org/zed-ros-wrapper
+"bumblebee2": 
+"Ensenso N35-606-16-BL": https://github.com/PointCloudLibrary/pcl/blob/a654fe4188382416c99322cafbd9319c59a7355c/io/src/ensenso_grabber.cpp
+"Carnegie Robotics MultiSense™ S7": http://docs.carnegierobotics.com/S7/
+"e-Con Systems Tara Stereo Camera": https://github.com/dilipkumar25/see3cam
+"nerian SP1": http://wiki.ros.org/nerian_sp1
+```
+
 **Laser rangefinder** [laser scanners] [scanning rangefinder]  
 – often represent 2D laser scanning
 ```js
