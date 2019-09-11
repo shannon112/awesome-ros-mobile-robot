@@ -259,6 +259,11 @@ https://github.com/HTLife/VINet
 ```
 
 ## 5_SLAM
+Related work keyword
+```
+Direct / Indirect Visual Processing
+Tightly / Loosely -coupled Sensor Fusion
+```
 Dataset
 ```
 KITTI: 
