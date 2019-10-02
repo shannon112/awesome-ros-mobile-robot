@@ -380,6 +380,7 @@ http://graphics.stanford.edu/projects/bundlefusion/
 Dense RGBDi with gpu
 ```
 Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
+Dyson Robotics Laboratory at Imperial College
 https://www.youtube.com/watch?v=-gUdQ0cxDh0
 ```
 Dense RGBDi with cpu
