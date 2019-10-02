@@ -365,8 +365,12 @@ https://github.com/tum-vision/dvo_slam
 ```
 ElasticFusion: root of many dense slam
 ```
+Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
 Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
+Dyson Robotics Laboratory at Imperial College
 https://github.com/mp3guy/ElasticFusion
+https://www.youtube.com/watch?v=-dz_VauPjEU
+https://www.youtube.com/watch?v=XySrhZpODYs
 ```
 BundleFusion: state of art dense slam
 ```
@@ -382,6 +386,17 @@ Dense RGBDi with cpu
 ```
 Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 https://www.youtube.com/watch?v=kLsyDEX_U0g
+```
+Dense RGBD-odometry (KO-Fusion)
+```
+Houseago, Charlie, Michael Bloesch, and Stefan Leutenegger. "KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
+Dyson Robotics Laboratory at Imperial College
+https://www.youtube.com/watch?v=yigoIYoY7Wg
+```
+Desnse RGBD-odometry (arm-slam)
+```
+M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
+https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
 ## 6_Localization
