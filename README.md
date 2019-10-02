@@ -268,8 +268,11 @@ https://github.com/HTLife/VINet
 ## 5_SLAM
 Related work keyword
 ```
+Graph-Based optimization / Particle filter / Kalman filter series
 Direct / Indirect Visual Processing
 Tightly / Loosely -coupled Sensor Fusion
+Dense / Semi-Dense / Sparse map
+2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map
 ```
 Dataset
 ```
@@ -283,10 +286,14 @@ The classical SLAM theorem
 T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
 H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
 ```
-Survey paper
+General SLAM survey paper
 ```
 Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard
 , “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
+```
+VINS survey paper
+```
+G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
 ```
 Cartographer - odom + rangeSensor + IMU
 ```
@@ -321,6 +328,60 @@ hector_slam - laser, imu
 ```
 S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
 http://wiki.ros.org/hector_slam
+```
+cognitive related SLAM
+```
+ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation whileInteracting with Aliased Environments
+https://arxiv.org/pdf/1906.06422.pdf
+```
+
+## 5-1_Dense RGBD SLAM
+RGBD SLAM benchmark
+```
+Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
+```
+RGBD SLAM survey
+```
+Jamiruddin, Redhwan, et al. "Rgb-depth slam review." arXiv preprint arXiv:1805.07696 (2018).
+https://arxiv.org/abs/1805.07696
+```
+KinectFusion: the first one and the famous one
+```
+Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
+Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
+```
+RGBDv2 SLAM with ROS
+```
+"3D Mapping with an RGB-D Camera", F. Endres, J. Hess, J. Sturm, D. Cremers, W. Burgard, IEEE Transactions on Robotics, 2014.
+https://github.com/felixendres/rgbdslam_v2
+```
+DVO & DVO-SLAM
+```
+Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013.
+Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
+Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011.
+https://vision.in.tum.de/data/software/dvo
+https://github.com/tum-vision/dvo_slam
+```
+ElasticFusion: root of many dense slam
+```
+Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
+https://github.com/mp3guy/ElasticFusion
+```
+BundleFusion: state of art dense slam
+```
+Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
+http://graphics.stanford.edu/projects/bundlefusion/
+```
+Dense RGBDi with gpu
+```
+Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
+https://www.youtube.com/watch?v=-gUdQ0cxDh0
+```
+Dense RGBDi with cpu
+```
+Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+https://www.youtube.com/watch?v=kLsyDEX_U0g
 ```
 
 ## 6_Localization
