@@ -339,6 +339,7 @@ https://arxiv.org/pdf/1906.06422.pdf
 RGBD SLAM benchmark
 ```
 Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
+Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
 ```
 RGBD SLAM survey
 ```
