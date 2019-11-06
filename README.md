@@ -338,13 +338,14 @@ https://arxiv.org/pdf/1906.06422.pdf
 ## 5-1_Dense RGBD SLAM
 RGBD SLAM benchmark
 ```
-Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
-Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
+(TUM rgbd) Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
+(ICL-NUIM rgbd) A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
+(survey) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
 ```
 RGBD SLAM survey
 ```
 Jamiruddin, Redhwan, et al. "Rgb-depth slam review." arXiv preprint arXiv:1805.07696 (2018).
-https://arxiv.org/abs/1805.07696
+Zollhöfer, Michael, et al. "State of the Art on 3D Reconstruction with RGB‐D Cameras." Computer graphics forum. Vol. 37. No. 2. 2018.
 ```
 KinectFusion: the first one and the famous one
 ```
