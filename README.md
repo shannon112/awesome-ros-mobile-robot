@@ -286,6 +286,11 @@ The classical SLAM theorem
 T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
 H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
 ```
+SLAM tutorial
+```
+Strasdat, Hauke, José MM Montiel, and Andrew J. Davison. "Visual SLAM: why filter?." Image and Vision Computing 30.2 (2012): 65-77.
+Grisetti, Giorgio, et al. "A tutorial on graph-based SLAM." IEEE Intelligent Transportation Systems Magazine 2.4 (2010): 31-43.
+```
 General SLAM survey paper
 ```
 Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard
