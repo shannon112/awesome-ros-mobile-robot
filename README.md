@@ -339,6 +339,10 @@ cognitive related SLAM
 ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation whileInteracting with Aliased Environments
 https://arxiv.org/pdf/1906.06422.pdf
 ```
+semantic mappping
+```
+Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping
+```
 
 ## 5-1_Dense RGBD SLAM
 RGBD SLAM benchmark
