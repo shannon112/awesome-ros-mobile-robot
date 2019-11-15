@@ -71,10 +71,9 @@ Books:
 "机器人操作系统（ROS）浅析", Jason M. O'Kane著, 肖军浩译
 "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 ```
-more: https://hackmd.io/s/B1fv26WBz# 
 
 ## 2_Robot_platform
-ROS robots: https://robots.ros.org/  
+**ROS robots:** https://robots.ros.org/  
 holomic vs. non-holomic
 ```js
 "Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
@@ -93,6 +92,7 @@ race car project
 ROS mobile robot
 ```js
 "turtlebot": https://github.com/turtlebot
+"turtlebot3": https://github.com/ROBOTIS-GIT/turtlebot3
 "clearpath husky": https://github.com/husky
 "clearpath jackel": https://github.com/jackal
 ```
@@ -100,6 +100,7 @@ ROS mobile manipulator
 ```js
 "Personal Robot 2 (PR2)": https://github.com/PR2
 "kuka youbot": https://github.com/youbot
+"fetch robotics": https://github.com/fetchrobotics
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
 ```
@@ -113,18 +114,24 @@ processing unit:
 ```
 Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
 Odroid XU4, Odroid N2, Asus tinker board
-NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO
+NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, NVIDIA Jetson Xavier
 ```  
-motor & controller:  ```Faulhaber, Maxon, Dexmart```  
+motor & controller:  
+```
+Elmo Motion Control Ltd,
+Dr. Fritz Faulhaber GmbH & Co. KG,
+Maxon group motors & drivers, 
+Dexmart motors & drivers (Trumman Technology Corp)
+```  
 
 ## 3_Robot_sensor
-RGB-camera:  
+RGB camera:  
 ```js
 "usb camera": http://wiki.ros.org/usb_cam
 "gstream-based camera": http://wiki.ros.org/gscam
 "opencv camera": http://wiki.ros.org/cv_camera
 ```
-RGBD-camera:  
+RGB-D camera:  
 ```js
 "microsoft kinectv1 with openni": https://github.com/ros-drivers/openni_camera
 "microsoft kinectv1 with freenect": https://github.com/ros-drivers/freenect_stack
@@ -135,32 +142,30 @@ RGBD-camera:
 Stereo camera:
 ```js
 "Stereolabs ZED": http://wiki.ros.org/zed-ros-wrapper
-"bumblebee2": 
-"Ensenso N35-606-16-BL": https://github.com/PointCloudLibrary/pcl/blob/a654fe4188382416c99322cafbd9319c59a7355c/io/src/ensenso_grabber.cpp
 "Carnegie Robotics MultiSense™ S7": http://docs.carnegierobotics.com/S7/
 "e-Con Systems Tara Stereo Camera": https://github.com/dilipkumar25/see3cam
 "nerian SP1": http://wiki.ros.org/nerian_sp1
 ```
-
-**Laser rangefinder** [laser scanners] [scanning rangefinder]  
-– often represent 2D laser scanning
+Laser rangefinder [laser scanners] [scanning rangefinder]  
+– often represent 2D laser scanning  
 ```js
 "hokuyo_urg": http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
 "hokuyo_utm": http://wiki.ros.org/urg_node (old: http://wiki.ros.org/hokuyo_node
+"ydlidar": https://github.com/YDLIDAR/ydlidar_ros
 "rplidar": http://wiki.ros.org/rplidar
 "sick": http://wiki.ros.org/sick_scan
-"ydlidar": https://github.com/YDLIDAR/ydlidar_ros
 ```
-**LIDAR** [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
+LIDAR [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
 – often represent 3D laser scanning
 ```js
 "velodyne": http://wiki.ros.org/velodyne
 ```
-IMU:  
+IMU [inertial measurement unit]:  
 ```js
 "SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
+"MicroStrain 3DM-GX5-35": http://wiki.ros.org/microstrain_3dm_gx5_45
 ```
-Odometry&3D scanning environment
+Odometry & 3D scanning environment
 ```js
 "Kaarta": https://www.kaarta.com/
 "matterport": https://matterport.com/
@@ -174,7 +179,7 @@ Matrix barcode (Fiducial Marker Systems)
 ```js
 "ARTag": http://wiki.ros.org/ar_track_alvar
 "AprilTag": http://wiki.ros.org/apriltag_ros
-"CALTag":  
+"CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 ```
 
