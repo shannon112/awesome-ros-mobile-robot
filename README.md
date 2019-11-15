@@ -444,14 +444,12 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
 ## 7_Localization
-amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
+amcl | Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
-SLAM algorithms support pure localization:
-```
-google_cartographer, ORB_SLAM2, RTAB-Map, ...
-```
+SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
 
 ## 8_Map
+2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
 Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
