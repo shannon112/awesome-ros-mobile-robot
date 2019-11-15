@@ -291,63 +291,44 @@ Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
 ## 5_SLAM
 Related work keyword
 ```
-Graph-Based optimization / Particle filter / Kalman filter series
+Graph-Based optimization / Particle filter / Kalman filter series / learning based
 Direct / Indirect Visual Processing
 Tightly / Loosely -coupled Sensor Fusion
 Dense / Semi-Dense / Sparse map
-2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map
+2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel
 ```
-Dataset
+SLAM benchmark (dataset)
 ```
-KITTI: 
-EuRoC:
-TUM RGB-D:
-MIT Stata Center:
+(KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
+(MIT Stata Center) Fallon, Maurice, et al. "The mit stata center dataset." The International Journal of Robotics Research 32.14 (2013): 1695-1699.
+(Radish) A.Howard and N.Roy, "The robotics data set repository." 2003. [Online]. Available: http://radish.sourceforge.net/ , http://ais.informatik.uni-freiburg.de/slamevaluation/datasets.php
+(measurement) R.K ̈ummerle,  B.Steder,  C.Dornhege,  M.Ruhnke,  G.Grisetti, C.Stachniss, and A.Kleiner, "On measuring the accuracy of SLAMalgorithms," Autonomous Robots, vol. 27, no. 4, pp. 387–407, 2009.
 ```
-The classical SLAM theorem
+Classical SLAM theorem
 ```
 T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
 H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
 ```
 SLAM tutorial
 ```
-Strasdat, Hauke, José MM Montiel, and Andrew J. Davison. "Visual SLAM: why filter?." Image and Vision Computing 30.2 (2012): 65-77.
+Strasdat, Hauke, José MM Montiel, and Andrew J. Davison. "Visual SLAM: why filter?." Image and Vision Computing 30.2 (2012): 65-77. (comparison between filter and graph)
 Grisetti, Giorgio, et al. "A tutorial on graph-based SLAM." IEEE Intelligent Transportation Systems Magazine 2.4 (2010): 31-43.
 ```
-General SLAM survey paper
+SLAM survey paper
 ```
-Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard
-, “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
+Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard, “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
 ```
 VINS survey paper
 ```
 G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
 ```
-Cartographer - odom + rangeSensor + IMU
+cartographer - rangeSensor, odom, imu
 ```
 Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
 https://github.com/googlecartographer/cartographer
 https://github.com/googlecartographer/cartographer_ros
 ```
-#40 ORB-SLAM2 - Stereo, mono, RGBD
-```
-201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
-[Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
-[Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
-[DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
-https://github.com/appliedAI-Initiative/orb_slam_2_ros
-https://github.com/ethz-asl/orb_slam_2_ros
-https://github.com/raulmur/ORB_SLAM2
-https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
-```
-#54 RTAB-Map - RGB-D, Stereo and Lidar
-```
-A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
-M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
-http://introlab.github.io/rtabmap/
-https://github.com/introlab/rtabmap_ros
-```
-Gmapping - laser, odom
+gmapping - laser, odom
 ```
 G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
 http://wiki.ros.org/gmapping
@@ -357,24 +338,30 @@ hector_slam - laser, imu
 S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
 http://wiki.ros.org/hector_slam
 ```
-cognitive related SLAM
+karto_slam - laser, odom
+```
+karto SLAM, ROS package. accessed Nov, 2016. [online], wiki.ros.org/slam_karto
+```
+ViTa-SLAM - cognitive related SLAM
 ```
 ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation whileInteracting with Aliased Environments
 https://arxiv.org/pdf/1906.06422.pdf
 ```
-semantic mappping
+Kimera - semantic mappping
 ```
 Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping
 ```
 
 ## 5-1_Dense RGBD SLAM
-RGBD SLAM benchmark
+RGB-D SLAM benchmark (dataset)
 ```
+(KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
 (TUM rgbd) Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
 (ICL-NUIM rgbd) A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
+(EuRoC MAV) Burri, Michael, et al. "The EuRoC micro aerial vehicle datasets." The International Journal of Robotics Research 35.10 (2016): 1157-1163.
 (survey) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
 ```
-RGBD SLAM survey
+RGB-D SLAM survey
 ```
 Jamiruddin, Redhwan, et al. "Rgb-depth slam review." arXiv preprint arXiv:1805.07696 (2018).
 Zollhöfer, Michael, et al. "State of the Art on 3D Reconstruction with RGB‐D Cameras." Computer graphics forum. Vol. 37. No. 2. 2018.
@@ -400,6 +387,24 @@ Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In
 Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011.
 https://vision.in.tum.de/data/software/dvo
 https://github.com/tum-vision/dvo_slam
+```
+ORB-SLAM2 - Stereo, mono, RGBD
+```
+201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
+[Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
+[Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
+[DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
+https://github.com/appliedAI-Initiative/orb_slam_2_ros
+https://github.com/ethz-asl/orb_slam_2_ros
+https://github.com/raulmur/ORB_SLAM2
+https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
+```
+RTAB-Map - RGB-D, Stereo and Lidar
+```
+A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
+M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
+http://introlab.github.io/rtabmap/
+https://github.com/introlab/rtabmap_ros
 ```
 ElasticFusion: root of many dense slam
 ```
