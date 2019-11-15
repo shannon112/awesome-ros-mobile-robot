@@ -366,28 +366,6 @@ RGB-D SLAM survey
 Jamiruddin, Redhwan, et al. "Rgb-depth slam review." arXiv preprint arXiv:1805.07696 (2018).
 Zollhöfer, Michael, et al. "State of the Art on 3D Reconstruction with RGB‐D Cameras." Computer graphics forum. Vol. 37. No. 2. 2018.
 ```
-Kimera mono/stereo/IMU (C++ library)
-```
-A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
-```
-KinectFusion: the first one and the famous one
-```
-Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
-Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
-```
-RGBDv2 SLAM with ROS
-```
-"3D Mapping with an RGB-D Camera", F. Endres, J. Hess, J. Sturm, D. Cremers, W. Burgard, IEEE Transactions on Robotics, 2014.
-https://github.com/felixendres/rgbdslam_v2
-```
-DVO & DVO-SLAM
-```
-Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013.
-Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
-Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011.
-https://vision.in.tum.de/data/software/dvo
-https://github.com/tum-vision/dvo_slam
-```
 ORB-SLAM2 - Stereo, mono, RGBD
 ```
 201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
@@ -399,12 +377,30 @@ https://github.com/ethz-asl/orb_slam_2_ros
 https://github.com/raulmur/ORB_SLAM2
 https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
 ```
+DVO & DVO-SLAM
+```
+Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013.
+Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
+Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011.
+https://vision.in.tum.de/data/software/dvo
+https://github.com/tum-vision/dvo_slam
+```
+RGBDv2 SLAM with ROS
+```
+"3D Mapping with an RGB-D Camera", F. Endres, J. Hess, J. Sturm, D. Cremers, W. Burgard, IEEE Transactions on Robotics, 2014.
+https://github.com/felixendres/rgbdslam_v2
+```
 RTAB-Map - RGB-D, Stereo and Lidar
 ```
 A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
 M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
 http://introlab.github.io/rtabmap/
 https://github.com/introlab/rtabmap_ros
+```
+KinectFusion: the first one and the famous one
+```
+Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
+Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
 ```
 ElasticFusion: root of many dense slam
 ```
@@ -419,6 +415,10 @@ BundleFusion: state of art dense slam
 ```
 Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
 http://graphics.stanford.edu/projects/bundlefusion/
+```
+Kimera mono/stereo/IMU (C++ library)
+```
+A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 ```
 Dense RGBDi with gpu
 ```
