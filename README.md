@@ -349,7 +349,7 @@ https://arxiv.org/pdf/1906.06422.pdf
 ```
 Kimera - semantic mappping
 ```
-Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping
+A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 ```
 
 ## 6_RGBD_SLAM
