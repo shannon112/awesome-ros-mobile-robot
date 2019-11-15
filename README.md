@@ -511,7 +511,8 @@ Self-Driving Cars:
 
 ### (2) Famous robotics conferences & journals
 Top IEEE conference: ```IROS, ICRA```  
-Top IEEE journal: ```IEEE_Transactions_on_Robotics_and_Automation, IEEE_Transactions_on_Robotics```  
+Top IEEE journal: ```IEEE_Transactions_on_Robotics_and_Automation(old), IEEE_Transactions_on_Robotics, 
+IEEE Transactions on Automation Science and Engineering```  
 The IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-workshops  
 The IEEE Industrial Electronics Society: http://www.ieee-ies.org/conferences  
 Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
