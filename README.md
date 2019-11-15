@@ -25,6 +25,7 @@ This repository provides some useful resources and informations about **autonomo
 ## 0_Robotics
 Books:
 ```js
+"Introduction to Algorithms", Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
 "Probabilistic Robotics", Sebastian Thrun 
 "Introduction to Linear Algebra", Five Edition, Gilbert Strang
@@ -64,6 +65,7 @@ ROS blogs&channel:
 ```
 Books:
 ```js
+"C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
 "ROS by Example", python, Patrick Goebel
 "Mastering ROS for Robotics Programming", C++, Lentin Joseph
 "Learning ROS for Robotics Programming", C++, Enrique Fernandez
