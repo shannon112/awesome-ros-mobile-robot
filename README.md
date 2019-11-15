@@ -184,15 +184,7 @@ Matrix barcode (Fiducial Marker Systems)
 ```
 
 ## 4_odometry
-Wheel encoder odometry
-```
-Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
-```
-Sensor fusion ros pkg 
-```
-ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
-ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
-```
+
 #1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
 201905KITTI#1#2 - Laser Odometry and Mapping (Loam) is a realtime method for state estimation and mapping using a 3D lidar.
@@ -207,7 +199,7 @@ https://github.com/cuitaixiang/LOAM_NOTED
 201905KITTI#3#5
 Jean-Emmanuel Deschaud, "IMLS-SLAM: scan-to-model matching based on 3D data", arXiv:1802.08633 [cs.RO]
 ```
-#4,17 SOFT, SOFT2 - Stereo 
+#4#17 SOFT, SOFT2 - Stereo 
 ```
 201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
 Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
@@ -237,10 +229,28 @@ VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Ton
 https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
 https://github.com/HKUST-Aerial-Robotics/VINS-Mono
 ```
+#40 ORB-SLAM2 - Stereo, mono, RGBD
+```
+201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
+[Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
+[Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
+[DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
+https://github.com/appliedAI-Initiative/orb_slam_2_ros
+https://github.com/ethz-asl/orb_slam_2_ros
+https://github.com/raulmur/ORB_SLAM2
+https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
+```
 #48 VoBa - IMU, visual-aided
 ```
 201905KITTI#48
 J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
+```
+#54 RTAB-Map - RGB-D, Stereo and Lidar
+```
+A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
+M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
+http://introlab.github.io/rtabmap/
+https://github.com/introlab/rtabmap_ros
 ```
 #109 VISO2 - Stereo or Mono
 ```
@@ -248,14 +258,6 @@ Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d re
 http://wiki.ros.org/viso2_ros
 http://www.cvlibs.net/software/libviso/
 ```
-
-rf2o - 2D laser
-```
-M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
-Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
-Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
-```
-
 DeepVO - learning_based: RGB
 ```
 S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
@@ -269,6 +271,22 @@ VINET - learning_based: RGB + IMU
 Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 https://github.com/HTLife/VINet
 ```
+Wheel encoder odometry
+```
+Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
+```
+Odometry fusion ros pkg 
+```
+ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
+ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
+```
+rf2o - 2D laser
+```
+M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
+Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
+Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
+```
+
 
 ## 5_SLAM
 Related work keyword
