@@ -12,10 +12,10 @@ This repository provides some useful resources and informations about **autonomo
 * [3.Robot sensor](README.md#3_robot_sensor)
 * [4.Odometry](README.md#4_odometry)
 * [5.SLAM](README.md#5_slam)
-* [6.Localization](README.md#6_localization)
-* [7.MAP](README.md#7_map)
-* [8.Navigation (move_base)](README.md#8_navigation_movebase)
-* [9.Navigation (advanced)](README.md#9_navigation_advanced)
+* [6.RGB-D SLAM](README.md#6_RGBD_slam)
+* [7.Localization](README.md#7_localization)
+* [8.MAP](README.md#8_map)
+* [9.Navigation](README.md#9_navigation)
 * [10.Others (Non-tech)](README.md#10_others_non_tech_part)
   * (1)Famous robotics company  
   * (2)Famous robotics conference&journal  
@@ -352,7 +352,7 @@ Kimera - semantic mappping
 Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping
 ```
 
-## 5-1_Dense RGBD SLAM
+## 6_RGBD_SLAM
 RGB-D SLAM benchmark (dataset)
 ```
 (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
@@ -443,7 +443,7 @@ M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Si
 https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
-## 6_Localization
+## 7_Localization
 amcl Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
 SLAM algorithms support pure localization:
@@ -451,14 +451,13 @@ SLAM algorithms support pure localization:
 google_cartographer, ORB_SLAM2, RTAB-Map, ...
 ```
 
-## 7_Map
+## 8_Map
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
 Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 ```
 
-
-## 8_Navigation_moveBase
+## 9_Navigation
  > move_base compatible, nav_core supported  
 
 navigation_stack: http://wiki.ros.org/navigation  
@@ -480,8 +479,6 @@ C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories
 C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
 Source code: https://github.com/rst-tu-dortmund/teb_local_planner
 ```
-
-## 9_Navigation_advanced
 condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
 ```
 MIT AerospaceControlsLab
