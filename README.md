@@ -489,15 +489,15 @@ https://www.youtube.com/watch?v=GPp5mnybm8g
 Research center:  
 ```Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI```  
 Manipulator:  
-```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots  ```  
+```ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots, Innfos```  
 Mobile Robot(AGV, base only):  
-```omron_robotics, clearpath_robotics&OTTO_Motors, amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, fetch_robotics, GreenTrans, KUKA, iRobot, pal_robotics, Robotnik_Automation```  
+```Omron_robotics, Clearpath_robotics&OTTO_Motors, Amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, Fetch_robotics, GreenTrans, KUKA, iRobot, Pal_robotics, Robotnik_Automation```  
 Service robot(with torso):  
-```willow_garage, softbank_robotics, fetch_robotics, pal_robotics, Robotnik_Automation```  
+```Willow_garage, Softbank_robotics, Fetch_robotics, Pal_robotics, Robotnik_automation, Innfos```  
 Humanoid:  
-```boston_dynamics, softbank_robotics, pal_robotics```  
+```Boston_dynamics, Softbank_robotics, Pal_robotics```  
 Quadruped:  
-```boston_dynamics, unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo```  
+```Boston_dynamics, Unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo, Innfos```  
 Drone:  
 ```Dji, Tello```  
 ROS2.0:  
@@ -510,11 +510,11 @@ Self-Driving Cars:
 ```Alphabet Waymo, Uber, Apple Project Titan```  
 
 ### (2) Famous robotics conferences & journals
-Top conference: ```IROS, ICRA```  
-Top journal: ```IEEE_Transactions_on_Robotics_and_Automation, IEEE_Transactions_on_Robotics```  
+Top IEEE conference: ```IROS, ICRA```  
+Top IEEE journal: ```IEEE_Transactions_on_Robotics_and_Automation, IEEE_Transactions_on_Robotics```  
 The IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-workshops  
-The Industrial Electronics Society: http://www.ieee-ies.org/conferences  
-google scholar rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
+The IEEE Industrial Electronics Society: http://www.ieee-ies.org/conferences  
+Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 
 ### (3) Famous robotics competition
 Global:
@@ -534,13 +534,13 @@ In Taiwan:
 ```
 
 ### (4) Famous ros organizations & activities
-ros related work:
+ROS related work:
 ```js
 "ROS-industrial": https://rosindustrial.org/
 "ROS2.0": https://design.ros2.org/
 "ROS-H": https://acutronicrobotics.com/technology/H-ROS/"
 ```
-organizations:
+organizations/communities:
 ```js
 "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
 "Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
