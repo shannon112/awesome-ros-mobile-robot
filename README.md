@@ -534,9 +534,9 @@ https://www.youtube.com/watch?v=GPp5mnybm8g
 | IEEE_Transactions_on_Robotics_and_Automation(old) | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856  |
 | IEEE Transactions on Automation Science and Engineering | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856  |
 | IEEE_Transactions_on_Robotics | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860  |
-| IEEE Robotics and Automation Society | https://www.ieee-ras.org/conferences-workshops  |
-| IEEE Industrial Electronics Society | http://www.ieee-ies.org/conferences |
 
+IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-workshops  
+IEEE Industrial Electronics Society: http://www.ieee-ies.org/conferences  
 Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 
 ### (3) Famous robotics competition
