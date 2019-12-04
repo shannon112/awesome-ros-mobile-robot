@@ -526,6 +526,10 @@ ETHz Autonomous System Lab
 M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models," 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
 https://www.youtube.com/watch?v=GPp5mnybm8g
 ```
+coverage navigation servey
+```
+Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
+```
 
 ## 11_Others_Non_tech_part
 ### (1) Famous robotics related company
