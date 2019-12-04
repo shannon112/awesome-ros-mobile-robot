@@ -10,13 +10,14 @@ This repository provides some useful resources and informations about **autonomo
 * [1.ROS](README.md#1_ros)
 * [2.Robot platform](README.md#2_robot_platform)
 * [3.Robot sensor](README.md#3_robot_sensor)
-* [4.Odometry](README.md#4_odometry)
-* [5.SLAM](README.md#5_slam)
-* [6.RGB-D SLAM](README.md#6_RGBD_slam)
-* [7.Localization](README.md#7_localization)
-* [8.MAP](README.md#8_map)
-* [9.Navigation](README.md#9_navigation)
-* [10.Others (Non-tech)](README.md#10_others_non_tech_part)
+* [4.Calibration](README.md#4_calibration)
+* [5.Odometry](README.md#5_odometry)
+* [6.SLAM](README.md#6_slam)
+* [7.RGB-D SLAM](README.md#7_RGBD_slam)
+* [8.Localization](README.md#8_localization)
+* [9.MAP](README.md#9_map)
+* [10-.Navigation](README.md#10_navigation)
+* [11.Others (Non-tech)](README.md#11_others_non_tech_part)
   * (1)Famous robotics company  
   * (2)Famous robotics conference&journal  
   * (3)Famous robotics competition in Taiwan  
@@ -184,8 +185,14 @@ Matrix barcode (Fiducial Marker Systems)
 "CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 ```
+## 4_calibration
+eye-in-hand
+```
+Domae, Yukiyasu, et al. "Fast graspability evaluation on single depth maps for bin picking with general grippers." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
+Mano, Kousuke, et al. "Fast and Precise Detection of Object Grasping Positions with Eigenvalue Templates." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
+```
 
-## 4_odometry
+## 5_odometry
 
 #1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
@@ -290,7 +297,7 @@ Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
 ```
 
 
-## 5_SLAM
+## 6_SLAM
 Related work keyword
 ```
 Graph-Based optimization / Particle filter / Kalman filter series / learning based
@@ -354,7 +361,7 @@ Kimera - semantic mappping
 A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 ```
 
-## 6_RGBD_SLAM
+## 7_RGBD_SLAM
 RGB-D SLAM benchmark (dataset)
 ```
 (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
@@ -445,19 +452,19 @@ M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Si
 https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
-## 7_Localization
+## 8_Localization
 amcl | Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
 SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
 
-## 8_Map
+## 9_Map
 2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
 Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 ```
 
-## 9_Navigation
+## 10_Navigation
  > move_base compatible, nav_core supported  
 
 navigation_stack: http://wiki.ros.org/navigation  
@@ -509,7 +516,7 @@ M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting
 https://www.youtube.com/watch?v=GPp5mnybm8g
 ```
 
-## 10_Others_Non_tech_part
+## 11_Others_Non_tech_part
 ### (1) Famous robotics related company
 | categories | companies |
 | --------   | -------- |
