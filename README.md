@@ -186,6 +186,17 @@ Matrix barcode (Fiducial Marker Systems)
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 ```
 ## 4_calibration
+camera calibration
+```
+http://wiki.ros.org/camera_calibration_parsers
+http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
+```
+IMU(9dof-razor-imu-m0) calibration
+```
+https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
+https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
+http://wiki.ros.org/razor_imu_9dof
+```
 eye-in-hand
 ```
 Domae, Yukiyasu, et al. "Fast graspability evaluation on single depth maps for bin picking with general grippers." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
