@@ -541,6 +541,7 @@ Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robo
 | Service robot(with torso) | Willow_garage, Softbank_robotics, Fetch_robotics, Pal_robotics, Robotnik_automation, Innfos |  
 | Humanoid | Boston_dynamics, Softbank_robotics, Pal_robotics |
 | Quadruped | Boston_dynamics, Unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo, Innfos |
+| Educational Rotbot | Willow_garage(Pr2), Facebook(pyrobot), ROBOTIS(turtlebot3), Fetch_robotics |
 | Drone | Dji, Tello |
 | ROS2.0 | ADLINK |  
 | Cleaning | iRobot |  
