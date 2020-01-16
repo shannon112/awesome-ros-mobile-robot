@@ -201,6 +201,11 @@ eye-in-hand
 ```
 Domae, Yukiyasu, et al. "Fast graspability evaluation on single depth maps for bin picking with general grippers." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
 Mano, Kousuke, et al. "Fast and Precise Detection of Object Grasping Positions with Eigenvalue Templates." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
+https://blog.csdn.net/u011089570/article/details/47945733
+https://www.twblogs.net/a/5bb026aa2b7177781a0fc79a
+http://wiki.ros.org/rc_visard/Tutorials/HandEyeCalibration
+https://github.com/IFL-CAMP/easy_handeye
+http://math.loyola.edu/~mili/Calibration/index.html
 ```
 
 ## 5_odometry
