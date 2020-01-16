@@ -35,7 +35,7 @@ Books:
 Courses:
 ```js
 "Robot Mapping" {Universität of Freiburg} Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
-"機器人學一 (Robotics (1))" {NTU} 林沛群: https://www.coursera.org/learn/robotics1
+"機器人學一 (Robotics (1))" {NTU} 林沛群: https://www.coursera.org/learn/robotics1, http://peichunlin.me.ntu.edu.tw/Homepage/Intro2Robotics.htm
 "Control of Mobile Robots" {Georgia Tech} Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
 "Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
 "Robotics" {UPenn} https://zh-tw.coursera.org/specializations/robotics
