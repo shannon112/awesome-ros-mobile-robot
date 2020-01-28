@@ -186,19 +186,18 @@ Matrix barcode (Fiducial Marker Systems)
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 ```
 ## 4_calibration
+
 camera calibration
 ```
 https://www.mathworks.com/help/vision/ug/camera-calibration.html
+```
+Camera intrinsic parameters calibration 
+```
+http://wiki.ros.org/camera_calibration
 http://wiki.ros.org/camera_calibration_parsers
-http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
+http://wiki.ros.org/camera_calibration/Tutorials
 ```
-IMU(9dof-razor-imu-m0) calibration
-```
-https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
-https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
-http://wiki.ros.org/razor_imu_9dof
-```
-eye-in-hand
+Camera extrinsic parameters calibration (eye-in-hand)
 ```sh
 #Papers
 M. Shah, R. D. Eastman, T. Hong, An Overview of Robot-Sensor Calibration Methods for Evaluation of Perception Systems, Performance Metrics for Intelligent Systems, (2012). 
@@ -212,6 +211,12 @@ http://math.loyola.edu/~mili/Calibration/index.html
 #Tools
 http://wiki.ros.org/rc_visard/Tutorials/HandEyeCalibration
 https://github.com/IFL-CAMP/easy_handeye
+```
+IMU(9dof-razor-imu-m0) calibration
+```
+https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
+https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
+http://wiki.ros.org/razor_imu_9dof
 ```
 
 ## 5_odometry
