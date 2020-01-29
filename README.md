@@ -189,31 +189,31 @@ Matrix barcode (Fiducial Marker Systems)
 
 camera calibration
 ```
+# tutorials
 https://www.mathworks.com/help/vision/ug/camera-calibration.html
 https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
 https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
 http://wiki.ros.org/image_pipeline/CameraInfo
+# papers
 Bouguet, Jean-Yves. “Camera calibration toolbox for matlab.” (2001).
 Z. Zhang, "A flexible new technique for camera calibration," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 22, no. 11, pp. 1330-1334, Nov. 2000.
-```
-Camera calibration tool
-```
+# tools
 http://wiki.ros.org/camera_calibration
 http://wiki.ros.org/camera_calibration_parsers
 http://wiki.ros.org/camera_calibration/Tutorials
 ```
-Camera hand-eye calibration on manipulator
+Hand-eye calibration on manipulator
 ```sh
-#Papers
-M. Shah, R. D. Eastman, T. Hong, An Overview of Robot-Sensor Calibration Methods for Evaluation of Perception Systems, Performance Metrics for Intelligent Systems, (2012). 
-[1] Tsai, Roger Y., and Reimar K. Lenz. "A new technique for fully autonomous and efficient 3D robotics hand/eye calibration." Robotics and Automation, IEEE Transactions on 5.3 (1989): 345-358.
-Domae, Yukiyasu, et al. "Fast graspability evaluation on single depth maps for bin picking with general grippers." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
-Mano, Kousuke, et al. "Fast and Precise Detection of Object Grasping Positions with Eigenvalue Templates." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
-#Tutorials
+# tutorials
 https://blog.csdn.net/u011089570/article/details/47945733
 https://www.twblogs.net/a/5bb026aa2b7177781a0fc79a
 http://math.loyola.edu/~mili/Calibration/index.html
-#Tools
+# papers
+M. Shah, R. D. Eastman, T. Hong, An Overview of Robot-Sensor Calibration Methods for Evaluation of Perception Systems, Performance Metrics for Intelligent Systems, (2012). 
+Tsai, Roger Y., and Reimar K. Lenz. "A new technique for fully autonomous and efficient 3D robotics hand/eye calibration." Robotics and Automation, IEEE Transactions on 5.3 (1989): 345-358.
+Domae, Yukiyasu, et al. "Fast graspability evaluation on single depth maps for bin picking with general grippers." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
+Mano, Kousuke, et al. "Fast and Precise Detection of Object Grasping Positions with Eigenvalue Templates." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
+# tools
 http://wiki.ros.org/rc_visard/Tutorials/HandEyeCalibration
 https://github.com/IFL-CAMP/easy_handeye
 ```
