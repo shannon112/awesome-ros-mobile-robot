@@ -190,14 +190,19 @@ Matrix barcode (Fiducial Marker Systems)
 camera calibration
 ```
 https://www.mathworks.com/help/vision/ug/camera-calibration.html
+https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
+https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
+http://wiki.ros.org/image_pipeline/CameraInfo
+Bouguet, Jean-Yves. “Camera calibration toolbox for matlab.” (2001).
+Z. Zhang, "A flexible new technique for camera calibration," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 22, no. 11, pp. 1330-1334, Nov. 2000.
 ```
-Camera intrinsic parameters calibration 
+Camera calibration tool
 ```
 http://wiki.ros.org/camera_calibration
 http://wiki.ros.org/camera_calibration_parsers
 http://wiki.ros.org/camera_calibration/Tutorials
 ```
-Camera extrinsic parameters calibration (eye-in-hand)
+Camera hand-eye calibration on manipulator
 ```sh
 #Papers
 M. Shah, R. D. Eastman, T. Hong, An Overview of Robot-Sensor Calibration Methods for Evaluation of Perception Systems, Performance Metrics for Intelligent Systems, (2012). 
