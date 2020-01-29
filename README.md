@@ -188,7 +188,7 @@ Matrix barcode (Fiducial Marker Systems)
 ## 4_calibration
 
 camera calibration
-```
+```sh
 # tutorials
 https://www.mathworks.com/help/vision/ug/camera-calibration.html
 https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
