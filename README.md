@@ -165,8 +165,9 @@ LIDAR [light detection and ranging] [light imaging, detection, and ranging] [3D 
 ```
 IMU [inertial measurement unit]:  
 ```js
-"SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
 "MicroStrain 3DM-GX5-35": http://wiki.ros.org/microstrain_3dm_gx5_45
+"SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
+Premerlani, William, and Paul Bizard. "Direction cosine matrix imu: Theory." Diy Drone: Usa (2009): 13-15.
 ```
 Odometry & 3D scanning environment
 ```js
