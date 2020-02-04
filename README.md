@@ -362,6 +362,7 @@ Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ;
 ```
 VINS survey paper
 ```
+Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
 ```
 cartographer - rangeSensor, odom, imu
