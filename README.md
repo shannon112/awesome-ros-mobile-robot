@@ -588,6 +588,8 @@ Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_v
 IEEE Robotics and Automation Society Conferences: https://ras.papercept.net/conferences/scripts/start.pl    
 IEEE Industrial Electronics Society Conferences: http://www.ieee-ies.org/conferences  
 
+compress pdf: https://www.sodapdf.com/compress-pdf/  
+
 ### (3) Famous robotics competition
 Global:
 ```js
