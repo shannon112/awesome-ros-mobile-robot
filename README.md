@@ -585,6 +585,9 @@ IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-works
 IEEE Industrial Electronics Society: http://www.ieee-ies.org/conferences  
 Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 
+IEEE Robotics and Automation Society Conferences: hhttps://ras.papercept.net/conferences/scripts/start.pl    
+IEEE Industrial Electronics Society Conferences: http://www.ieee-ies.org/conferences  
+
 ### (3) Famous robotics competition
 Global:
 ```js
