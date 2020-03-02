@@ -107,6 +107,11 @@ ROS mobile manipulator
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
 ```
+```
+Wise, Melonee, et al. "Fetch and freight: Standard platforms for service robot applications." Workshop on autonomous mobile service robots. 2016.
+Bischoff, Rainer, Ulrich Huggenberger, and Erwin Prassler. "Kuka youbot-a mobile manipulator for research and education." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
+Yamamoto, Yoshio, and Xiaoping Yun. "Coordinating locomotion and manipulation of a mobile manipulator." IEEE Transactions on Automatic Control 39.6 (1994): 1326-1332.
+```
 ROS manipulator
 ```js
 "Franka Emika panda": https://github.com/frankaemika/franka_ros | https://github.com/ros-planning/panda_moveit_config
