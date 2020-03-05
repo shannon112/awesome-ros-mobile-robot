@@ -98,6 +98,8 @@ ROS mobile robot
 "turtlebot3": https://github.com/ROBOTIS-GIT/turtlebot3
 "clearpath husky": https://github.com/husky
 "clearpath jackel": https://github.com/jackal
+"Robotnik XL-GEN": https://github.com/RobotnikAutomation/summit_xl_sim or summit_xl_common
+"Robotnik RB-KAIROS": https://github.com/RobotnikAutomation/rbkairos_sim or rbkairos_common
 ```
 ROS mobile manipulator
 ```js
@@ -106,11 +108,7 @@ ROS mobile manipulator
 "fetch robotics": https://github.com/fetchrobotics
 "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
 "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
-```
-```
-Wise, Melonee, et al. "Fetch and freight: Standard platforms for service robot applications." Workshop on autonomous mobile service robots. 2016.
-Bischoff, Rainer, Ulrich Huggenberger, and Erwin Prassler. "Kuka youbot-a mobile manipulator for research and education." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
-Yamamoto, Yoshio, and Xiaoping Yun. "Coordinating locomotion and manipulation of a mobile manipulator." IEEE Transactions on Automatic Control 39.6 (1994): 1326-1332.
+"Robotnik RB-1": https://github.com/RobotnikAutomation/rb1_sim or rb1_common
 ```
 ROS manipulator
 ```js
@@ -118,18 +116,25 @@ ROS manipulator
 "Universal Robot 3/5/10/e": https://github.com/ros-industrial/universal_robot
 "Techman Robot": https://github.com/kentsai0319/techman_robot
 ```
+mobile manipulation/manipulator paper
+```
+"fetch robotics": Wise, Melonee, et al. "Fetch and freight: Standard platforms for service robot applications." Workshop on autonomous mobile service robots. 2016.
+kuka youbot": Bischoff, Rainer, Ulrich Huggenberger, and Erwin Prassler. "Kuka youbot-a mobile manipulator for research and education." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
+Yamamoto, Yoshio, and Xiaoping Yun. "Coordinating locomotion and manipulation of a mobile manipulator." IEEE Transactions on Automatic Control 39.6 (1994): 1326-1332.
+```
 processing unit: 
 ```
 Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
 Odroid XU4, Odroid N2, Asus tinker board
 NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, NVIDIA Jetson Xavier
 ```  
-motor & controller:  
+motor & controller & encoder:  
 ```
 Elmo Motion Control Ltd,
 Dr. Fritz Faulhaber GmbH & Co. KG,
 Maxon group motors & drivers, 
 Dexmart motors & drivers (Trumman Technology Corp)
+RLS: https://www.rls.si/
 ```  
 
 ## 3_Robot_sensor
