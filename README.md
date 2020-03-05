@@ -118,8 +118,8 @@ ROS manipulator
 ```
 mobile manipulation/manipulator paper
 ```
-"fetch robotics": Wise, Melonee, et al. "Fetch and freight: Standard platforms for service robot applications." Workshop on autonomous mobile service robots. 2016.
-kuka youbot": Bischoff, Rainer, Ulrich Huggenberger, and Erwin Prassler. "Kuka youbot-a mobile manipulator for research and education." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
+Wise, Melonee, et al. "Fetch and freight: Standard platforms for service robot applications." Workshop on autonomous mobile service robots. 2016.
+Bischoff, Rainer, Ulrich Huggenberger, and Erwin Prassler. "Kuka youbot-a mobile manipulator for research and education." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
 Yamamoto, Yoshio, and Xiaoping Yun. "Coordinating locomotion and manipulation of a mobile manipulator." IEEE Transactions on Automatic Control 39.6 (1994): 1326-1332.
 ```
 processing unit: 
@@ -148,7 +148,7 @@ RGB-D camera:
 ```js
 "microsoft kinectv1 with openni": https://github.com/ros-drivers/openni_camera
 "microsoft kinectv1 with freenect": https://github.com/ros-drivers/freenect_stack
-"microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
+"microsoft kinect one/v2": https://github.com/code-iai/iai_kinect2
 "asus xtion with openni2": https://github.com/ros-drivers/openni2_camera
 "intel realsense d435": https://github.com/intel-ros/realsense
 ```
@@ -184,6 +184,7 @@ Odometry & 3D scanning environment & novel sensing
 "Kaarta": https://www.kaarta.com/
 "matterport": https://matterport.com/
 "Intel LiDAR Camera L515": https://www.intelrealsense.com/lidar-camera-l515/
+"microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
 ```
 Microphone array
 ```js
@@ -200,13 +201,14 @@ Matrix barcode (Fiducial Marker Systems, or ARTag)
 
 ## 4_calibration
 
-camera calibration
+camera calibration (intrinsic and extrinsic parameters)
 ```sh
 # tutorials
 https://www.mathworks.com/help/vision/ug/camera-calibration.html
 https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
 https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
 http://wiki.ros.org/image_pipeline/CameraInfo
+http://wiki.ros.org/rgbd_launch
 # papers
 Bouguet, Jean-Yves. “Camera calibration toolbox for matlab.” (2001).
 Z. Zhang, "A flexible new technique for camera calibration," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 22, no. 11, pp. 1330-1334, Nov. 2000.
@@ -325,6 +327,12 @@ VINET - learning_based: RGB + IMU
 Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 https://github.com/HTLife/VINet
 ```
+rf2o - 2D laser odometry
+```
+M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
+Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
+Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
+```
 Wheel encoder odometry
 ```
 Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
@@ -334,19 +342,12 @@ Odometry fusion ros pkg
 ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
-rf2o - 2D laser
-```
-M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
-Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
-Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
-```
-
 
 ## 6_SLAM
 Related work keyword
 ```
-Graph-Based optimization / Particle filter / Kalman filter series / learning based
-Direct / Indirect Visual Processing
+Graph-Based optimization / Particle filter / Kalman filter series / Learning based
+Direct / Feature -based Visual Processing
 Tightly / Loosely -coupled Sensor Fusion
 Dense / Semi-Dense / Sparse map
 2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel
@@ -372,12 +373,12 @@ SLAM survey paper
 ```
 Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard, “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
 ```
-VINS survey paper
+Visual-Inertial survey paper
 ```
 Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
 ```
-cartographer - rangeSensor, odom, imu
+cartographer - laser/LiDAR, odom, imu
 ```
 Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
 https://github.com/googlecartographer/cartographer
@@ -408,13 +409,13 @@ A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for R
 ```
 
 ## 7_RGBD_SLAM
-RGB-D SLAM benchmark (dataset)
+RGB-D benchmark (dataset)
 ```
 (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
 (TUM rgbd) Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
 (ICL-NUIM rgbd) A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
 (EuRoC MAV) Burri, Michael, et al. "The EuRoC micro aerial vehicle datasets." The International Journal of Robotics Research 35.10 (2016): 1157-1163.
-(survey) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
+(survey dataset) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
 ```
 RGB-D SLAM survey
 ```
@@ -471,10 +472,6 @@ BundleFusion: state of art dense slam
 Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
 http://graphics.stanford.edu/projects/bundlefusion/
 ```
-Kimera mono/stereo/IMU (C++ library)
-```
-A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
-```
 Dense RGBDi with gpu
 ```
 Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
@@ -511,7 +508,9 @@ Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wol
 ```
 
 ## 10_Navigation
- > move_base compatible, nav_core supported  
+condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
+
+> move_base compatible, nav_core supported  
 
 navigation_stack: http://wiki.ros.org/navigation  
 ```js
@@ -532,36 +531,35 @@ C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories
 C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
 Source code: https://github.com/rst-tu-dortmund/teb_local_planner
 ```
-condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
+> novel navigation strategy 
+
+MIT AerospaceControlsLab DRL navigation
 ```
-MIT AerospaceControlsLab
 Y. F. Chen, M. Liu, M. Everett and J. P. How "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 285-292. 
 https://www.youtube.com/watch?v=PS2UoyCTrSw
 https://www.youtube.com/watch?v=BryJ9jeBkbU
 ```
 ```
-MIT AerospaceControlsLab
 Y. F. Chen, M. Everett, M. Liu and J. P. How, "Socially aware motion planning with deep reinforcement learning," 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, 2017, pp. 1343-1350.
 https://www.youtube.com/watch?v=CK1szio7PyA&t=2s
 ```
 ```
-MIT AerospaceControlsLab
 M. Everett, Y. F. Chen and J. P. How, "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018, pp. 3052-3059.
 https://www.youtube.com/watch?v=XHoXkWLhwYQ
 ```
+Google AI Research PRM-RL navigation
 ```
-Google AI Research
 A. Faust et al., "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
 Francis, Anthony & Faust, Aleksandra & Chiang, Hao-Tien Lewis & Hsu, Jasmine & Chase Kew, J & Fiser, Marek & Edward Lee, Tsang-Wei. (2019). Long-Range Indoor Navigation with PRM-RL. 
 H. L. Chiang, A. Faust, M. Fiser and A. Francis, "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.
 https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
 ```
+ETHz Autonomous System Lab navigation
 ```
-ETHz Autonomous System Lab
 M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models," 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
 https://www.youtube.com/watch?v=GPp5mnybm8g
 ```
-coverage navigation servey
+Coverage navigation servey (cleaning or weeding robot)
 ```
 Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
 ```
