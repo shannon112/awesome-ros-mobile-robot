@@ -568,20 +568,20 @@ Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robo
 ### (1) Famous robotics related company
 | categories | companies |
 | --------   | -------- |
-| Research center | Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI |
+| Research center | Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI, DeepMind, Facebook_Artificial_Intelligence_Research(FAIR), Berkeley_Artificial_Intelligence_Research (BAIR), Nvidia_Research |
 | Manipulator | ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots, Innfos |
-| Mobile Robot(AGV, base only) | Omron_robotics, Clearpath_robotics&OTTO_Motors, Amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, Fetch_robotics, GreenTrans, KUKA, iRobot, Pal_robotics, Robotnik_Automation | 
-| Service robot(with torso) | Willow_garage, Softbank_robotics, Fetch_robotics, Pal_robotics, Robotnik_automation, Innfos |  
+| Mobile Robot(AGV, base only) | Omron_robotics, Clearpath_robotics&OTTO_Motors, Amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, Fetch_robotics, GreenTrans, KUKA, iRobot, Pal_robotics, Robotnik | 
+| Service robot(with torso) | Willow_garage, Softbank_robotics, Fetch_robotics, Pal_robotics, Robotnik_automation, Innfos, Robotnik |  
 | Humanoid | Boston_dynamics, Softbank_robotics, Pal_robotics |
 | Quadruped | Boston_dynamics, Unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo, Innfos |
-| Educational Rotbot | Willow_garage(Pr2), Facebook(pyrobot), ROBOTIS(turtlebot3), Fetch_robotics |
+| Educational Rotbot | Willow_garage(Pr2), Facebook(pyrobot), ROBOTIS(turtlebot3), Fetch_robotics, Robotnik(RB-1) |
 | Drone | Dji, Tello |
 | ROS2.0 | ADLINK |  
-| Cleaning | iRobot |  
-| Gripper | ROBOTIQ |  
+| Cleaning | iRobot | 
+| Gripper | ROBOTIQ, TOYO |  
 | Self-Driving Cars | Alphabet Waymo, Uber, Apple Project Titan |
 
-### (2) Famous robotics conferences & journals
+### (2) Famous robotics publications
 
 | Tile | Website |
 | -------- | -------- |
@@ -591,14 +591,17 @@ Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robo
 | IEEE Transactions on Automation Science and Engineering | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856  |
 | IEEE_Transactions_on_Robotics | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860  |
 
-IEEE Robotics and Automation Society: https://www.ieee-ras.org/conferences-workshops  
-IEEE Industrial Electronics Society: http://www.ieee-ies.org/conferences  
+- IEEE Robotics and Automation Society: https://www.ieee-ras.org/  
+Conferences: https://ras.papercept.net/conferences/scripts/start.pl  
+
+- IEEE Industrial Electronics Society: http://www.ieee-ies.org/  
+Conferences: http://www.ieee-ies.org/conferences  
+
+- IEEE Control System Society: http://ieeecss.org/  
+Conferences: http://ieeecss.org/conferences/general-information
+
 Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
-
-IEEE Robotics and Automation Society Conferences: https://ras.papercept.net/conferences/scripts/start.pl    
-IEEE Industrial Electronics Society Conferences: http://www.ieee-ies.org/conferences  
-
-compress pdf: https://www.sodapdf.com/compress-pdf/  
+Compress pdf online: https://www.sodapdf.com/compress-pdf/  
 
 ### (3) Famous robotics competition
 Global:
