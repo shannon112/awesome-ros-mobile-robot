@@ -175,27 +175,29 @@ LIDAR [light detection and ranging] [light imaging, detection, and ranging] [3D 
 ```
 IMU [inertial measurement unit]:  
 ```js
-"MicroStrain 3DM-GX5-35": http://wiki.ros.org/microstrain_3dm_gx5_45
+"Xsense": http://wiki.ros.org/xsens_driver
+"MicroStrain 3DM-GX2": http://wiki.ros.org/microstrain_3dmgx2_imu
 "SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
-Premerlani, William, and Paul Bizard. "Direction cosine matrix imu: Theory." Diy Drone: Usa (2009): 13-15.
 ```
-Odometry & 3D scanning environment
+Odometry & 3D scanning environment & novel sensing
 ```js
 "Kaarta": https://www.kaarta.com/
 "matterport": https://matterport.com/
+"Intel LiDAR Camera L515": https://www.intelrealsense.com/lidar-camera-l515/
 ```
 Microphone array
 ```js
 "microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
 "ReSpeaker Mic Array v2.0": http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
 ```
-Matrix barcode (Fiducial Marker Systems)  
+Matrix barcode (Fiducial Marker Systems, or ARTag)  
 ```js
 "ARTag": http://wiki.ros.org/ar_track_alvar
 "AprilTag": http://wiki.ros.org/apriltag_ros
 "CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 ```
+
 ## 4_calibration
 
 camera calibration
