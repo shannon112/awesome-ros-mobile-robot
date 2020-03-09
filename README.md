@@ -9,8 +9,8 @@ http://wiki.ros.org/Distributions
 ## contents:  
 * [0.Robotics](README.md#0_robotics)
 * [1.ROS](README.md#1_ros)
-* [2.Robot platform](README.md#2_robot_platform)
-* [3.Robot sensor](README.md#3_robot_sensor)
+* [2.Platform](README.md#2_platform)
+* [3.Sensing](README.md#3_sensing)
 * [4.Calibration](README.md#4_calibration)
 * [5.Odometry](README.md#5_odometry)
 * [6.SLAM](README.md#6_slam)
@@ -76,7 +76,7 @@ Books:
 "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 ```
 
-## 2_Robot_platform
+## 2_Platform
 **ROS robots:** https://robots.ros.org/  
 holomic vs. non-holomic
 ```js
@@ -138,7 +138,7 @@ Dexmart motors & drivers (Trumman Technology Corp)
 RLS: https://www.rls.si/
 ```  
 
-## 3_Robot_sensor
+## 3_Sensing
 RGB camera:  
 ```js
 "usb camera": http://wiki.ros.org/usb_cam
@@ -198,6 +198,19 @@ Matrix barcode (Fiducial Marker Systems, or ARTag)
 "AprilTag": http://wiki.ros.org/apriltag_ros
 "CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
+```
+Learning-based feature extractors 
+```js
+"VGG16": 
+"ResNet": 
+"Inception": 
+"MobileNet": 
+```
+Learning-based object detection
+```js
+"Faster R-CNN": 
+"YOLOv3": Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
+"SSD": 
 ```
 
 ## 4_calibration
