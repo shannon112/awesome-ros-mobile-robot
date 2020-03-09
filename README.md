@@ -180,7 +180,7 @@ IMU [inertial measurement unit]:
 "MicroStrain 3DM-GX2": http://wiki.ros.org/microstrain_3dmgx2_imu
 "SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
 ```
-Odometry & 3D scanning environment & novel sensing
+3D scanning & novel sensing device
 ```js
 "Kaarta": https://www.kaarta.com/
 "matterport": https://matterport.com/
@@ -199,18 +199,38 @@ Matrix barcode (Fiducial Marker Systems, or ARTag)
 "CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
 "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 ```
+Text to speech
+```js
+"gTTS": https://pypi.org/project/gTTS/
+"sound_play": http://wiki.ros.org/sound_play
+```
+Speech recognition
+```js
+"SpeechRecognition": https://pypi.org/project/SpeechRecognition/
+```
+Vocal assistant
+```js
+"Amazon Alexa": https://www.amazon.com/Amazon-Echo-And-Alexa-Devices/b?ie=UTF8&node=9818047011
+"Google Nest": https://store.google.com/product/google_nest_mini
+"Apple Homepod": https://www.apple.com/tw/shop/buy-homepod/homepod/
+"Mi AI Speaker": https://www.mi.com/aispeaker
+"ASUS Smart Speaker": https://www.asus.com/tw/ASUS-Smart-Speaker/ASUS-Smart-Speaker-Xiao-Bu/
+"PyAIML -- The Python AIML Interpreter": https://github.com/cdwfs/pyaiml
+```
+
 Learning-based feature extractors 
 ```js
-"VGG16": 
-"ResNet": 
-"Inception": 
-"MobileNet": 
+"Alexnet": Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems. 2012.
+"VGG16": Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
+"Inception": Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+"ResNet": He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+"MobileNet": Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
 ```
 Learning-based object detection
 ```js
-"Faster R-CNN": 
+"Faster R-CNN": Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
+"SSD": Liu, Wei, et al. "Ssd: Single shot multibox detector." European conference on computer vision. Springer, Cham, 2016.
 "YOLOv3": Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
-"SSD": 
 ```
 
 ## 4_calibration
