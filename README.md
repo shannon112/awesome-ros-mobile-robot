@@ -192,7 +192,7 @@ Microphone array
 "microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
 "ReSpeaker Mic Array v2.0": http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
 ```
-Matrix barcode (Fiducial Marker Systems, or ARTag)  
+Matrix barcode (Fiducial Marker Systems, or ARTag, or Auxiliary marker)  
 ```js
 "ARTag": http://wiki.ros.org/ar_track_alvar
 "AprilTag": http://wiki.ros.org/apriltag_ros
