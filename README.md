@@ -35,6 +35,8 @@ Books:
 ```
 Courses:
 ```js
+"Matlab Lecture" {Matlab}: https://www.youtube.com/user/MATLAB/playlists
+"Control System Lecture" {Brian Douglas}: https://www.youtube.com/user/ControlLectures/playlists
 "Robot Mapping" {Universität of Freiburg} Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
 "機器人學一 (Robotics (1))" {NTU} 林沛群: https://www.coursera.org/learn/robotics1, http://peichunlin.me.ntu.edu.tw/Homepage/Intro2Robotics.htm
 "Control of Mobile Robots" {Georgia Tech} Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
