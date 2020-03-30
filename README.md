@@ -31,6 +31,7 @@ Books:
 "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
 "Probabilistic Robotics", Sebastian Thrun 
 "Introduction to Linear Algebra", Five Edition, Gilbert Strang
+"Pattern Recognition and Machine Learning", Christopher M. Bishop
 "視覺 SLAM 十四講：從理論到實踐", 高翔
 ```
 Courses:
