@@ -235,6 +235,11 @@ Learning-based object detection
 "SSD": Liu, Wei, et al. "Ssd: Single shot multibox detector." European conference on computer vision. Springer, Cham, 2016.
 "YOLOv3": Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
 ```
+Learning-based human pose estimation
+```js
+OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+OpenPose-plugin: https://github.com/ildoonet/tf-pose-estimation
+```
 
 ## 4_calibration
 
