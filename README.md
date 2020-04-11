@@ -436,6 +436,10 @@ hector_slam - laser, imu
 S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
 http://wiki.ros.org/hector_slam
 ```
+Zebedee - laser, imu (handheld device)
+```
+M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
+```
 karto_slam - laser, odom
 ```
 karto SLAM, ROS package. accessed Nov, 2016. [online], wiki.ros.org/slam_karto
