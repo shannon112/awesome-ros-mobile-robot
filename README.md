@@ -439,6 +439,7 @@ http://wiki.ros.org/hector_slam
 Zebedee - laser, imu (handheld device)
 ```
 M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
+Zlot, Robert, and Michael Bosse. "Efficient large‐scale three‐dimensional mobile mapping for underground mines." Journal of Field Robotics 31.5 (2014): 758-779.
 ```
 karto_slam - laser, odom
 ```
