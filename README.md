@@ -648,7 +648,7 @@ Conferences: http://www.ieee-ies.org/conferences
 Conferences: http://ieeecss.org/conferences/general-information
 
 Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
-Compress pdf online: https://www.sodapdf.com/compress-pdf/  
+Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
 ### (3) Famous robotics competition
 Global:
