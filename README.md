@@ -57,6 +57,7 @@ Paper libraries:
 "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
 "arXiv.org e-Print archive": https://arxiv.org/
 "Google Scholar": https://scholar.google.com/
+"Sci-Hub": https://sci-hub.tw/
 ```
 
 ## 1_ROS
