@@ -616,7 +616,8 @@ Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robo
 moveit
 
 ## 12_Others_Non_Tech_Part
-### (1) Famous robotics related company
+## 12-1_Famous Robotics Related Company
+🏬 Robotic Companies
 | categories | companies |
 | --------   | -------- |
 | Research center | Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI, DeepMind, Facebook_Artificial_Intelligence_Research(FAIR), Berkeley_Artificial_Intelligence_Research (BAIR), Nvidia_Research |
@@ -632,7 +633,7 @@ moveit
 | Gripper | ROBOTIQ, TOYO |  
 | Self-Driving Cars | Alphabet Waymo, Uber, Apple Project Titan |
 
-### (2) Famous robotics publications
+## 12-2_Famous Robotics Publications
 📝 Top conferences:  
 | 1. | 2. |
 | -------- | -------- |
@@ -652,7 +653,7 @@ moveit
 Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
-### (3) Famous robotics competition
+## 12-3_Famous Robotics Competition
 🌎 Global:
 ```js
 "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
@@ -669,14 +670,14 @@ Compress pdf online: https://www.pdf2go.com/compress-pdf
 "SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
 ```
 
-### (4) Famous ros organizations & activities
-🚀 ROS related work:
+## 12-4_Famous ROS Organizations & Activities
+🚀 ROS Related Work:
 ```js
 "ROS-industrial": https://rosindustrial.org/
 "ROS2.0": https://design.ros2.org/
 "ROS-H": https://acutronicrobotics.com/technology/H-ROS/"
 ```
-🏢 Organizations/communities:
+🏢 Organizations/Communities:
 ```js
 "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
 "Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
