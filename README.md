@@ -633,25 +633,21 @@ moveit
 | Self-Driving Cars | Alphabet Waymo, Uber, Apple Project Titan |
 
 ### (2) Famous robotics publications
+Top conferences:  
+1. IEEE International Conference on Robotics and Automation(ICRA)  
+2. IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS)  
 
-| Tile | Website |
-| -------- | -------- |
-| IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) | https://ieeexplore.ieee.org/xpl/conhome/1000393/all-proceedings  | 
-| IEEE International Conference on Robotics and Automation(ICRA)  |  https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings  |
-| IEEE_Transactions_on_Robotics_and_Automation(old) | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856  |
-| IEEE Transactions on Automation Science and Engineering | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856  |
-| IEEE_Transactions_on_Robotics | https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860  |
+Related Societies:
 
-- IEEE Robotics and Automation Society: https://www.ieee-ras.org/  
-Conferences: https://ras.papercept.net/conferences/scripts/start.pl  
+| Society  | Website  | Conferences
+| -------- | -------- | ------------
+| IEEE Robotics and Automation Society (RAS) | https://www.ieee-ras.org/ | https://ras.papercept.net/conferences/scripts/start.pl  
+| IEEE Industrial Electronics Society (IES)  | http://www.ieee-ies.org/  | http://www.ieee-ies.org/conferences  
+| IEEE Control System Society (CSS)          | http://www.ieeecss.org/   | http://ieeecss.org/conferences/general-information
+| IEEE Systems, Man and Cybernetics (SMC)    | https://www.ieeesmc.org/  | https://www.ieeesmc.org/conferences/calendar/
 
-- IEEE Industrial Electronics Society: http://www.ieee-ies.org/  
-Conferences: http://www.ieee-ies.org/conferences  
-
-- IEEE Control System Society: http://ieeecss.org/  
-Conferences: http://ieeecss.org/conferences/general-information
-
-Google scholar H5-index rank: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
+Tools:  
+Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
 ### (3) Famous robotics competition
@@ -666,7 +662,7 @@ Global:
 In Taiwan:
 ```js
 "SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
-"PMC 智慧機器人競賽 Robot competition": http://www.pmccontest.com/
+"PMC 全國智慧機器人競賽 Robot competition": http://www.pmccontest.com/
 "HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
 "SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
 ```
@@ -689,5 +685,5 @@ activities:
 ```js
 "ROScon": https://roscon.ros.org/
 "ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
-"ROS summer school(CN)": http://www.roseducation.org/
+"ROS Summer School(CN)": http://www.roseducation.org/
 ```
