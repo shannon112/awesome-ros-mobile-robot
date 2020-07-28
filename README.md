@@ -7,7 +7,7 @@ http://wiki.ros.org/Distributions
 
 ## contents:  
 * [0.Robotics](README.md#0_robotics)
-* [1.Robot-Operating-System(ROS)](README.md#1_robot_operating_system(ros))
+* [1.Robot-Operating-System(ROS)](README.md#1_robot_operating_system)
 * [2.Robotic-Platform](README.md#2_platform)
 * [3.Robotic-Sensing](README.md#3_sensing)
 * [4.Calibration](README.md#4_calibration)
@@ -60,7 +60,7 @@ Paper libraries:
 "Sci-Hub": https://sci-hub.tw/
 ```
 
-## 1_Robot_Operating_System(ROS)
+## 1_Robot_Operating_System
 ROS blogs&channel:  
 ```js
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
