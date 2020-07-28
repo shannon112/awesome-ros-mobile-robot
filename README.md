@@ -653,7 +653,7 @@ Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?v
 Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
 ### (3) Famous robotics competition
-Global:
+🌎 Global:
 ```js
 "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
 "RoboCup": https://en.wikipedia.org/wiki/RoboCup
@@ -661,7 +661,7 @@ Global:
 "ICRA Robot Competitions: including lots of competitions would be different every years"
 "IROS Robot Competitions: including lots of competitions would be different every years"
 ```
-In Taiwan:
+🇹🇼 Taiwan:
 ```js
 "SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
 "PMC 全國智慧機器人競賽 Robot competition": http://www.pmccontest.com/
@@ -670,20 +670,20 @@ In Taiwan:
 ```
 
 ### (4) Famous ros organizations & activities
-ROS related work:
+🚀 ROS related work:
 ```js
 "ROS-industrial": https://rosindustrial.org/
 "ROS2.0": https://design.ros2.org/
 "ROS-H": https://acutronicrobotics.com/technology/H-ROS/"
 ```
-organizations/communities:
+🏢 Organizations/communities:
 ```js
 "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
 "Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
 "ROS.Taiwan": https://www.facebook.com/groups/ros.taiwan/
 "ROS.Taipei": https://www.facebook.com/groups/ros.taipei/
 ```
-activities: 
+🎪 Activities: 
 ```js
 "ROScon": https://roscon.ros.org/
 "ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
