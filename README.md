@@ -7,17 +7,18 @@ http://wiki.ros.org/Distributions
 
 ## contents:  
 * [0.Robotics](README.md#0_robotics)
-* [1.ROS](README.md#1_ros)
-* [2.Platform](README.md#2_platform)
-* [3.Sensing](README.md#3_sensing)
+* [1.Robot-Operating-System(ROS)](README.md#1_Robot-Operating-System(ROS))
+* [2.Robotic-Platform](README.md#2_platform)
+* [3.Robotic-Sensing](README.md#3_sensing)
 * [4.Calibration](README.md#4_calibration)
 * [5.Odometry](README.md#5_odometry)
-* [6.SLAM](README.md#6_slam)
-* [7.RGB-D SLAM](README.md#7_RGBD_slam)
+* [6.2D-SLAM](README.md#6_slam)
+* [7.3D-SLAM](README.md#7_RGBD_slam)
 * [8.Localization](README.md#8_localization)
-* [9.MAP](README.md#9_map)
-* [10-.Navigation](README.md#10_navigation)
-* [11.Others (Non-tech)](README.md#11_others_non_tech_part)
+* [9.Mapping](README.md#9_map)
+* [10.Navigation](README.md#10_navigation)
+* [11.Manipulation](README.md#10_navigation)
+* [12.Others (Non-tech)](README.md#11_others_non_tech_part)
   * (1)Famous robotics company  
   * (2)Famous robotics conference&journal  
   * (3)Famous robotics competition in Taiwan  
@@ -59,7 +60,7 @@ Paper libraries:
 "Sci-Hub": https://sci-hub.tw/
 ```
 
-## 1_ROS
+## 1_Robot-Operating-System(ROS)
 ROS blogs&channel:  
 ```js
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
