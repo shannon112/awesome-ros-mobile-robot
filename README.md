@@ -72,24 +72,29 @@ http://wiki.ros.org/Distributions
  * "Sci-Hub": https://sci-hub.tw/
 
 ## 1_Robot_Operating_System
-ROS blogs&channel:  
-```js
-"半閒居士"： https://www.cnblogs.com/gaoxiang12/
-"MR.POJENLAI": https://pojenlai.wordpress.com/
-"The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
-"泡泡機器人": https://space.bilibili.com/38737757/
-"泡泡機器人論壇": http://paopaorobot.org/bbs/
-```
-Books:
-```js
-"C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
-"ROS by Example", python, Patrick Goebel
-"Mastering ROS for Robotics Programming", C++, Lentin Joseph
-"Learning ROS for Robotics Programming", C++, Enrique Fernandez
-"Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
-"机器人操作系统（ROS）浅析", Jason M. O'Kane著, 肖军浩译
-"ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
-```
+👾 Resources:
+ * The ROS status: https://status.ros.org/
+ * The ROS wiki: https://wiki.ros.org
+ * The ROS website: https://www.ros.org
+ * The ROS build farm: http://build.ros.org
+ * The ROS package repository http://packages.ros.org
+ * The ROS documentation site: http://docs.ros.org
+
+🗣 ROS blogs & channels & forums:  
+ * "ROS Answer": https://answers.ros.org/questions/
+ * "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
+ * "半閒居士"： https://www.cnblogs.com/gaoxiang12/
+ * "泡泡機器人": https://space.bilibili.com/38737757/
+ * "泡泡機器人論壇": http://paopaorobot.org/bbs/
+
+📚 Books:
+ * "C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
+ * "ROS by Example", python, Patrick Goebel
+ * "Mastering ROS for Robotics Programming", C++, Lentin Joseph
+ * "Learning ROS for Robotics Programming", C++, Enrique Fernandez
+ * "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
+ * "机器人操作系统（ROS）浅析", Jason M. O'Kane著, 肖军浩译
+ * "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 
 ## 2_Robotic_Platform
 **ROS robots:** https://robots.ros.org/  
