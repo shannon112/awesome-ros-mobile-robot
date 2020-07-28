@@ -60,7 +60,7 @@ Paper libraries:
 "Sci-Hub": https://sci-hub.tw/
 ```
 
-## 1_Robot_Operating_System
+## 1_Robot_Operating_System (ROS)
 ROS blogs&channel:  
 ```js
 "半閒居士"： https://www.cnblogs.com/gaoxiang12/
