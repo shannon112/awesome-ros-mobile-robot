@@ -36,17 +36,17 @@ http://wiki.ros.org/Distributions
 📖 Courses:
  * "Matlab Lecture" {Matlab}
    * https://www.youtube.com/user/MATLAB/playlists
- * "Control System Lecture" {Brian Douglas}
+ * "Control System Lecture" {Brian Douglas} Brian Douglas
    * https://www.youtube.com/user/ControlLectures/playlists
  * "Robot Mapping" {Universität of Freiburg} Cyrill Stachniss
    * http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
- * "機器人學一 (Robotics (1))" {NTU} 林沛群
+ * "Robotics (1)" {NTU} Pei Chun Lin
    * https://www.coursera.org/learn/robotics1, http://peichunlin.me.ntu.edu.tw/Homepage/Intro2Robotics.htm
  * "Control of Mobile Robots" {Georgia Tech} Magnus Egerstedt
    * https://www.coursera.org/learn/mobile-robot"
  * "Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch
    * https://www.coursera.org/specializations/modernrobotics
- * "Robotics" {UPenn} 
+ * "Robotics" {UPenn} Vijay Kumar, et al. 
    * https://zh-tw.coursera.org/specializations/robotics
  * "Linear algebra" {NTU} Hung-yi Lee
    * http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
