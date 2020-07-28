@@ -25,40 +25,51 @@ http://wiki.ros.org/Distributions
   * 12-4. Famous ros organizations & activities  
 
 ## 0_Robotics
-Books:
-```js
-"Introduction to Algorithms", Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
-"Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
-"Probabilistic Robotics", Sebastian Thrun 
-"Introduction to Linear Algebra", Five Edition, Gilbert Strang
-"Pattern Recognition and Machine Learning", Christopher M. Bishop
-"視覺 SLAM 十四講：從理論到實踐", 高翔
-```
-Courses:
-```js
-"Matlab Lecture" {Matlab}: https://www.youtube.com/user/MATLAB/playlists
-"Control System Lecture" {Brian Douglas}: https://www.youtube.com/user/ControlLectures/playlists
-"Robot Mapping" {Universität of Freiburg} Cyrill Stachniss: http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
-"機器人學一 (Robotics (1))" {NTU} 林沛群: https://www.coursera.org/learn/robotics1, http://peichunlin.me.ntu.edu.tw/Homepage/Intro2Robotics.htm
-"Control of Mobile Robots" {Georgia Tech} Magnus Egerstedt: https://www.coursera.org/learn/mobile-robot"
-"Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch: https://www.coursera.org/specializations/modernrobotics
-"Robotics" {UPenn} https://zh-tw.coursera.org/specializations/robotics
-"Linear algebra" {NTU} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
-"Linear algebra" {MIT} Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
-"Machine Learning" {NTU} Hung-yi Lee: http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
-"Machine Learning" {STANFORD} Andrew Ng: https://www.coursera.org/learn/machine-learning
-"Probabilistic Systems Analysis and Applied Probability" {MIT} John Tsitsiklis https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
-"Deep Reinforcement Learning" {UCB} Sergey Levine: http://rail.eecs.berkeley.edu/deeprlcourse/
-"Vision Algorithms for Mobile Robotics" {ETHZ} 	D. Scaramuzza: http://rpg.ifi.uzh.ch/teaching.html
-"Self-Driving Cars" {TORONTO} https://www.coursera.org/specializations/self-driving-cars
-```
-Paper libraries:
-```js
-"IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
-"arXiv.org e-Print archive": https://arxiv.org/
-"Google Scholar": https://scholar.google.com/
-"Sci-Hub": https://sci-hub.tw/
-```
+📚 Books:
+ * "Introduction to Algorithms", Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+ * "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
+ * "Probabilistic Robotics", Sebastian Thrun 
+ * "Introduction to Linear Algebra", Five Edition, Gilbert Strang
+ * "Pattern Recognition and Machine Learning", Christopher M. Bishop
+ * "視覺 SLAM 十四講：從理論到實踐", 高翔
+
+📖 Courses:
+ * "Matlab Lecture" {Matlab}
+   * https://www.youtube.com/user/MATLAB/playlists
+ * "Control System Lecture" {Brian Douglas}
+   * https://www.youtube.com/user/ControlLectures/playlists
+ * "Robot Mapping" {Universität of Freiburg} Cyrill Stachniss
+   * http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/
+ * "機器人學一 (Robotics (1))" {NTU} 林沛群
+   * https://www.coursera.org/learn/robotics1, http://peichunlin.me.ntu.edu.tw/Homepage/Intro2Robotics.htm
+ * "Control of Mobile Robots" {Georgia Tech} Magnus Egerstedt
+   * https://www.coursera.org/learn/mobile-robot"
+ * "Modern Robotics: Mechanics, Planning, and Control" {Northwestern University} Kevin Lynch
+   * https://www.coursera.org/specializations/modernrobotics
+ * "Robotics" {UPenn} 
+   * https://zh-tw.coursera.org/specializations/robotics
+ * "Linear algebra" {NTU} Hung-yi Lee
+   * http://speech.ee.ntu.edu.tw/~tlkagk/courses_LA18.html
+ * "Linear algebra" {MIT} Gilbert Strang
+   * https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
+ * "Machine Learning" {NTU} Hung-yi Lee
+   * http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html
+ * "Machine Learning" {STANFORD} Andrew Ng
+   * https://www.coursera.org/learn/machine-learning
+ * "Probabilistic Systems Analysis and Applied Probability" {MIT} John Tsitsiklis
+   * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
+ * "Deep Reinforcement Learning" {UCB} Sergey Levine
+   * http://rail.eecs.berkeley.edu/deeprlcourse/
+ * "Vision Algorithms for Mobile Robotics" {ETHZ} 	D. Scaramuzza
+   * http://rpg.ifi.uzh.ch/teaching.html
+ * "Self-Driving Cars" {TORONTO}
+   * https://www.coursera.org/specializations/self-driving-cars
+
+📜 Paper libraries:
+ * "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
+ * "arXiv.org e-Print archive": https://arxiv.org/
+ * "Google Scholar": https://scholar.google.com/
+ * "Sci-Hub": https://sci-hub.tw/
 
 ## 1_Robot_Operating_System
 ROS blogs&channel:  
