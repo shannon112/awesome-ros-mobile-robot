@@ -633,12 +633,12 @@ moveit
 | Self-Driving Cars | Alphabet Waymo, Uber, Apple Project Titan |
 
 ### (2) Famous robotics publications
-Top conferences:  
+📝 Top conferences:  
 | 1. | 2. |
 | -------- | -------- |
 | IEEE International Conference on Robotics and Automation(ICRA) | IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) |  
 
-Related Societies:
+🏠 Related Societies:
 
 | Society  | Website  | Conferences / Transactions
 | -------- | -------- | ------------
@@ -648,7 +648,7 @@ Related Societies:
 | IEEE Systems, Man and Cybernetics (SMC)    | https://www.ieeesmc.org/  | https://www.ieeesmc.org/conferences/calendar/
 | AAAS Science Robotics                      | https://robotics.sciencemag.org/  | https://www.sciencemag.org/journals/robotics/call-for-papers
 
-Tools:  
+🛠 Tools:  
 Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
 Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
