@@ -650,43 +650,36 @@ moveit
 | AAAS Science Robotics                      | https://robotics.sciencemag.org/  | https://www.sciencemag.org/journals/robotics/call-for-papers
 
 🛠 Tools:  
-Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
-Compress pdf online: https://www.pdf2go.com/compress-pdf  
+ * Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
+ * Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
 ## 12-3_Famous Robotics Competition
 🌎 Global:
-```js
-"DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
-"RoboCup": https://en.wikipedia.org/wiki/RoboCup
-"Amazon Robotics/Picking Challenge": http://amazonpickingchallenge.org/
-"ICRA Robot Competitions: including lots of competitions would be different every years"
-"IROS Robot Competitions: including lots of competitions would be different every years"
-```
+ * "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
+ * "RoboCup": https://en.wikipedia.org/wiki/RoboCup
+ * "Amazon Robotics/Picking Challenge": http://amazonpickingchallenge.org/
+ * "ICRA Robot Competitions: including lots of competitions would be different every years"
+ * "IROS Robot Competitions: including lots of competitions would be different every years"
+
 🇹🇼 Taiwan:
-```js
-"SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
-"PMC 全國智慧機器人競賽 Robot competition": http://www.pmccontest.com/
-"HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
-"SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
-```
+ * "SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
+ * "PMC 全國智慧機器人競賽 Robot competition": http://www.pmccontest.com/
+ * "HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
+ * "SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
 
 ## 12-4_Famous ROS Organizations & Activities
 🚀 ROS Related Work:
-```js
-"ROS-industrial": https://rosindustrial.org/
-"ROS2.0": https://design.ros2.org/
-"ROS-H": https://acutronicrobotics.com/technology/H-ROS/"
-```
+ * "ROS-industrial": https://rosindustrial.org/
+ * "ROS2.0": https://design.ros2.org/
+ * "ROS-H": https://acutronicrobotics.com/technology/H-ROS/"
+
 🏢 Organizations/Communities:
-```js
-"Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
-"Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
-"ROS.Taiwan": https://www.facebook.com/groups/ros.taiwan/
-"ROS.Taipei": https://www.facebook.com/groups/ros.taipei/
-```
+ * "Open Source Robotics Foundation (OSRF)": https://www.openrobotics.org/
+ * "Open Source Robotics Corporation (OSRC)": https://www.openrobotics.org/
+ * "ROS.Taiwan": https://www.facebook.com/groups/ros.taiwan/
+ * "ROS.Taipei": https://www.facebook.com/groups/ros.taipei/
+
 🎪 Activities: 
-```js
-"ROScon": https://roscon.ros.org/
-"ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
-"ROS Summer School(CN)": http://www.roseducation.org/
-```
+ * "ROScon": https://roscon.ros.org/
+ * "ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
+ * "ROS Summer School(CN)": http://www.roseducation.org/
