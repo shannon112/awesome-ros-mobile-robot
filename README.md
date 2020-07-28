@@ -19,10 +19,10 @@ http://wiki.ros.org/Distributions
 * [10.Navigation](README.md#10_navigation)
 * [11.Manipulation](README.md#11_manipulation)
 * [12.Others (Non-tech)](README.md#12_others_non_tech_part)
-  * (1)Famous robotics company  
-  * (2)Famous robotics conference&journal  
-  * (3)Famous robotics competition in Taiwan  
-  * (4)Famous ros organizations & activities  
+  * 12-1. Famous robotics company  
+  * 12-2. Famous robotics conference&journal  
+  * 12-3. Famous robotics competition in Taiwan  
+  * 12-4. Famous ros organizations & activities  
 
 ## 0_Robotics
 Books:
@@ -635,9 +635,8 @@ moveit
 
 ## 12-2_Famous Robotics Publications
 📝 Top conferences:  
-| 1. | 2. |
-| -------- | -------- |
-| IEEE International Conference on Robotics and Automation(ICRA) | IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) |  
+ * IEEE International Conference on Robotics and Automation (ICRA)  
+ * IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)  
 
 🏠 Related Societies:
 
