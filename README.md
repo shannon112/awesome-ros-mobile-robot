@@ -8,17 +8,17 @@ http://wiki.ros.org/Distributions
 ## contents:  
 * [0.Robotics](README.md#0_robotics)
 * [1.Robot-Operating-System(ROS)](README.md#1_robot_operating_system)
-* [2.Robotic-Platform](README.md#2_platform)
-* [3.Robotic-Sensing](README.md#3_sensing)
+* [2.Robotic-Platform](README.md#2_robotic_platform)
+* [3.Robotic-Sensing](README.md#3_robotic_sensing)
 * [4.Calibration](README.md#4_calibration)
 * [5.Odometry](README.md#5_odometry)
-* [6.2D-SLAM](README.md#6_slam)
-* [7.3D-SLAM](README.md#7_RGBD_slam)
+* [6.2D-SLAM](README.md#6_2d_slam)
+* [7.3D-SLAM](README.md#7_3d_slam)
 * [8.Localization](README.md#8_localization)
-* [9.Mapping](README.md#9_map)
+* [9.Mapping](README.md#9_mapping)
 * [10.Navigation](README.md#10_navigation)
-* [11.Manipulation](README.md#10_navigation)
-* [12.Others (Non-tech)](README.md#11_others_non_tech_part)
+* [11.Manipulation](README.md#11_manipulation)
+* [12.Others (Non-tech)](README.md#12_others_non_tech_part)
   * (1)Famous robotics company  
   * (2)Famous robotics conference&journal  
   * (3)Famous robotics competition in Taiwan  
@@ -80,7 +80,7 @@ Books:
 "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 ```
 
-## 2_Platform
+## 2_Robotic_Platform
 **ROS robots:** https://robots.ros.org/  
 holomic vs. non-holomic
 ```js
@@ -142,7 +142,7 @@ Dexmart motors & drivers (Trumman Technology Corp)
 RLS: https://www.rls.si/
 ```  
 
-## 3_Sensing
+## 3_Robotic_Sensing
 RGB camera:  
 ```js
 "usb camera": http://wiki.ros.org/usb_cam
@@ -242,7 +242,7 @@ OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 OpenPose-plugin: https://github.com/ildoonet/tf-pose-estimation
 ```
 
-## 4_calibration
+## 4_Calibration
 
 camera calibration (intrinsic and extrinsic parameters)
 ```sh
@@ -282,7 +282,7 @@ https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
 http://wiki.ros.org/razor_imu_9dof
 ```
 
-## 5_odometry
+## 5_Odometry
 
 #1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
@@ -386,7 +386,7 @@ ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
 
-## 6_SLAM
+## 6_2D_SLAM
 Related work keyword
 ```
 Graph-Based optimization / Particle filter / Kalman filter series / Learning based
@@ -456,7 +456,7 @@ Kimera - semantic mappping
 A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 ```
 
-## 7_RGBD_SLAM
+## 7_3D_SLAM
 RGB-D benchmark (dataset)
 ```
 (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
@@ -548,7 +548,7 @@ amcl | Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
 SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
 
-## 9_Map
+## 9_Mapping
 2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
@@ -612,7 +612,10 @@ Coverage navigation servey (cleaning or weeding robot)
 Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
 ```
 
-## 11_Others_Non_tech_part
+## 11_Manipulation
+moveit
+
+## 12_Others_Non_Tech_Part
 ### (1) Famous robotics related company
 | categories | companies |
 | --------   | -------- |
