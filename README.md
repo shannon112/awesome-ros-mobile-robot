@@ -621,17 +621,18 @@ moveit
 | categories | companies |
 | --------   | -------- |
 | Research center | Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI, DeepMind, Facebook_Artificial_Intelligence_Research(FAIR), Berkeley_Artificial_Intelligence_Research (BAIR), Nvidia_Research |
-| Manipulator | ABB, FANUC, KUKA, YASKAWA, TECHMAN_ROBOT, HIWIN, Universal_robots, Innfos |
-| Mobile Robot(AGV, base only) | Omron_robotics, Clearpath_robotics&OTTO_Motors, Amazon_robotics(Kiva_System), Yujin_Robotics, ROBOTIS, Fetch_robotics, GreenTrans, KUKA, iRobot, Pal_robotics, Robotnik | 
-| Service robot(with torso) | Willow_garage, Softbank_robotics, Fetch_robotics, Pal_robotics, Robotnik_automation, Innfos, Robotnik |  
-| Humanoid | Boston_dynamics, Softbank_robotics, Pal_robotics |
-| Quadruped | Boston_dynamics, Unitree_robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo, Innfos |
-| Educational Rotbot | Willow_garage(Pr2), Facebook(pyrobot), ROBOTIS(turtlebot3), Fetch_robotics, Robotnik(RB-1) |
+| Manipulator | ABB, FANUC, KUKA, YASKAWA, Techman_Robot, HIWIN, Universal_Robots, Innfos |
+| Mobile Robot(AGV, base only) | Omron_Robotics, Clearpath_Robotics&OTTO_Motors, Amazon_Robotics(Kiva_System), Yujin_Robotics, ROBOTIS, Fetch_Robotics, GreenTrans, KUKA, iRobot, Pal_Robotics, Robotnik | 
+| Service robot(with torso) | Willow_Garage, Softbank_Robotics, Fetch_Robotics, Pal_Robotics, Innfos, Robotnik |  
+| Dual Arms | ABB, Rethink_Robotics |
+| Humanoid | Boston_Dynamics, Softbank_Robotics, Pal_Robotics, UBTECH_Robotics |
+| Quadruped | Boston_Dynamics, Unitree_Robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo, Innfos |
+| Educational Rotbot | Willow_Garage(Pr2), Facebook(pyrobot), ROBOTIS(turtlebot3), Fetch_Robotics, Robotnik(RB-1) |
 | Drone | Dji, Tello |
-| ROS2.0 | ADLINK |  
-| Cleaning | iRobot | 
+| ROS2.0 | ADLINK(DDS), ROBOTIS(Turtlebot3) |  
+| CleaningBot | iRobot, Xiaomi | 
 | Gripper | ROBOTIQ, TOYO |  
-| Self-Driving Cars | Alphabet Waymo, Uber, Apple Project Titan |
+| Self-Driving Cars | Alphabet_Waymo, Uber_ATG, Apple_Project_Titan, Tesla, Toyota_Research_Institute(TRI) |
 
 ## 12-2_Famous Robotics Publications
 📝 Top conferences:  
