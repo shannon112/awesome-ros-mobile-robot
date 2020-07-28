@@ -634,17 +634,19 @@ moveit
 
 ### (2) Famous robotics publications
 Top conferences:  
-1. IEEE International Conference on Robotics and Automation(ICRA)  
-2. IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS)  
+| 1. | 2. |
+| -------- | -------- |
+| IEEE International Conference on Robotics and Automation(ICRA) | IEEE/RSJ International Conference on Intelligent Robots and Systems(IROS) |  
 
 Related Societies:
 
-| Society  | Website  | Conferences
+| Society  | Website  | Conferences / Transactions
 | -------- | -------- | ------------
 | IEEE Robotics and Automation Society (RAS) | https://www.ieee-ras.org/ | https://ras.papercept.net/conferences/scripts/start.pl  
 | IEEE Industrial Electronics Society (IES)  | http://www.ieee-ies.org/  | http://www.ieee-ies.org/conferences  
 | IEEE Control System Society (CSS)          | http://www.ieeecss.org/   | http://ieeecss.org/conferences/general-information
 | IEEE Systems, Man and Cybernetics (SMC)    | https://www.ieeesmc.org/  | https://www.ieeesmc.org/conferences/calendar/
+| AAAS Science Robotics                      | https://robotics.sciencemag.org/  | https://www.sciencemag.org/journals/robotics/call-for-papers
 
 Tools:  
 Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
