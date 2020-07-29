@@ -231,34 +231,12 @@ http://wiki.ros.org/Distributions
  * OpenPose-plugin: https://github.com/ildoonet/tf-pose-estimation
 
 # 4_Calibration
-
 📷 Camera Calibration (Intrinsic and Extrinsic parameters)
- * Theory
-   * Mathematic: https://www.mathworks.com/help/vision/ug/camera-calibration.html
-   * Library1: https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
-   * Library2: https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
-   * Processing: http://wiki.ros.org/image_pipeline/CameraInfo
-   * Data format(topic name): http://wiki.ros.org/rgbd_launch
- * Papers
-   * Zhang, Z. “A Flexible New Technique for Camera Calibration.” IEEE Transactions on Pattern Analysis and Machine Intelligence. Vol. 22, No. 11, 2000, pp. 1330–1334.
-   * Heikkila, J., and O. Silven. “A Four-step Camera Calibration Procedure with Implicit Image Correction.” IEEE International Conference on Computer Vision and Pattern Recognition.1997.
-   * Bouguet, J. Y. “Camera Calibration Toolbox for Matlab.” Computational Vision at the California Institute of Technology. Camera Calibration Toolbox for MATLAB.
-
-* Tools
-   * Pkg: http://wiki.ros.org/camera_calibration
-   * Converter: http://wiki.ros.org/camera_calibration_parsers
+ * Tool: http://wiki.ros.org/camera_calibration
+ * Converter: http://wiki.ros.org/camera_calibration_parsers
 
 👁 Hand-Eye Calibration
- * Theory
-   * http://math.loyola.edu/~mili/Calibration/index.html
-   * https://blog.csdn.net/u011089570/article/details/47945733
-   * https://www.twblogs.net/a/5bb026aa2b7177781a0fc79a
-
- * Papers
-   * Tsai, Roger Y., and Reimar K. Lenz. "A new technique for fully autonomous and efficient 3D robotics hand/eye calibration." Robotics and Automation, IEEE Transactions on 5.3 (1989): 345-358.
-
- * Tools
-   * https://github.com/IFL-CAMP/easy_handeye
+ * Tool: https://github.com/IFL-CAMP/easy_handeye
 
 🍎 IMU(9dof-razor-imu-m0) calibration
  * Github Wiki: https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
