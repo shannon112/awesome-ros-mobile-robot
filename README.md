@@ -1,4 +1,4 @@
-# awesome-ros-mobile-robot  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/shannon112/awesome-ros-mobile-robot)  
+# awesome-ros-mobile-robot  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)  
 This repository provides some useful resources and informations about **autonomous mobile robots (AMR)** research based on **ROS**. It would mainly focus on basic function of mobile robots(like **odometry**, **SLAM**, **navigation** and **manipulation**).  
 (including both **Chinese** and **English** materials)   
 
