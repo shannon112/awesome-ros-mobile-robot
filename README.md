@@ -31,6 +31,7 @@ http://wiki.ros.org/Distributions
  * "Probabilistic Robotics", Sebastian Thrun 
  * "Introduction to Linear Algebra", Five Edition, Gilbert Strang
  * "Pattern Recognition and Machine Learning", Christopher M. Bishop
+ * "Introduction to autonomous mobile robots" Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza
  * "視覺 SLAM 十四講：從理論到實踐", 高翔
 
 📖 Courses:
@@ -65,7 +66,7 @@ http://wiki.ros.org/Distributions
  * "Self-Driving Cars" {TORONTO}
    * https://www.coursera.org/specializations/self-driving-cars
 
-📜 Paper libraries:
+📜 Paper Libraries:
  * "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
  * "arXiv.org e-Print archive": https://arxiv.org/
  * "Google Scholar": https://scholar.google.com/
@@ -80,7 +81,7 @@ http://wiki.ros.org/Distributions
  * The ROS package repository http://packages.ros.org
  * The ROS documentation site: http://docs.ros.org
 
-🗣 ROS blogs & channels & forums:  
+🗣 ROS Blogs & Channels & Forums:  
  * "ROS Answer": https://answers.ros.org/questions/
  * "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
  * "半閒居士"： https://www.cnblogs.com/gaoxiang12/
@@ -97,66 +98,53 @@ http://wiki.ros.org/Distributions
  * "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 
 ## 2_Robotic_Platform
-**ROS robots:** https://robots.ros.org/  
-holomic vs. non-holomic
-```js
-"Comparison": https://www.evernote.com/l/ATuaHlX8moZHApQrFpCNVYR4SlRPo8Tz53Y
-"Caster wheel": https://en.wikipedia.org/wiki/Caster
-"Mecanum wheel": https://en.wikipedia.org/wiki/Mecanum_wheel
-"Omni wheel": https://en.wikipedia.org/wiki/Omni_wheel
-```
-race car project  
-```js
-"MIT": https://mit-racecar.github.io
-"Penn": http://f1tenth.org/ [without slam, NAV]
-"UCB": http://www.barc-project.com/projects/ [without laser] 
-"Georgia Tech": https://github.com/AutoRally [for outdoor]
-"Taiwan Hypharos": https://github.com/Hypha-ROS/hypharos_racecar
-```
-ROS mobile robot
-```js
-"turtlebot": https://github.com/turtlebot
-"turtlebot3": https://github.com/ROBOTIS-GIT/turtlebot3
-"clearpath husky": https://github.com/husky
-"clearpath jackel": https://github.com/jackal
-"Robotnik XL-GEN": https://github.com/RobotnikAutomation/summit_xl_sim or summit_xl_common
-"Robotnik RB-KAIROS": https://github.com/RobotnikAutomation/rbkairos_sim or rbkairos_common
-```
-ROS mobile manipulator
-```js
-"Personal Robot 2 (PR2)": https://github.com/PR2
-"kuka youbot": https://github.com/youbot
-"fetch robotics": https://github.com/fetchrobotics
-"clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
-"clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
-"Robotnik RB-1": https://github.com/RobotnikAutomation/rb1_sim or rb1_common
-```
-ROS manipulator
-```js
-"Franka Emika panda": https://github.com/frankaemika/franka_ros | https://github.com/ros-planning/panda_moveit_config
-"Universal Robot 3/5/10/e": https://github.com/ros-industrial/universal_robot
-"Techman Robot": https://github.com/kentsai0319/techman_robot
-```
-mobile manipulation/manipulator paper
-```
-Wise, Melonee, et al. "Fetch and freight: Standard platforms for service robot applications." Workshop on autonomous mobile service robots. 2016.
-Bischoff, Rainer, Ulrich Huggenberger, and Erwin Prassler. "Kuka youbot-a mobile manipulator for research and education." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
-Yamamoto, Yoshio, and Xiaoping Yun. "Coordinating locomotion and manipulation of a mobile manipulator." IEEE Transactions on Automatic Control 39.6 (1994): 1326-1332.
-```
-processing unit: 
-```
-Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
-Odroid XU4, Odroid N2, Asus tinker board
-NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, NVIDIA Jetson Xavier
-```  
-motor & controller & encoder:  
-```
-Elmo Motion Control Ltd,
-Dr. Fritz Faulhaber GmbH & Co. KG,
-Maxon group motors & drivers, 
-Dexmart motors & drivers (Trumman Technology Corp)
-RLS: https://www.rls.si/
-```  
+🤖 ROS Robot Overview
+ * https://robots.ros.org/  
+
+🚘 Wheel Robot Configurations  
+> (ref: Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza. Introduction to autonomous mobile robots. MIT press, 2011, Table 2.1, p.34~36)  
+
+<img src="https://i.imgur.com/STBL1pF.png" height="300"><img src="https://i.imgur.com/ubb5N8B.png" height="300"><img src="https://i.imgur.com/8GtsLOD.png" height="300">
+
+🚗 Race Car Projects  
+ * MIT": https://mit-racecar.github.io
+ * "Penn": http://f1tenth.org/ [without slam, NAV]
+ * "UCB": http://www.barc-project.com/projects/ [without laser] 
+ * "Georgia Tech": https://github.com/AutoRally [for outdoor]
+ * "Taiwan Hypharos": https://github.com/Hypha-ROS/hypharos_racecar
+
+🤖 ROS Mobile Robot Github  
+ * "turtlebot": https://github.com/turtlebot
+ * "turtlebot3": https://github.com/ROBOTIS-GIT/turtlebot3
+ * "clearpath husky": https://github.com/husky
+ * "clearpath jackel": https://github.com/jackal
+ * "Robotnik XL-GEN": https://github.com/RobotnikAutomation/summit_xl_sim or summit_xl_common
+ * "Robotnik RB-KAIROS": https://github.com/RobotnikAutomation/rbkairos_sim or rbkairos_common
+
+🤖 ROS Mobile Manipulator Github  
+ * "Personal Robot 2 (PR2)": https://github.com/PR2
+ * "kuka youbot": https://github.com/youbot
+ * "fetch robotics": https://github.com/fetchrobotics
+ * "clearpath husky+UR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyManip.html
+ * "clearpath husky+dualUR5": http://www.clearpathrobotics.com/assets/guides/husky/HuskyDualManip.html
+ * "Robotnik RB-1": https://github.com/RobotnikAutomation/rb1_sim or rb1_common
+
+🤖 ROS Manipulator Github
+ * "Franka Emika panda": https://github.com/frankaemika/franka_ros | https://github.com/ros-planning/panda_moveit_config
+ * "Universal Robot 3/5/10/e": https://github.com/ros-industrial/universal_robot
+ * "Techman Robot": https://github.com/kentsai0319/techman_robot
+
+💻 Processing Unit  
+ * Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
+ * Odroid XU4, Odroid N2, Asus tinker board
+ * NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, NVIDIA Jetson Xavier
+
+🕹 Motor & Controller & Encoder:  
+ * Elmo Motion Control Ltd,
+ * Dr. Fritz Faulhaber GmbH & Co. KG,
+ * Maxon group motors & drivers, 
+ * Dexmart motors & drivers (Trumman Technology Corp)
+ * RLS d.o.o. (Rotary and Linear Motion Sensors)
 
 ## 3_Robotic_Sensing
 RGB camera:  
