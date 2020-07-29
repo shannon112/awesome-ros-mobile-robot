@@ -231,22 +231,23 @@ http://wiki.ros.org/Distributions
 
 ## 4_Calibration
 
-camera calibration (intrinsic and extrinsic parameters)
-```sh
-# tutorials
-https://www.mathworks.com/help/vision/ug/camera-calibration.html
-https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
-https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
-http://wiki.ros.org/image_pipeline/CameraInfo
-http://wiki.ros.org/rgbd_launch
-# papers
-Bouguet, Jean-Yves. “Camera calibration toolbox for matlab.” (2001).
-Z. Zhang, "A flexible new technique for camera calibration," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 22, no. 11, pp. 1330-1334, Nov. 2000.
-# tools
-http://wiki.ros.org/camera_calibration
-http://wiki.ros.org/camera_calibration_parsers
-http://wiki.ros.org/camera_calibration/Tutorials
-```
+📷 Camera Calibration (Intrinsic and Extrinsic parameters)
+ * theory
+   * https://www.mathworks.com/help/vision/ug/camera-calibration.html
+   * https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#bouguetmct
+   * https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
+   * http://wiki.ros.org/image_pipeline/CameraInfo
+   * http://wiki.ros.org/rgbd_launch
+ * papers
+   * Zhang, Z. “A Flexible New Technique for Camera Calibration.” IEEE Transactions on Pattern Analysis and Machine Intelligence. Vol. 22, No. 11, 2000, pp. 1330–1334.
+   * Heikkila, J., and O. Silven. “A Four-step Camera Calibration Procedure with Implicit Image Correction.” IEEE International Conference on Computer Vision and Pattern Recognition.1997.
+   * Bouguet, J. Y. “Camera Calibration Toolbox for Matlab.” Computational Vision at the California Institute of Technology. Camera Calibration Toolbox for MATLAB.
+
+* tools
+   * http://wiki.ros.org/camera_calibration
+   * http://wiki.ros.org/camera_calibration_parsers
+   * http://wiki.ros.org/camera_calibration/Tutorials
+
 Hand-eye calibration on manipulator
 ```sh
 # tutorials
