@@ -248,27 +248,23 @@ http://wiki.ros.org/Distributions
    * Pkg: http://wiki.ros.org/camera_calibration
    * Converter: http://wiki.ros.org/camera_calibration_parsers
 
-Hand-eye calibration on manipulator
-```sh
-# tutorials
-https://blog.csdn.net/u011089570/article/details/47945733
-https://www.twblogs.net/a/5bb026aa2b7177781a0fc79a
-http://math.loyola.edu/~mili/Calibration/index.html
-# papers
-M. Shah, R. D. Eastman, T. Hong, An Overview of Robot-Sensor Calibration Methods for Evaluation of Perception Systems, Performance Metrics for Intelligent Systems, (2012). 
-Tsai, Roger Y., and Reimar K. Lenz. "A new technique for fully autonomous and efficient 3D robotics hand/eye calibration." Robotics and Automation, IEEE Transactions on 5.3 (1989): 345-358.
-Domae, Yukiyasu, et al. "Fast graspability evaluation on single depth maps for bin picking with general grippers." 2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014.
-Mano, Kousuke, et al. "Fast and Precise Detection of Object Grasping Positions with Eigenvalue Templates." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
-# tools
-http://wiki.ros.org/rc_visard/Tutorials/HandEyeCalibration
-https://github.com/IFL-CAMP/easy_handeye
-```
-IMU(9dof-razor-imu-m0) calibration
-```
-https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
-https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
-http://wiki.ros.org/razor_imu_9dof
-```
+👁 Hand-Eye Calibration
+ * Theory
+   * http://math.loyola.edu/~mili/Calibration/index.html
+   * https://blog.csdn.net/u011089570/article/details/47945733
+   * https://www.twblogs.net/a/5bb026aa2b7177781a0fc79a
+
+ * Papers
+   * Tsai, Roger Y., and Reimar K. Lenz. "A new technique for fully autonomous and efficient 3D robotics hand/eye calibration." Robotics and Automation, IEEE Transactions on 5.3 (1989): 345-358.
+
+ * Tools
+   * https://github.com/IFL-CAMP/easy_handeye
+
+🍎 IMU(9dof-razor-imu-m0) calibration
+ * Github Wiki: https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
+ * Sparkfun: https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
+ * ROS Wiki: http://wiki.ros.org/razor_imu_9dof
+ * Calibration Guide: https://github.com/shannon112/imu_calibration/blob/master/README.md
 
 # 5_Odometry
 
