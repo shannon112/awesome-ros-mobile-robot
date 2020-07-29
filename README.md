@@ -5,7 +5,7 @@ This repository provides some useful resources and informations about **autonomo
 <img src="https://wiki.ros.org/boxturtle?action=AttachFile&do=get&target=Box_Turtle.320.png" height="100"> <img src="https://wiki.ros.org/custom/images/wiki/cturtle.jpg" height="100"> <img src="https://wiki.ros.org/custom/images/wiki/diamondback_posterLo-240w.jpg" height="100"> <img src="https://www.ros.org/news/resources/2011/electric_640w.png" height="100"> <img src="https://wiki.ros.org/custom/images/fuerte-320w.jpg" height="100"> <img src="https://wiki.ros.org/custom/images/groovygalapagos-320w.jpg" height="100"> <img src="http://i.imgur.com/xvfZPAo.png" height="100"> <img src="http://i.imgur.com/YBCUixi.png" height="100"> <img src="http://i.imgur.com/99oTyT5.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/kinetic.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/lunar_with_bg.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/melodic_with_bg.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/noetic.png" height="100">  
 http://wiki.ros.org/Distributions
 
-## Contents:  
+# Contents:  
 * [0.Robotics](README.md#0_robotics)
 * [1.Robot-Operating-System(ROS)](README.md#1_robot_operating_system)
 * [2.Robotic-Platform](README.md#2_robotic_platform)
@@ -24,7 +24,7 @@ http://wiki.ros.org/Distributions
   * 12-3. Famous robotics competition in Taiwan  
   * 12-4. Famous ros organizations & activities  
 
-## 0_Robotics
+# 0_Robotics
 📚 Books:
  * "Introduction to Algorithms", Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
  * "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
@@ -72,7 +72,7 @@ http://wiki.ros.org/Distributions
  * "Google Scholar": https://scholar.google.com/
  * "Sci-Hub": https://sci-hub.tw/
 
-## 1_Robot_Operating_System
+# 1_Robot_Operating_System
 👾 Resources:
  * The ROS status: https://status.ros.org/
  * The ROS wiki: https://wiki.ros.org
@@ -97,7 +97,7 @@ http://wiki.ros.org/Distributions
  * "机器人操作系统（ROS）浅析", Jason M. O'Kane著, 肖军浩译
  * "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
 
-## 2_Robotic_Platform
+# 2_Robotic_Platform
 🤖 ROS Robot Overview
  * https://robots.ros.org/  
 
@@ -146,7 +146,7 @@ http://wiki.ros.org/Distributions
  * Dexmart motors & drivers (Trumman Technology Corp)
  * RLS d.o.o. (Rotary and Linear Motion Sensors)
 
-## 3_Robotic_Sensing
+# 3_Robotic_Sensing
 📷 RGB Camera  
  * "usb camera": http://wiki.ros.org/usb_cam
  * "gstream-based camera": http://wiki.ros.org/gscam
@@ -229,7 +229,7 @@ http://wiki.ros.org/Distributions
  * OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
  * OpenPose-plugin: https://github.com/ildoonet/tf-pose-estimation
 
-## 4_Calibration
+# 4_Calibration
 
 📷 Camera Calibration (Intrinsic and Extrinsic parameters)
  * Theory
@@ -269,7 +269,7 @@ https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
 http://wiki.ros.org/razor_imu_9dof
 ```
 
-## 5_Odometry
+# 5_Odometry
 
 #1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
@@ -373,7 +373,7 @@ ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
 
-## 6_2D_SLAM
+# 6_2D_SLAM
 Related work keyword
 ```
 Graph-Based optimization / Particle filter / Kalman filter series / Learning based
@@ -443,7 +443,7 @@ Kimera - semantic mappping
 A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 ```
 
-## 7_3D_SLAM
+# 7_3D_SLAM
 RGB-D benchmark (dataset)
 ```
 (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
@@ -530,19 +530,19 @@ M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Si
 https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
-## 8_Localization
+# 8_Localization
 amcl | Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
 mrpt_localization: http://wiki.ros.org/mrpt_localization  
 SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
 
-## 9_Mapping
+# 9_Mapping
 2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
 OctoMap - 3D occupancy mapping: https://octomap.github.io/
 ```
 Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 ```
 
-## 10_Navigation
+# 10_Navigation
 condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
 
 > move_base compatible, nav_core supported  
@@ -599,10 +599,10 @@ Coverage navigation servey (cleaning or weeding robot)
 Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
 ```
 
-## 11_Manipulation
+# 11_Manipulation
 moveit
 
-## 12_Others_Non_Tech_Part
+# 12_Others_Non_Tech_Part
 ## 12-1_Famous Robotics Related Company
 🏬 Robotic Companies
 | categories | companies |
