@@ -512,10 +512,18 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
 
 # 9_Mapping
 2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
-OctoMap - 3D occupancy mapping: https://octomap.github.io/
-```
-Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
-```
+
+🗺 OctoMap - 3D occupancy mapping: https://octomap.github.io/ | https://github.com/OctoMap/octomap_mapping
+* Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
+
+🗺 Truncated Signed Distance Function (TSDF)
+* Curless, Brian, and Marc Levoy. "A volumetric method for building complex models from range images." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
+
+🗺 voxblox (ESDF): https://github.com/ethz-asl/voxblox
+* Helen Oleynikova, Zachary Taylor, Marius Fehr, Juan Nieto, and Roland Siegwart, “Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning”, in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
+ 
+🗺 OpenChisel(TSDF): https://github.com/personalrobotics/OpenChisel
+* Klingensmith, Matthew, et al. "Chisel: Real Time Large Scale 3D Reconstruction Onboard a Mobile Device using Spatially Hashed Signed Distance Fields." Robotics: science and systems. Vol. 4. 2015.
 
 # 10_Navigation
 condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
