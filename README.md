@@ -653,3 +653,9 @@ moveit
  * "ROScon": https://roscon.ros.org/
  * "ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
  * "ROS Summer School(CN)": http://www.roseducation.org/
+
+-----
+
+## License
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
