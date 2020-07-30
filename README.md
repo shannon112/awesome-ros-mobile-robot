@@ -108,7 +108,7 @@ http://wiki.ros.org/Distributions
 <img src="https://i.imgur.com/STBL1pF.png" height="300"><img src="https://i.imgur.com/ubb5N8B.png" height="300"><img src="https://i.imgur.com/8GtsLOD.png" height="300">
 
 🚗 Race Car Projects  
- * MIT": https://mit-racecar.github.io
+ * "MIT": https://mit-racecar.github.io
  * "Penn": http://f1tenth.org/ [without slam, NAV]
  * "UCB": http://www.barc-project.com/projects/ [without laser] 
  * "Georgia Tech": https://github.com/AutoRally [for outdoor]
