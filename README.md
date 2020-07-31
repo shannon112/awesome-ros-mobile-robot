@@ -544,9 +544,9 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
 
 # 10_Navigation
 🚗 ROS Navigation Stack (move_base architecture) https://github.com/ros-planning/navigation  
-<img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=700>
 * move_base: http://wiki.ros.org/move_base
 * move_base_flex: http://wiki.ros.org/move_base_flex
+<img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=700>
 
 🚘 Global Planner:  
 ```global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner```  
