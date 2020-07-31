@@ -13,17 +13,16 @@ http://wiki.ros.org/Distributions
 * [3.Robotic-Sensing](README.md#3_robotic_sensing)
 * [4.Calibration](README.md#4_calibration)
 * [5.Odometry](README.md#5_odometry)
-* [6.2D-SLAM](README.md#6_2d_slam)
-* [7.3D-SLAM](README.md#7_3d_slam)
-* [8.Localization](README.md#8_localization)
-* [9.Mapping](README.md#9_mapping)
-* [10.Navigation](README.md#10_navigation)
-* [11.Manipulation](README.md#11_manipulation)
-* [12.Others (Non-tech)](README.md#12_others_non_tech_part)
-  * 12-1. Famous robotics company  
-  * 12-2. Famous robotics conference&journal  
-  * 12-3. Famous robotics competition in Taiwan  
-  * 12-4. Famous ros organizations & activities  
+* [6.SLAM](README.md#6_slam)
+* [7.Localization](README.md#7_localization)
+* [8.Mapping](README.md#8_mapping)
+* [9.Navigation](README.md#9_navigation)
+* [10.Manipulation](README.md#10_manipulation)
+* [11.Others (Non-tech)](README.md#11_others_non_tech_part)
+  * 11-1. Famous robotics company  
+  * 11-2. Famous robotics conference&journal  
+  * 11-3. Famous robotics competition in Taiwan  
+  * 11-4. Famous ros organizations & activities  
 
 # 0_Robotics
 📚 Books:
@@ -348,7 +347,7 @@ ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
 ```
 
-# 6_2D_SLAM
+# 6_SLAM
 Related work keyword
 ```
 Graph-Based optimization / Particle filter / Kalman filter series / Learning based
@@ -418,7 +417,6 @@ Kimera - semantic mappping
 A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 ```
 
-# 7_3D_SLAM
 RGB-D benchmark (dataset)
 ```
 (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
@@ -505,7 +503,7 @@ M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Si
 https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
-# 8_Localization
+# 7_Localization
 📌 Localization on 2D Occupancy Grid Map
 * AMCL: Adaptive (or KLD-sampling) Monte Carlo Localization: http://wiki.ros.org/amcl
   * S. Thrun, W. Burgard, and D. Fox. Probabilistic Robotics. MIT Press, 2005.
@@ -516,7 +514,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 🌲 SLAM Algorithms Support Pure Localization: 
    * ```Cartographer, ORB_SLAM2, RTAB-Map```
 
-# 9_Mapping
+# 8_Mapping
 📍 Basic Mapping Backbones
 * 2D Occupancy Grid Map (Binary/Probability)
 * 3D Occupancy Grid Map (Binary/Probability)
@@ -546,7 +544,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 * DenseSurfelMapping (Surfel based): https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping
   * Wang, Kaixuan, Fei Gao, and Shaojie Shen. "Real-time scalable dense surfel mapping." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 
-# 10_Navigation
+# 9_Navigation
 🚗 ROS Navigation Stack (move_base architecture) https://github.com/ros-planning/navigation  
 * move_base: http://wiki.ros.org/move_base
 * move_base_flex: http://wiki.ros.org/move_base_flex
@@ -593,7 +591,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 * Survey:
   * Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
 
-# 11_Manipulation
+# 10_Manipulation
 🖐️ ROS Moveit (move_group architecture) https://github.com/ros-planning/moveit.git
 <img src="https://moveit.ros.org/assets/images/diagrams/moveit_pipeline.png" width=700>
 
@@ -608,8 +606,8 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 * Covariant Hamiltonian Optimiza-tion for Motion Planning (CHOMP)
   * Intro: https://www.ri.cmu.edu/pub_files/2009/5/icra09-chomp.pdf
 
-# 12_Others_Non_Tech_Part
-## 12-1_Famous Robotics Related Company
+# 11_Others_Non_Tech_Part
+## 11-1_Famous Robotics Related Company
 🏬 Robotic Companies
 | categories | companies |
 | --------   | -------- |
@@ -627,7 +625,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 | Gripper | ROBOTIQ, TOYO |  
 | Self-Driving Cars | Alphabet_Waymo, Uber_ATG, Apple_Project_Titan, Tesla, Toyota_Research_Institute(TRI) |
 
-## 12-2_Famous Robotics Publications
+## 11-2_Famous Robotics Publications
 📝 Top conferences:  
  * IEEE International Conference on Robotics and Automation (ICRA)  
  * IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)  
@@ -646,7 +644,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
  * Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
  * Compress pdf online: https://www.pdf2go.com/compress-pdf  
 
-## 12-3_Famous Robotics Competition
+## 11-3_Famous Robotics Competition
 🌎 Global:
  * "DARPA Robotics Challenge": https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge
  * "RoboCup": https://en.wikipedia.org/wiki/RoboCup
@@ -660,7 +658,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
  * "HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
  * "SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
 
-## 12-4_Famous ROS Organizations & Activities
+## 11-4_Famous ROS Organizations & Activities
 🚀 ROS Related Work:
  * "ROS-industrial": https://rosindustrial.org/
  * "ROS2.0": https://design.ros2.org/
