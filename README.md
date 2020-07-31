@@ -511,7 +511,6 @@ mrpt_localization: http://wiki.ros.org/mrpt_localization
 SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
 
 # 9_Mapping
-2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
 📍 Basic Mapping Backbone & Methods
 * 2D Occupancy Grid Map (Binary/Probability)  http://wiki.ros.org/map_server  
 * 3D Occupancy Grid Map (Binary/Probability)  http://wiki.ros.org/octomap_server | https://github.com/OctoMap/octomap_mapping
