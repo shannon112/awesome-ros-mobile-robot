@@ -509,7 +509,6 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 📌 Localization on 2D Occupancy Grid Map
 * AMCL: Adaptive (or KLD-sampling) Monte Carlo Localization: http://wiki.ros.org/amcl
   * S. Thrun, W. Burgard, and D. Fox. Probabilistic Robotics. MIT Press, 2005.
-
 * mrpt_localization: http://wiki.ros.org/mrpt_localization  
   * J.L. Blanco, J. Gonzalez-Jimenez, J.A. Fernandez-Madrigal, "Optimal Filtering for Non-Parametric Observation Models: Applications to Localization and SLAM", The International Journal of Robotics Research (IJRR), vol. 29, no. 14, 2010.
   * J. Gonzalez-Jimenez, J.L. Blanco, C. Galindo, A. Ortiz-de-Galisteo, J.A. Fernandez-Madrigal, F.A. Moreno, J. Martinez, "Mobile Robot Localization based on Ultra-Wide-Band Ranging: A Particle Filter Approach", Robotics and Autonomous Systems, vol. 57, no. 5, pp. 496--507, 2009.
