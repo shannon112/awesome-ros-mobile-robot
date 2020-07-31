@@ -563,27 +563,23 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
 * rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery
 
 🏎️ Novel Navigation Strategy 
-  * MIT AerospaceControlsLab DRL navigation
+* MIT AerospaceControlsLab DRL navigation
     * Chen, Yu Fan, et al. "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017.
     * Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
-    * https://www.youtube.com/watch?v=PS2UoyCTrSw | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=CK1szio7PyA
-    
-```
-M. Everett, Y. F. Chen and J. P. How, "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018, pp. 3052-3059.
-https://www.youtube.com/watch?v=XHoXkWLhwYQ
-```
-Google AI Research PRM-RL navigation
-```
-A. Faust et al., "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
-Francis, Anthony & Faust, Aleksandra & Chiang, Hao-Tien Lewis & Hsu, Jasmine & Chase Kew, J & Fiser, Marek & Edward Lee, Tsang-Wei. (2019). Long-Range Indoor Navigation with PRM-RL. 
-H. L. Chiang, A. Faust, M. Fiser and A. Francis, "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.
-https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
-```
-ETHz Autonomous System Lab navigation
-```
-M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models," 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
-https://www.youtube.com/watch?v=GPp5mnybm8g
-```
+    * M. Everett, et al. "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018
+    * https://www.youtube.com/watch?v=PS2UoyCTrSw | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=CK1szio7PyA | https://www.youtube.com/watch?v=XHoXkWLhwYQ
+
+* Google AI Research PRM-RL navigation
+  * A. Faust et al. "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
+  * H. L. Chiang, et al. "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.
+  * Francis, Anthony, et al. "Long-range indoor navigation with PRM-RL." IEEE Transactions on Robotics (2020).
+  * https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
+
+* ETHz Autonomous System Lab navigation
+  * Pfeiffer, Mark, et al. "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models." 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016.
+  * Pfeiffer, Mark, et al. "From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots." 2017 ieee international conference on robotics and automation (ICRA). IEEE, 2017.
+  * https://www.youtube.com/watch?v=GPp5mnybm8g | https://www.youtube.com/watch?v=h1rm0BW3eVE | https://www.youtube.com/watch?v=ZedKmXzwdgI
+
 🧹 Coverage Navigation (cleaning or weeding robot)
 * Survey:
   * Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
