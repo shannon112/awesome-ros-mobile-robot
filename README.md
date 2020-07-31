@@ -514,7 +514,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
   * J. Gonzalez-Jimenez, J.L. Blanco, C. Galindo, A. Ortiz-de-Galisteo, J.A. Fernandez-Madrigal, F.A. Moreno, J. Martinez, "Mobile Robot Localization based on Ultra-Wide-Band Ranging: A Particle Filter Approach", Robotics and Autonomous Systems, vol. 57, no. 5, pp. 496--507, 2009.
 
 🌲 SLAM Algorithms Support Pure Localization: 
-   * Cartographer, ORB_SLAM2, RTAB-Map, etc.
+   * ```Cartographer, ORB_SLAM2, RTAB-Map```
 
 # 9_Mapping
 📍 Basic Mapping Backbones
@@ -553,14 +553,14 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 <img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=700>
 
 🚘 Global Planner:  
-```global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner```  
+* ```global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner```  
 * A* (A Star)
   * Hart, Peter E., Nils J. Nilsson, and Bertram Raphael. "A formal basis for the heuristic determination of minimum cost paths." IEEE transactions on Systems Science and Cybernetics 4.2 (1968): 100-107.
 * Dijkstra's
   * Dijkstra, Edsger W. "A note on two problems in connexion with graphs." Numerische mathematik 1.1 (1959): 269-271.
 
 🚘 Local Planner:  
-```dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```  
+* ```dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```  
 * Timed Elastic Band: 
   * C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
   * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.
@@ -571,7 +571,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
   * D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
 
 🚘 Recovery Behavior:  
-```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
+* ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
 🏎️ Novel Navigation Strategy 
 * MIT AerospaceControlsLab DRL navigation
