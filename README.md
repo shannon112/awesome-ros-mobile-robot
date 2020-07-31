@@ -538,44 +538,36 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
   * Wang, Kaixuan, Fei Gao, and Shaojie Shen. "Real-time scalable dense surfel mapping." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 
 # 10_Navigation
-🚗 ROS Navigation Stack (move_base architecture)
+🚗 ROS Navigation Stack (move_base architecture) https://github.com/ros-planning/navigation  
 <img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=600>
+* move_base: http://wiki.ros.org/move_base
+* move_base_flex: http://wiki.ros.org/move_base_flex
 
-condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
+🚘 Global Planner
+* global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner
+  * A*
+  * Dijkstra's
+  
+🚘 Local Planner
+* dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner  
+  * Timed Elastic Band: 
+    * C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
+    * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.
+    * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.
+    * C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories in Distinctive Topologies, Proc. IEEE European Conference on Mobile Robots, UK, Lincoln, Sept. 2015.
+    * C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
+  * Dynamic Window Approach
+    * D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
 
-> move_base compatible, nav_core supported  
+🚘 Recovery Behavior
+* rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery
 
-navigation_stack: http://wiki.ros.org/navigation  
-```js
-"local_planner": base_local_planner, dwa_local_planner, eband_local_planner, teb_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner  
-"global_planner": carrot_planner, navfn, global_planner, sbpl_lattice_planner, srl_global_planner, voronoi_planner
-"RecoveryBehavior": rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery
-```
-dwa_local_planner, base_local_planner http://wiki.ros.org/dwa_local_planner
-```
-D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
-```
-teb_local_planner http://wiki.ros.org/teb_local_planner
-```
-C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
-C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.
-C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.
-C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories in Distinctive Topologies, Proc. IEEE European Conference on Mobile Robots, UK, Lincoln, Sept. 2015.
-C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
-Source code: https://github.com/rst-tu-dortmund/teb_local_planner
-```
-> novel navigation strategy 
-
-MIT AerospaceControlsLab DRL navigation
-```
-Y. F. Chen, M. Liu, M. Everett and J. P. How "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 285-292. 
-https://www.youtube.com/watch?v=PS2UoyCTrSw
-https://www.youtube.com/watch?v=BryJ9jeBkbU
-```
-```
-Y. F. Chen, M. Everett, M. Liu and J. P. How, "Socially aware motion planning with deep reinforcement learning," 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, 2017, pp. 1343-1350.
-https://www.youtube.com/watch?v=CK1szio7PyA&t=2s
-```
+🏎️ Novel Navigation Strategy 
+  * MIT AerospaceControlsLab DRL navigation
+    * Chen, Yu Fan, et al. "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017.
+    * Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
+    * https://www.youtube.com/watch?v=PS2UoyCTrSw | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=CK1szio7PyA
+    
 ```
 M. Everett, Y. F. Chen and J. P. How, "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018, pp. 3052-3059.
 https://www.youtube.com/watch?v=XHoXkWLhwYQ
@@ -592,14 +584,13 @@ ETHz Autonomous System Lab navigation
 M. Pfeiffer, U. Schwesinger, H. Sommer, E. Galceran and R. Siegwart, "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models," 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, 2016, pp. 2096-2101.
 https://www.youtube.com/watch?v=GPp5mnybm8g
 ```
-Coverage navigation servey (cleaning or weeding robot)
-```
-Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
-```
+🧹 Coverage Navigation (cleaning or weeding robot)
+* Survey:
+  * Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
 
 # 11_Manipulation
 🖐️ ROS Moveit (move_group architecture) https://github.com/ros-planning/moveit.git
-<img src="https://moveit.ros.org/assets/images/diagrams/moveit_pipeline.png" width=600>
+<img src="https://moveit.ros.org/assets/images/diagrams/moveit_pipeline.png" width=700>
 
 📚 Planner Library
 * Open Motion Planning Library (OMPL): https://ompl.kavrakilab.org/
