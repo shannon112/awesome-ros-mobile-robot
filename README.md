@@ -512,18 +512,31 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
 
 # 9_Mapping
 2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel  
+📍 Basic Mapping Backbone & Methods
+* 2D Occupancy Grid Map (Binary/Probability)  http://wiki.ros.org/map_server  
+* 3D Occupancy Grid Map (Binary/Probability)  http://wiki.ros.org/octomap_server | https://github.com/OctoMap/octomap_mapping
+* = OctoMapping (Octree|Octomap) https://octomap.github.io/ ```(for collision checking)```
+  * Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 
-🗺 OctoMap - 3D occupancy mapping: https://octomap.github.io/ | https://github.com/OctoMap/octomap_mapping
-* Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
+📍 Advanced 3D Mapping Backbone
+* Surfels
+  * Pfister, Hanspeter, et al. "Surfels: Surface elements as rendering primitives." Proceedings of the 27th annual conference on Computer graphics and interactive techniques. 2000.
+* Truncated Signed Distance Function (SDF)
+  * Curless, Brian, and Marc Levoy. "A volumetric method for building complex models from range images." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
+* Truncated Signed Distance Function (TSDF)
+  * R. A. Newcombe, S. Izadi, O. Hilliges, D. Molyneaux, D. Kim, A. J.Davison, P. Kohi, J. Shotton, S. Hodges, and A. Fitzgibbon, “Kinect-fusion: Real-time dense surface mapping and tracking,” in Mixed and augmented reality (ISMAR), 2011 10th IEEE international symposiumon, pp. 127–136, IEEE, 2011
+* Euclidean Signed Distance Fields (ESDFs) ```(for collision checking)```
+  * Ratliff, Nathan, et al. "CHOMP: Gradient optimization techniques for efficient motion planning." 2009 IEEE International Conference on Robotics and Automation. IEEE, 2009.
 
-🗺 Truncated Signed Distance Function (TSDF)
-* Curless, Brian, and Marc Levoy. "A volumetric method for building complex models from range images." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
-
-🗺 voxblox (ESDF): https://github.com/ethz-asl/voxblox
-* Helen Oleynikova, Zachary Taylor, Marius Fehr, Juan Nieto, and Roland Siegwart, “Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning”, in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
+🗺 Advanced 3D Mapping Methods
+* voxblox (ESDF&TSDF based): https://github.com/ethz-asl/voxblox
+  * Helen Oleynikova, et al. “Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning”, in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
  
-🗺 OpenChisel(TSDF): https://github.com/personalrobotics/OpenChisel
-* Klingensmith, Matthew, et al. "Chisel: Real Time Large Scale 3D Reconstruction Onboard a Mobile Device using Spatially Hashed Signed Distance Fields." Robotics: science and systems. Vol. 4. 2015.
+* OpenChisel (TSDF based): https://github.com/personalrobotics/OpenChisel
+  * Klingensmith, Matthew, et al. "Chisel: Real Time Large Scale 3D Reconstruction Onboard a Mobile Device using Spatially Hashed Signed Distance Fields." Robotics: science and systems. Vol. 4. 2015.
+
+* DenseSurfelMapping (Surfel based): https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping
+  * Wang, Kaixuan, Fei Gao, and Shaojie Shen. "Real-time scalable dense surfel mapping." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 
 # 10_Navigation
 condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
