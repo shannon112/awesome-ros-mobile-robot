@@ -511,13 +511,18 @@ mrpt_localization: http://wiki.ros.org/mrpt_localization
 SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
 
 # 9_Mapping
-📍 Basic Mapping Backbone & Methods
-* 2D Occupancy Grid Map (Binary/Probability)  http://wiki.ros.org/map_server  
-* 3D Occupancy Grid Map (Binary/Probability)  http://wiki.ros.org/octomap_server | https://github.com/OctoMap/octomap_mapping
-* = OctoMapping (Octree|Octomap) https://octomap.github.io/ ```(for collision checking)```
+📍 Basic Mapping Backbones
+* 2D Occupancy Grid Map (Binary/Probability)
+* 3D Occupancy Grid Map (Binary/Probability)
+* Octomap ```(for collision checking)``` https://octomap.github.io/ 
+  * An Efficient Probabilistic 3D Mapping Framework Based on Octrees / 3D Probability Occupancy Grid Map
   * Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 
-📍 Advanced 3D Mapping Backbone
+📍 Basic Mapping Methods
+* map_server: http://wiki.ros.org/map_server ```(load, save)```
+* octomap_server: http://wiki.ros.org/octomap_server ```(load, save, mapping)```
+
+📍 Advanced 3D Mapping Backbones
 * Surfels
   * Pfister, Hanspeter, et al. "Surfels: Surface elements as rendering primitives." Proceedings of the 27th annual conference on Computer graphics and interactive techniques. 2000.
 * Truncated Signed Distance Function (SDF)
