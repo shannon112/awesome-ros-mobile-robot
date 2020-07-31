@@ -549,9 +549,11 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
 * move_base_flex: http://wiki.ros.org/move_base_flex
 
 🚘 Global Planner: ```global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner```
-* A*
+* A* (A Star)
+  * Hart, Peter E., Nils J. Nilsson, and Bertram Raphael. "A formal basis for the heuristic determination of minimum cost paths." IEEE transactions on Systems Science and Cybernetics 4.2 (1968): 100-107.
 * Dijkstra's
-  
+  * Dijkstra, Edsger W. "A note on two problems in connexion with graphs." Numerische mathematik 1.1 (1959): 269-271.
+
 🚘 Local Planner: ```dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```
 * Timed Elastic Band: 
   * C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
