@@ -541,10 +541,8 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 🗺 Advanced 3D Mapping Methods
 * voxblox (ESDF&TSDF based): https://github.com/ethz-asl/voxblox
   * Helen Oleynikova, et al. “Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning”, in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
- 
 * OpenChisel (TSDF based): https://github.com/personalrobotics/OpenChisel
   * Klingensmith, Matthew, et al. "Chisel: Real Time Large Scale 3D Reconstruction Onboard a Mobile Device using Spatially Hashed Signed Distance Fields." Robotics: science and systems. Vol. 4. 2015.
-
 * DenseSurfelMapping (Surfel based): https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping
   * Wang, Kaixuan, Fei Gao, and Shaojie Shen. "Real-time scalable dense surfel mapping." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 
@@ -581,13 +579,11 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
     * Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
     * M. Everett, et al. "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018
     * https://www.youtube.com/watch?v=PS2UoyCTrSw | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=CK1szio7PyA | https://www.youtube.com/watch?v=XHoXkWLhwYQ
-
 * Google AI Research PRM-RL navigation
   * A. Faust et al. "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.
   * H. L. Chiang, et al. "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.
   * Francis, Anthony, et al. "Long-range indoor navigation with PRM-RL." IEEE Transactions on Robotics (2020).
   * https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
-
 * ETHz Autonomous System Lab navigation
   * Pfeiffer, Mark, et al. "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models." 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016.
   * Pfeiffer, Mark, et al. "From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots." 2017 ieee international conference on robotics and automation (ICRA). IEEE, 2017.
