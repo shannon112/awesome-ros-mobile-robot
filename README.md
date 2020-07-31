@@ -538,6 +538,9 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
   * Wang, Kaixuan, Fei Gao, and Shaojie Shen. "Real-time scalable dense surfel mapping." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 
 # 10_Navigation
+🚗 ROS Navigation Stack (move_base architecture)
+<img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=600>
+
 condition keywords: ```in crowded spaces, in cluttered environments, socially aware```
 
 > move_base compatible, nav_core supported  
@@ -595,7 +598,19 @@ Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robo
 ```
 
 # 11_Manipulation
-moveit
+🖐️ ROS Moveit (move_group architecture) https://github.com/ros-planning/moveit.git
+<img src="https://moveit.ros.org/assets/images/diagrams/moveit_pipeline.png" width=600>
+
+📚 Planner Library
+* Open Motion Planning Library (OMPL): https://ompl.kavrakilab.org/
+  * Intro: https://moveit.ros.org/assets/pdfs/2013/icra2013tutorial/OMPLoverview-ICRA2013.pdf
+  * Roadmap Based Planner: PRM, PRM*, Lazy-PRM, LazyPRM*
+  * Tree Based Planner: RRTConnect (default), RRT, RRT*, T-RRT, Bi-TRRT, LB-TRRT, SBL, STRIDE, KPIECE, B-KPIECE, LB-KPIECE, EST, Bi-EST, Proj-EST, PDST, SPARS, SPARS2
+* Search Based Planning Library (SBPL): http://www.sbpl.net/
+  * Intro: https://www.cs.cmu.edu/~maxim/files/tutorials/robschooltutorial_oct10.pdf
+  * Search Based Planner: ARA*, Anytime D*, R*
+* Covariant Hamiltonian Optimiza-tion for Motion Planning (CHOMP)
+  * Intro: https://www.ri.cmu.edu/pub_files/2009/5/icra09-chomp.pdf
 
 # 12_Others_Non_Tech_Part
 ## 12-1_Famous Robotics Related Company
