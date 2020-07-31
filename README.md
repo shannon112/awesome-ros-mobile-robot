@@ -95,8 +95,8 @@ http://wiki.ros.org/Distributions
  * "Mastering ROS for Robotics Programming", C++, Lentin Joseph
  * "Learning ROS for Robotics Programming", C++, Enrique Fernandez
  * "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
- * "机器人操作系统（ROS）浅析", Jason M. O'Kane著, 肖军浩译
- * "ROS 机器人操作系统ROS史话36篇", 张新宇, http://www.roseducation.org/docs/ROS_history.pdf
+ * "機器人作業系統ROS 淺析", Jason M. O'Kane著, 肖軍浩譯
+ * "機器人作業系統ROS 史话36篇", 張新宇, http://www.roseducation.org/docs/ROS_history.pdf
 
 # 2_Robotic_Platform
 🤖 ROS Robot Overview
@@ -506,9 +506,16 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
 # 8_Localization
-amcl | Adaptive (or KLD-sampling) Monte Carlo localization: http://wiki.ros.org/amcl  
-mrpt_localization: http://wiki.ros.org/mrpt_localization  
-SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RTAB-Map, etc.```
+📌 Localization on 2D Occupancy Grid Map
+* AMCL: Adaptive (or KLD-sampling) Monte Carlo Localization: http://wiki.ros.org/amcl
+  * S. Thrun, W. Burgard, and D. Fox. Probabilistic Robotics. MIT Press, 2005.
+
+* mrpt_localization: http://wiki.ros.org/mrpt_localization  
+  * J.L. Blanco, J. Gonzalez-Jimenez, J.A. Fernandez-Madrigal, "Optimal Filtering for Non-Parametric Observation Models: Applications to Localization and SLAM", The International Journal of Robotics Research (IJRR), vol. 29, no. 14, 2010.
+  * J. Gonzalez-Jimenez, J.L. Blanco, C. Galindo, A. Ortiz-de-Galisteo, J.A. Fernandez-Madrigal, F.A. Moreno, J. Martinez, "Mobile Robot Localization based on Ultra-Wide-Band Ranging: A Particle Filter Approach", Robotics and Autonomous Systems, vol. 57, no. 5, pp. 496--507, 2009.
+
+🌲 SLAM Algorithms Support Pure Localization: 
+   * Cartographer, ORB_SLAM2, RTAB-Map, etc.
 
 # 9_Mapping
 📍 Basic Mapping Backbones
