@@ -539,28 +539,25 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
 
 # 10_Navigation
 🚗 ROS Navigation Stack (move_base architecture) https://github.com/ros-planning/navigation  
-<img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=600>
+<img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=700>
 * move_base: http://wiki.ros.org/move_base
 * move_base_flex: http://wiki.ros.org/move_base_flex
 
-🚘 Global Planner
-* global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner
-  * A*
-  * Dijkstra's
+🚘 Global Planner: ```global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner```
+* A*
+* Dijkstra's
   
-🚘 Local Planner
-* dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner  
-  * Timed Elastic Band: 
-    * C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
-    * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.
-    * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.
-    * C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories in Distinctive Topologies, Proc. IEEE European Conference on Mobile Robots, UK, Lincoln, Sept. 2015.
-    * C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
-  * Dynamic Window Approach
-    * D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
+🚘 Local Planner: ```dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```
+* Timed Elastic Band: 
+  * C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.
+  * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.
+  * C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.
+  * C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories in Distinctive Topologies, Proc. IEEE European Conference on Mobile Robots, UK, Lincoln, Sept. 2015.
+  * C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.
+* Dynamic Window Approach
+  * D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
 
-🚘 Recovery Behavior
-* rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery
+🚘 Recovery Behavior: ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```
 
 🏎️ Novel Navigation Strategy 
 * MIT AerospaceControlsLab DRL navigation
