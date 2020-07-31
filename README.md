@@ -519,8 +519,8 @@ SLAM algorithms support pure localization: ```google_cartographer, ORB_SLAM2, RT
   * Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 
 📍 Basic Mapping Methods
-* map_server: http://wiki.ros.org/map_server ```(load, save)```
-* octomap_server: http://wiki.ros.org/octomap_server ```(load, save, mapping)```
+* map_server: http://wiki.ros.org/map_server ```(loading, saving)```
+* octomap_server: http://wiki.ros.org/octomap_server ```(loading, saving, mapping)```
 
 📍 Advanced 3D Mapping Backbones
 * Surfels
