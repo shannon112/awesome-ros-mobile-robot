@@ -248,6 +248,13 @@ http://wiki.ros.org/Distributions
  * Calibration Guide: https://github.com/shannon112/imu_calibration/blob/master/README.md
 
 # 5_Odometry
+Direct / Feature -based Visual Processing
+
+Visual-Inertial survey paper
+```
+Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
+```
 
 #1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
@@ -352,89 +359,53 @@ ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localizati
 ```
 
 # 6_SLAM
-Related work keyword
-```
-Graph-Based optimization / Particle filter / Kalman filter series / Learning based
-Direct / Feature -based Visual Processing
-Tightly / Loosely -coupled Sensor Fusion
-Dense / Semi-Dense / Sparse map
-2D occupancy map / 3D OctoMap / 3D feature map / 3D pointcloud map / TSDF / Surfel
-```
-SLAM benchmark (dataset)
-```
-(KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
-(MIT Stata Center) Fallon, Maurice, et al. "The mit stata center dataset." The International Journal of Robotics Research 32.14 (2013): 1695-1699.
-(Radish) A.Howard and N.Roy, "The robotics data set repository." 2003. [Online]. Available: http://radish.sourceforge.net/ , http://ais.informatik.uni-freiburg.de/slamevaluation/datasets.php
-(measurement) R.K ̈ummerle,  B.Steder,  C.Dornhege,  M.Ruhnke,  G.Grisetti, C.Stachniss, and A.Kleiner, "On measuring the accuracy of SLAMalgorithms," Autonomous Robots, vol. 27, no. 4, pp. 387–407, 2009.
-```
-Classical SLAM theorem
-```
-T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
-H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
-```
-SLAM tutorial
-```
-Strasdat, Hauke, José MM Montiel, and Andrew J. Davison. "Visual SLAM: why filter?." Image and Vision Computing 30.2 (2012): 65-77. (comparison between filter and graph)
-Grisetti, Giorgio, et al. "A tutorial on graph-based SLAM." IEEE Intelligent Transportation Systems Magazine 2.4 (2010): 31-43.
-```
-SLAM survey paper
-```
-Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard, “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
-```
-Visual-Inertial survey paper
-```
-Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
-G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
-```
-cartographer - laser/LiDAR, odom, imu
-```
-Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
-https://github.com/googlecartographer/cartographer
-https://github.com/googlecartographer/cartographer_ros
-```
-gmapping - laser, odom
-```
-G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
-http://wiki.ros.org/gmapping
-```
-hector_slam - laser, imu
-```
-S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
-http://wiki.ros.org/hector_slam
-```
-Zebedee - laser, imu (handheld device)
-```
-M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
-Zlot, Robert, and Michael Bosse. "Efficient large‐scale three‐dimensional mobile mapping for underground mines." Journal of Field Robotics 31.5 (2014): 758-779.
-```
-karto_slam - laser, odom
-```
-karto SLAM, ROS package. accessed Nov, 2016. [online], wiki.ros.org/slam_karto
-```
-ViTa-SLAM - cognitive related SLAM
-```
-ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation whileInteracting with Aliased Environments
-https://arxiv.org/pdf/1906.06422.pdf
-```
-Kimera - semantic mappping
-```
-A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
-```
+🏛 SLAM Theorem & Tutorial
+* T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
+* H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
+* Strasdat, Hauke, José MM Montiel, and Andrew J. Davison. "Visual SLAM: why filter?." Image and Vision Computing 30.2 (2012): 65-77. (comparison between filter and graph)
+* Grisetti, Giorgio, et al. "A tutorial on graph-based SLAM." IEEE Intelligent Transportation Systems Magazine 2.4 (2010): 31-43.
 
-RGB-D benchmark (dataset)
-```
-(KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
-(TUM rgbd) Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
-(ICL-NUIM rgbd) A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
-(EuRoC MAV) Burri, Michael, et al. "The EuRoC micro aerial vehicle datasets." The International Journal of Robotics Research 35.10 (2016): 1157-1163.
-(survey dataset) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
-```
-RGB-D SLAM survey
-```
-Jamiruddin, Redhwan, et al. "Rgb-depth slam review." arXiv preprint arXiv:1805.07696 (2018).
-Zollhöfer, Michael, et al. "State of the Art on 3D Reconstruction with RGB‐D Cameras." Computer graphics forum. Vol. 37. No. 2. 2018.
-```
-ORB-SLAM2 - Stereo, mono, RGBD
+📚 SLAM Survey Paper
+* Cesar Cadena ; Luca Carlone ; Henry Carrillo ; Yasir Latif ; Davide Scaramuzza ; José Neira ; Ian Reid ; John J. Leonard, “Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age”, IEEE Transactions on RoboticsYear: 2016, Volume: 32, Issue: 6Pages: 1309 - 1332
+* Jamiruddin, Redhwan, et al. "Rgb-depth slam review." arXiv preprint arXiv:1805.07696 (2018).
+* Zollhöfer, Michael, et al. "State of the Art on 3D Reconstruction with RGB‐D Cameras." Computer graphics forum. Vol. 37. No. 2. 2018.
+
+☠︎ SLAM Backbone (Back-End)
+* Kalman Filter Family
+  * Kalman Filter (KF), Extend Kalman Filte (EKF), Unscented Kalman Filte (UKF)
+  * Extended Information Filter (EIF), Sparse Extended Information Filter (SEIF)
+* Particle Filter
+  * Gmapping: Grisettiyz, Giorgio, Cyrill Stachniss, and Wolfram Burgard. "Improving grid-based slam with rao-blackwellized particle filters by adaptive proposals and selective resampling." Proceedings of the 2005 IEEE international conference on robotics and automation. IEEE, 2005.
+  * FastSLAM: Montemerlo, Michael, et al. "FastSLAM: A factored solution to the simultaneous localization and mapping problem." Aaai/iaai 593598 (2002).
+  * FastSLAM 2.0: Montemerlo, Michael, et al. "FastSLAM 2.0: An improved particle filtering algorithm for simultaneous localization and mapping that provably converges." IJCAI. 2003.
+* Graph Optimization
+  * Regression: Gaussian Netwon (GN), Leverberg Marquert(LM)
+  * Efficiently Solving: Cholesky Factorization, QR Decomposition, Conjugate Gradients
+  * [Ceres Solver Library](http://ceres-solver.org/): S. Agarwal and M. Keir. "Ceres solver." [online]. Available: http://<span></span>ceres-solver.org/
+  * [g2o Library](https://github.com/RainerKuemmerle/g2o): Kümmerle, Rainer, et al. "g 2 o: A general framework for graph optimization." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
+  * [GTSAM](https://gtsam.org/): Dellaert, Frank. Factor graphs and GTSAM: A hands-on introduction. Georgia Institute of Technology, 2012.
+  * [iSAM](http://people.csail.mit.edu/kaess/isam/): (1)Kaess, M., Ranganathan, A., and Dellaert, F. (2008). iSAM: Incremental smoothing and mapping.IEEE Trans. Robotics, 24(6):1365–1378. (2)Kaess, M., Johannsson, H., Roberts, R., Ila, V., Leonard, J., and Dellaert, F. (2012). iSAM2:Incremental smoothing and mapping using the Bayes tree.Intl. J. of Robotics Research, 31:217–236. (iSAM2 is available as part of the GTSAM)
+  * [SLAM++](https://sourceforge.net/p/slam-plus-plus/wiki/Home/): Ila, Viorela, et al. "SLAM++-A highly efficient and temporally scalable incremental SLAM framework." The International Journal of Robotics Research 36.2 (2017): 210-230.
+* Learning Based
+
+📐 SLAM Benchmark (Dataset)
+* (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
+* (MIT Stata Center) Fallon, Maurice, et al. "The mit stata center dataset." The International Journal of Robotics Research 32.14 (2013): 1695-1699.
+(Radish) A.Howard and N.Roy, "The robotics data set repository." 2003. [Online]. Available: http://radish.sourceforge.net/ , http://ais.informatik.uni-freiburg.de/slamevaluation/datasets.php
+* (measurement) R.K ̈ummerle,  B.Steder,  C.Dornhege,  M.Ruhnke,  G.Grisetti, C.Stachniss, and A.Kleiner, "On measuring the accuracy of SLAMalgorithms," Autonomous Robots, vol. 27, no. 4, pp. 387–407, 2009.
+* (TUM rgbd) Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
+* (ICL-NUIM rgbd) A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
+* (EuRoC MAV) Burri, Michael, et al. "The EuRoC micro aerial vehicle datasets." The International Journal of Robotics Research 35.10 (2016): 1157-1163.
+* (survey dataset) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
+
+💡 2D Laser Based SLAM
+* [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/): Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+* [Gmapping](http://wiki.ros.org/gmapping): G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
+* [Hector](http://wiki.ros.org/hector_slam): S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
+* [Karto](http://wiki.ros.org/slam_karto): Vincent, R., Limketkai, B., & Eriksen, M. (2010, April). Comparison of indoor robot localization techniques in the absence of GPS. In Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XV (Vol. 7664, p. 76641Z). International Society for Optics and Photonics.
+
+📷 3D Visual & RGB-D Based SLAM
+* ORB-SLAM2 - Stereo, mono, RGBD
 ```
 201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
 [Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
@@ -445,7 +416,7 @@ https://github.com/ethz-asl/orb_slam_2_ros
 https://github.com/raulmur/ORB_SLAM2
 https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
 ```
-DVO & DVO-SLAM
+* DVO & DVO-SLAM
 ```
 Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013.
 Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
@@ -453,24 +424,24 @@ Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D
 https://vision.in.tum.de/data/software/dvo
 https://github.com/tum-vision/dvo_slam
 ```
-RGBDv2 SLAM with ROS
+* RGBDv2 SLAM with ROS
 ```
 "3D Mapping with an RGB-D Camera", F. Endres, J. Hess, J. Sturm, D. Cremers, W. Burgard, IEEE Transactions on Robotics, 2014.
 https://github.com/felixendres/rgbdslam_v2
 ```
-RTAB-Map - RGB-D, Stereo and Lidar
+* RTAB-Map - RGB-D, Stereo and Lidar
 ```
 A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
 M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
 http://introlab.github.io/rtabmap/
 https://github.com/introlab/rtabmap_ros
 ```
-KinectFusion: the first one and the famous one
+* KinectFusion: the first one and the famous one
 ```
 Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
 Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
 ```
-ElasticFusion: root of many dense slam
+* ElasticFusion: root of many dense slam
 ```
 Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
 Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
@@ -479,33 +450,47 @@ https://github.com/mp3guy/ElasticFusion
 https://www.youtube.com/watch?v=-dz_VauPjEU
 https://www.youtube.com/watch?v=XySrhZpODYs
 ```
-BundleFusion: state of art dense slam
+* BundleFusion: state of art dense slam
 ```
 Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
 http://graphics.stanford.edu/projects/bundlefusion/
 ```
-Dense RGBDi with gpu
+* Dense RGBDi with gpu
 ```
 Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
 Dyson Robotics Laboratory at Imperial College
 https://www.youtube.com/watch?v=-gUdQ0cxDh0
 ```
-Dense RGBDi with cpu
+* Dense RGBDi with cpu
 ```
 Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 https://www.youtube.com/watch?v=kLsyDEX_U0g
 ```
-Dense RGBD-odometry (KO-Fusion)
+* Dense RGBD-odometry (KO-Fusion)
 ```
 Houseago, Charlie, Michael Bloesch, and Stefan Leutenegger. "KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 Dyson Robotics Laboratory at Imperial College
 https://www.youtube.com/watch?v=yigoIYoY7Wg
 ```
-Desnse RGBD-odometry (arm-slam)
+* Desnse RGBD-odometry (arm-slam)
 ```
 M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
 https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
+
+🔅 3D LiDAR Based SLAM
+* [Zebedee](https://research.csiro.au/robotics/zebedee/) (handheld device): M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
+* [Kaarta](https://www.kaarta.com/) (handheld device):
+* [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam): Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
+* [BLAM](https://github.com/erik-nelson/blam): E. Nelson, BLAM: berkeley localization and mapping, [online]. Available: https://<span></span>github.com/erik-nelson/blam.
+* [Lego-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM): T. Shan and B. Englot, "LeGO-LOAM: Lightweight and Ground- Optimized Lidar Odometry and Mapping on Variable Terrain," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4758- 4765.
+* [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/): Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+
+🐭 Cognitive Related SLAM
+* Struckmeier, Oliver, et al. "ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments." 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS). IEEE, 2019.
+
+🏷 Semantic Related SLAM
+* [Kimera](https://github.com/MIT-SPARK/Kimera): A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 
 # 7_Localization
 📌 Localization on 2D Occupancy Grid Map
