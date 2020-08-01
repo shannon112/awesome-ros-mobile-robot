@@ -248,13 +248,39 @@ http://wiki.ros.org/Distributions
  * Calibration Guide: https://github.com/shannon112/imu_calibration/blob/master/README.md
 
 # 5_Odometry
-Direct / Feature -based Visual Processing
+☠︎ Visual Based Backbone
 
-Visual-Inertial survey paper
+Corresponding with Motion Estimation:
+
+ Corresponding:
+  feature based
+  optical flow
+
+ Motion Estimation:
+  2D-2D geometry
+   epipolar
+  2D-3D geometry
+   Perspective-n-Point (PnP)
+  3D-3D geometry
+   icp
+
+Direct  Method:
+ Dense:
+ Semi-Dense:
+ Sparse:
+
+📚 Odometry Survey Paper
 ```
 Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
 ```
+
+🚖 Wheel Odometry
+💡 2D Laser Based Odometry
+📷 3D Visual & RGB-D Based Odometry
+🔅 3D LiDAR Based Odometry
+🍥 Odometry Fusion
+
 
 #1#2 LOAM, V-LOAM, DEMO - lidar 
 ```
