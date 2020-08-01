@@ -389,14 +389,14 @@ ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localizati
 * Learning Based
 
 📐 SLAM Benchmark (Dataset)
-* (KITTI) Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
-* (MIT Stata Center) Fallon, Maurice, et al. "The mit stata center dataset." The International Journal of Robotics Research 32.14 (2013): 1695-1699.
-(Radish) A.Howard and N.Roy, "The robotics data set repository." 2003. [Online]. Available: http://radish.sourceforge.net/ , http://ais.informatik.uni-freiburg.de/slamevaluation/datasets.php
-* (measurement) R.K ̈ummerle,  B.Steder,  C.Dornhege,  M.Ruhnke,  G.Grisetti, C.Stachniss, and A.Kleiner, "On measuring the accuracy of SLAMalgorithms," Autonomous Robots, vol. 27, no. 4, pp. 387–407, 2009.
-* (TUM rgbd) Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
-* (ICL-NUIM rgbd) A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
-* (EuRoC MAV) Burri, Michael, et al. "The EuRoC micro aerial vehicle datasets." The International Journal of Robotics Research 35.10 (2016): 1157-1163.
-* (survey dataset) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
+* [The KITTI Vision Benchmark & Dataset](http://www.cvlibs.net/datasets/kitti/): Geiger, Andreas, Philip Lenz, and Raquel Urtasun. "Are we ready for autonomous driving? the kitti vision benchmark suite." 2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012.
+* [MIT Stata Center Dataset](https://projects.csail.mit.edu/stata/#) Fallon, Maurice, et al. "The mit stata center dataset." The International Journal of Robotics Research 32.14 (2013): 1695-1699.
+* [Radish Dataset](http://ais.informatik.uni-freiburg.de/slamevaluation/datasets.php): Howard  and  N.  Roy,  “The  robotics  data  set  repository  (Radish),”2003. [Online]. Available: http://<span></span>radish.sourceforge.net/
+* [TUM RGB-D SLAM Benchmark & Dataset](https://vision.in.tum.de/data/datasets/rgbd-dataset): Sturm, Jürgen, et al. "A benchmark for the evaluation of RGB-D SLAM systems." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
+* [ICL-NUIM RGB-D Benchmark & Dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html): A. Handa, T. Whelan, J. McDonald, and A. J. Davison, “A bench-mark for rgb-d visual odometry, 3d reconstruction and slam,” inRobotics and automation (ICRA), 2014 IEEE international conferenceon. IEEE, 2014, pp. 1524–1531.
+* [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) Burri, Michael, et al. "The EuRoC micro aerial vehicle datasets." The International Journal of Robotics Research 35.10 (2016): 1157-1163.
+* (Benchmark) R.K ̈ummerle,  B.Steder,  C.Dornhege,  M.Ruhnke,  G.Grisetti, C.Stachniss, and A.Kleiner, "On measuring the accuracy of SLAM algorithms," Autonomous Robots, vol. 27, no. 4, pp. 387–407, 2009.
+* (Survey) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
 
 💡 2D Laser Based SLAM
 * [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/): Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
