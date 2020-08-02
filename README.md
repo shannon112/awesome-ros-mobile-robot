@@ -200,7 +200,7 @@ http://wiki.ros.org/Distributions
  * "gTTS": https://pypi.org/project/gTTS/
  * "sound_play": http://wiki.ros.org/sound_play
 
-🗣 Speech Recognition
+🗣 Speech Recognition / Speech To Text (STT)
  * "SpeechRecognition": https://pypi.org/project/SpeechRecognition/
 
 🚀 Vocal Assistant
@@ -470,7 +470,7 @@ http://wiki.ros.org/Distributions
   > Curless, Brian, and Marc Levoy. "A volumetric method for building complex models from range images." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
 * Truncated Signed Distance Function (TSDF)
   > R. A. Newcombe, S. Izadi, O. Hilliges, D. Molyneaux, D. Kim, A. J.Davison, P. Kohi, J. Shotton, S. Hodges, and A. Fitzgibbon, “Kinect-fusion: Real-time dense surface mapping and tracking,” in Mixed and augmented reality (ISMAR), 2011 10th IEEE international symposiumon, pp. 127–136, IEEE, 2011
-* Euclidean Signed Distance Fields (ESDFs) ```(for collision checking)```
+* Euclidean Signed Distance Fields (ESDF) ```(for collision checking)```
   > Ratliff, Nathan, et al. "CHOMP: Gradient optimization techniques for efficient motion planning." 2009 IEEE International Conference on Robotics and Automation. IEEE, 2009.
 
 🗺 Advanced 3D Mapping Methods
@@ -497,10 +497,8 @@ http://wiki.ros.org/Distributions
 🚘 Local Planner:  
 * ```dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```  
 * Timed Elastic Band http://wiki.ros.org/teb_local_planner
-  > C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.  
-  > C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Trajectory modification considering dynamic constraints of autonomous robots. Proc. 7th German Conference on Robotics, Germany, Munich, May 2012, pp 74–79.  
   > C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.  
-  > C. Rösmann, F. Hoffmann and T. Bertram: Planning of Multiple Robot Trajectories in Distinctive Topologies, Proc. IEEE European Conference on Mobile Robots, UK, Lincoln, Sept. 2015.  
+  > C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.  
   > C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.  
 * Dynamic Window Approach http://wiki.ros.org/dwa_local_planner
   > D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
@@ -510,16 +508,16 @@ http://wiki.ros.org/Distributions
 
 🏎️ Novel Navigation Strategy 
 * MIT AerospaceControlsLab DRL navigation
-    > Chen, Yu Fan, et al. "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017. | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=PS2UoyCTrSw  
-    > Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017. | https://www.youtube.com/watch?v=CK1szio7PyA  
-    > M. Everett, et al. "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018 | https://www.youtube.com/watch?v=XHoXkWLhwYQ  
+    > 1. Chen, Yu Fan, et al. "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017. | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=PS2UoyCTrSw  
+    > 2. Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017. | https://www.youtube.com/watch?v=CK1szio7PyA  
+    > 3. M. Everett, et al. "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018 | https://www.youtube.com/watch?v=XHoXkWLhwYQ  
 * Google AI Research PRM-RL navigation https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
-  > A. Faust et al. "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.  
-  > H. L. Chiang, et al. "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.  
-  > Francis, Anthony, et al. "Long-range indoor navigation with PRM-RL." IEEE Transactions on Robotics (2020).  
+  > 1. A. Faust et al. "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.  
+  > 2. H. L. Chiang, et al. "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.  
+  > 3. Francis, Anthony, et al. "Long-range indoor navigation with PRM-RL." IEEE Transactions on Robotics (2020).  
 * ETHz Autonomous System Lab navigation
-  > Pfeiffer, Mark, et al. "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models." 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016. | https://www.youtube.com/watch?v=GPp5mnybm8g | https://www.youtube.com/watch?v=h1rm0BW3eVE  
-  > Pfeiffer, Mark, et al. "From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots." 2017 ieee international conference on robotics and automation (ICRA). IEEE, 2017. | https://www.youtube.com/watch?v=ZedKmXzwdgI
+  > 1. Pfeiffer, Mark, et al. "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models." 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016. | https://www.youtube.com/watch?v=GPp5mnybm8g | https://www.youtube.com/watch?v=h1rm0BW3eVE  
+  > 2. Pfeiffer, Mark, et al. "From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots." 2017 ieee international conference on robotics and automation (ICRA). IEEE, 2017. | https://www.youtube.com/watch?v=ZedKmXzwdgI
 
 🧹 Coverage Navigation (cleaning or weeding robot)
 * Survey Paper:
