@@ -253,151 +253,74 @@ http://wiki.ros.org/Distributions
 
 # 5_Odometry
 ☠︎ Visual Based Backbone
-
-Corresponding with Motion Estimation:
-
- Corresponding:
-  feature based
-  optical flow
-
- Motion Estimation:
-  2D-2D geometry
-   epipolar
-  2D-3D geometry
-   Perspective-n-Point (PnP)
-  3D-3D geometry
-   icp
-
-Direct  Method:
- Dense:
- Semi-Dense:
- Sparse:
+* Corresponding with Motion Estimation:
+  * Corresponding:
+    * Feature Based
+    * Optical Flow
+  * Motion Estimation:
+    * 2D-2D geometry: Epipolar
+    * 2D-3D geometry: Perspective-n-Point (PnP)
+    * 3D-3D geometry: Iterative Closest Point (ICP)
+* Direct Method:
+  * Dense:
+  * Semi-Dense:
+  * Sparse:
 
 📚 Odometry Survey Paper
-```
-Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
-G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
-```
+* Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+* G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
+
+🏆 Odometry Algorithm Ranking
+* KITTI: http://www.cvlibs.net/datasets/kitti/eval_odometry.php
 
 🚖 Wheel Odometry
+* ros_control http://wiki.ros.org/ros_control
 
 💡 2D Laser Based Odometry
+* rf2o https://github.com/MAPIRlab/rf2o_laser_odometry
+  * M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
 
 📷 3D Visual Based Odometry
-VINS-Mono
+* VINS-Mono https://github.com/HKUST-Aerial-Robotics/VINS-Mono
+  * Qin, Tong, Peiliang Li, and Shaojie Shen. "Vins-mono: A robust and versatile monocular visual-inertial state estimator." IEEE Transactions on Robotics 34.4 (2018): 1004-1020.
+* VISO2 http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
+  * Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
+* RotRocc+, RotRocc, ROCC, MonoROCC
+  * M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.
+  * M. Buczko, V. Willert, J. Schwehr and J. Adamy: Self-Validation for Automotive Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2018.
+  * M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.
+  * M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.
 
 📸 3D RGB-D/Stereo Based Odometry
-* VINS-Stereo
+* VINS-Fusion https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
+  * Qin, Tong, and Shaojie Shen. "Online temporal calibration for monocular visual-inertial systems." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 * DVO https://github.com/tum-vision/dvo
   * Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Robust odometry estimation for RGB-D cameras." 2013 IEEE International Conference on Robotics and Automation. IEEE, 2013.
   * Steinbrücker, Frank, Jürgen Sturm, and Daniel Cremers. "Real-time visual odometry from dense RGB-D images." 2011 IEEE international conference on computer vision workshops (ICCV Workshops). IEEE, 2011.
+* SOFT https://github.com/Mayankm96/Stereo-Odometry-SOFT
+  * Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
+  * Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
+* VISO2 http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
+  * Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
 
 🔅 3D LiDAR Based Odometry
+* LOAM & V-LOAM https://github.com/laboshinl/loam_velodyne
+  * J Zhang, S Singh, "LOAM: Lidar Odometry and Mapping in Real-time", Robotics: Science and Systems Conference (RSS 2014)
+  * J Zhang, S Singh, "Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast", IEEE International Conference on Robotics and Automation (ICRA)
+  * J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2014.
+* LIMO https://github.com/johannes-graeter/limo
+  * Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
+
+ 🤖 Learning Based Odometry
+* DeepVO https://github.com/ChiWeiHsiao/DeepVO-pytorch | https://github.com/ildoonet/deepvo
+  * S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
+* VINET https://github.com/HTLife/VINet
+  * Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 
 🍥 Odometry Fusion
-
-
-#1#2 LOAM, V-LOAM, DEMO - lidar 
-```
-201905KITTI#1#2 - Laser Odometry and Mapping (Loam) is a realtime method for state estimation and mapping using a 3D lidar.
-J Zhang, S Singh, "LOAM: Lidar Odometry and Mapping in Real-time", Robotics: Science and Systems Conference (RSS 2014)
-J Zhang, S Singh, "Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast", IEEE International Conference on Robotics and Automation (ICRA)
-J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2014.
-https://github.com/laboshinl/loam_velodyne
-https://github.com/cuitaixiang/LOAM_NOTED
-```
-#3#5 IMLS-SLAM, IMLS-SLAM++ - lidar
-```
-201905KITTI#3#5
-Jean-Emmanuel Deschaud, "IMLS-SLAM: scan-to-model matching based on 3D data", arXiv:1802.08633 [cs.RO]
-```
-#4#17 SOFT, SOFT2 - Stereo 
-```
-201905KITTI#4,17 - Stereo Odometry based on careful Feature selection and Tracking. 
-Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
-Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
-https://github.com/Mayankm96/Stereo-Odometry-SOFT
-```
-#10#19 RotRocc+, RotRocc, ROCC, MonoROCC - stereo?
-```
-201905KITTI#10#19
-M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.
-M. Buczko, V. Willert, J. Schwehr and J. Adamy: Self-Validation for Automotive Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2018.
-M. Buczko: Automotive Visual Odometry. 2018.
-M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.
-M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.
-```
-#11,13,23 LIMO_GP, LIMO2, LIMO - mono + lidar
-```
-201905KITTI#11,13,23 - Lidar-Monocular Visual Odometry
-https://github.com/johannes-graeter/limo
-Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
-```
-#34 VINS - Stereo, mono, RGBD + inertial
-```
-201905KITTI#34 - An optimization-based multi-sensor state estimator
-Online Temporal Calibration for Monocular Visual-Inertial Systems, Tong Qin, Shaojie Shen, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2018), best student paper award pdf
-VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator, Tong Qin, Peiliang Li, Zhenfei Yang, Shaojie Shen, IEEE Transactions on Roboticspdf
-https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
-https://github.com/HKUST-Aerial-Robotics/VINS-Mono
-```
-#40 ORB-SLAM2 - Stereo, mono, RGBD
-```
-201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
-[Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
-[Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
-[DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
-https://github.com/appliedAI-Initiative/orb_slam_2_ros
-https://github.com/ethz-asl/orb_slam_2_ros
-https://github.com/raulmur/ORB_SLAM2
-https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
-```
-#48 VoBa - IMU, visual-aided
-```
-201905KITTI#48
-J. Tardif, M. George, M. Laverne, A. Kelly and A. Stentz: A new approach to vision-aided inertial navigation. 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems, October 18-22, 2010, Taipei, Taiwan 2010.
-```
-#54 RTAB-Map - RGB-D, Stereo and Lidar
-```
-A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
-M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
-http://introlab.github.io/rtabmap/
-https://github.com/introlab/rtabmap_ros
-```
-#109 VISO2 - Stereo or Mono
-```
-Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
-http://wiki.ros.org/viso2_ros
-http://www.cvlibs.net/software/libviso/
-```
-DeepVO - learning_based: RGB
-```
-S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
-https://github.com/ChiWeiHsiao/DeepVO-pytorch
-https://github.com/ildoonet/deepvo
-https://github.com/krrish94/DeepVO
-https://github.com/linjian93/pytorch-deepvo
-```
-VINET - learning_based: RGB + IMU
-```
-Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
-https://github.com/HTLife/VINet
-```
-rf2o - 2D laser odometry
-```
-M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
-Laser odometry(old) | "laser_scan_matcher": http://wiki.ros.org/laser_scan_matcher
-Laser odometry | "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
-```
-Wheel encoder odometry
-```
-Wheel encoder and actuator | "ros_control": http://wiki.ros.org/ros_control
-```
-Odometry fusion ros pkg 
-```
-ekf | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
-ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
-```
+* EKF | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
+* EKF & UKF | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
+  * Moore, Thomas, and Daniel Stouch. "A generalized extended kalman filter implementation for the robot operating system." Intelligent autonomous systems 13. Springer, Cham, 2016. 335-348.
 
 # 6_SLAM
 🏛 SLAM Theorem & Tutorial
@@ -461,7 +384,7 @@ ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localizati
   * Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Dense visual SLAM for RGB-D cameras." 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2013.
 * RGBDSLAMv2 https://felixendres.github.io/rgbdslam_v2/
   * Endres, Felix, et al. "3-D mapping with an RGB-D camera." IEEE transactions on robotics 30.1 (2013): 177-187.
-* RTAB-Map http://introlab.github.io/rtabmap/
+* RTAB-Map http://introlab.github.io/rtabmap/ | https://github.com/introlab/rtabmap_ros
   * M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
   * M. Labbé and F. Michaud, “Long-term online multi-session graph-based SPLAM with memory management,” in Autonomous Robots, vol. 42, no. 6, pp. 1133-1150, 2018.
   * M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.
@@ -512,12 +435,21 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 ```
 
 🔅 3D LiDAR Based SLAM
-* [Zebedee](https://research.csiro.au/robotics/zebedee/) (handheld device): M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
-* [Kaarta](https://www.kaarta.com/) (handheld device): Zhang, Ji, and Sanjiv Singh. "Laser–visual–inertial odometry and mapping with high robustness and low drift." Journal of Field Robotics 35.8 (2018): 1242-1264.
-* [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam): Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
-* [BLAM](https://github.com/erik-nelson/blam): E. Nelson, BLAM: berkeley localization and mapping, [online]. Available: https://<span></span>github.com/erik-nelson/blam.
-* [Lego-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM): T. Shan and B. Englot, "LeGO-LOAM: Lightweight and Ground- Optimized Lidar Odometry and Mapping on Variable Terrain," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4758- 4765.
-* [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/): Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+* Zebedee https://research.csiro.au/robotics/zebedee/ (handheld device)
+  * M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
+* Kaarta https://www.kaarta.com/ (handheld device)
+  * Zhang, Ji, and Sanjiv Singh. "Laser–visual–inertial odometry and mapping with high robustness and low drift." Journal of Field Robotics 35.8 (2018): 1242-1264.
+* hdl_graph_slam https://github.com/koide3/hdl_graph_slam
+  * Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
+* BLAM https://github.com/erik-nelson/blam
+  * E. Nelson, BLAM: berkeley localization and mapping, [online]. Available: https://<span></span>github.com/erik-nelson/blam.
+* Lego-LOAM https://github.com/RobustFieldAutonomyLab/LeGO-LOAM
+  * T. Shan and B. Englot, "LeGO-LOAM: Lightweight and Ground- Optimized Lidar Odometry and Mapping on Variable Terrain," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4758- 4765.
+* Cartographer https://google-cartographer-ros.readthedocs.io/en/latest/
+  * Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+* IMLS-SLAM
+  * Deschaud, Jean-Emmanuel. "IMLS-SLAM: scan-to-model matching based on 3D data." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+
 
 🐭 Cognitive Related SLAM
 * Struckmeier, Oliver, et al. "ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments." 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS). IEEE, 2019.
