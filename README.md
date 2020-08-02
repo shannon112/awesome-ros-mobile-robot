@@ -275,6 +275,7 @@ http://wiki.ros.org/Distributions
 
 🚖 Wheel Odometry
 * ros_control http://wiki.ros.org/ros_control
+  * Chitta, Sachin, et al. "ros_control: A generic and simple control framework for ROS." (2017).
 
 💡 2D Laser Based Odometry
 * rf2o https://github.com/MAPIRlab/rf2o_laser_odometry
@@ -390,49 +391,22 @@ http://wiki.ros.org/Distributions
   * M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.
   * M. Labbé and F. Michaud, “Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation,” in IEEE Transactions on Robotics, vol. 29, no. 3, pp. 734-745, 2013.
   * M. Labbé and F. Michaud, “Memory management for real-time appearance-based loop closure detection,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011, pp. 1271–1276.
-
-
-* KinectFusion: the first one and the famous one
-```
-Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
-Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
-```
-* ElasticFusion: root of many dense slam
-```
-Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
-Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
-Dyson Robotics Laboratory at Imperial College
-https://github.com/mp3guy/ElasticFusion
-https://www.youtube.com/watch?v=-dz_VauPjEU
-https://www.youtube.com/watch?v=XySrhZpODYs
-```
-* BundleFusion: state of art dense slam
-```
-Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
-http://graphics.stanford.edu/projects/bundlefusion/
-```
-* Dense RGBDi with gpu
-```
-Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
-Dyson Robotics Laboratory at Imperial College
-https://www.youtube.com/watch?v=-gUdQ0cxDh0
-```
-* Dense RGBDi with cpu
-```
-Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
-https://www.youtube.com/watch?v=kLsyDEX_U0g
-```
-* Dense RGBD-odometry (KO-Fusion)
-```
-Houseago, Charlie, Michael Bloesch, and Stefan Leutenegger. "KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
-Dyson Robotics Laboratory at Imperial College
-https://www.youtube.com/watch?v=yigoIYoY7Wg
-```
-* Desnse RGBD-odometry (arm-slam)
-```
-M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
-https://www.youtube.com/watch?v=QrFyaxFUs9w
-```
+* KinectFusion https://www.microsoft.com/en-us/research/project/kinectfusion-project-page/
+  * Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
+  * Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
+* ElasticFusion https://github.com/mp3guy/ElasticFusion
+  * Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
+  * Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
+  Dyson Robotics Laboratory at Imperial College
+* BundleFusion http://graphics.stanford.edu/projects/bundlefusion/
+  * Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
+* KO-Fusion https://www.youtube.com/watch?v=yigoIYoY7Wg (mobile manipulator)
+  * Houseago, Charlie, Michael Bloesch, and Stefan Leutenegger. "KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
+* arm-slam  https://www.youtube.com/watch?v=QrFyaxFUs9w (manipulator)
+  * M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
+* Dense RGB-D-Inertail
+  * Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
+  * Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 
 🔅 3D LiDAR Based SLAM
 * Zebedee https://research.csiro.au/robotics/zebedee/ (handheld device)
@@ -449,7 +423,6 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
   * Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
 * IMLS-SLAM
   * Deschaud, Jean-Emmanuel. "IMLS-SLAM: scan-to-model matching based on 3D data." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
-
 
 🐭 Cognitive Related SLAM
 * Struckmeier, Oliver, et al. "ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments." 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS). IEEE, 2019.
