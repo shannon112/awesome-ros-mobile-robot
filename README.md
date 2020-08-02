@@ -6,7 +6,7 @@ This repository provides some useful resources and informations about **autonomo
 [<img src="https://www.ros.org/wp-content/uploads/2013/10/rosorg-logo1.png" align="right" width="86">](https://www.ros.org/)
 http://wiki.ros.org/Distributions
 
-# Contents:  
+# Index:  
 * [0.Robotics](README.md#0_robotics)
 * [1.Robot-Operating-System(ROS)](README.md#1_robot_operating_system)
 * [2.Robotic-Platform](README.md#2_robotic_platform)
