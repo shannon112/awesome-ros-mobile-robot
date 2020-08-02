@@ -438,7 +438,7 @@ http://wiki.ros.org/Distributions
 
 🏷 Semantic Related SLAM
 * Kimera https://github.com/MIT-SPARK/Kimera
-  > A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
+  > Rosinol, Antoni, et al. "Kimera: an open-source library for real-time metric-semantic localization and mapping." arXiv preprint arXiv:1910.02490 (2019).
 
 # 7_Localization
 📌 Localization on 2D Occupancy Grid Map
@@ -532,11 +532,11 @@ http://wiki.ros.org/Distributions
 📚 Planner Library
 * Open Motion Planning Library (OMPL): https://ompl.kavrakilab.org/
   * Intro: https://moveit.ros.org/assets/pdfs/2013/icra2013tutorial/OMPLoverview-ICRA2013.pdf
-  * Roadmap Based Planner: PRM, PRM*, Lazy-PRM, LazyPRM*
-  * Tree Based Planner: RRTConnect (default), RRT, RRT*, T-RRT, Bi-TRRT, LB-TRRT, SBL, STRIDE, KPIECE, B-KPIECE, LB-KPIECE, EST, Bi-EST, Proj-EST, PDST, SPARS, SPARS2
+  * Roadmap Based Planner: ```PRM, PRM*, Lazy-PRM, LazyPRM*```
+  * Tree Based Planner: ```RRTConnect (default), RRT, RRT*, T-RRT, Bi-TRRT, LB-TRRT, SBL, STRIDE, KPIECE, B-KPIECE, LB-KPIECE, EST, Bi-EST, Proj-EST, PDST, SPARS, SPARS2```
 * Search Based Planning Library (SBPL): http://www.sbpl.net/
   * Intro: https://www.cs.cmu.edu/~maxim/files/tutorials/robschooltutorial_oct10.pdf
-  * Search Based Planner: ARA*, Anytime D*, R*
+  * Search Based Planner: ```ARA*, Anytime D*, R*```
 * Covariant Hamiltonian Optimiza-tion for Motion Planning (CHOMP)
   * Intro: https://www.ri.cmu.edu/pub_files/2009/5/icra09-chomp.pdf
 
