@@ -280,9 +280,20 @@ G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Con
 ```
 
 🚖 Wheel Odometry
+
 💡 2D Laser Based Odometry
-📷 3D Visual & RGB-D Based Odometry
+
+📷 3D Visual Based Odometry
+VINS-Mono
+
+📸 3D RGB-D/Stereo Based Odometry
+* VINS-Stereo
+* DVO https://github.com/tum-vision/dvo
+  * Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Robust odometry estimation for RGB-D cameras." 2013 IEEE International Conference on Robotics and Automation. IEEE, 2013.
+  * Steinbrücker, Frank, Jürgen Sturm, and Daniel Cremers. "Real-time visual odometry from dense RGB-D images." 2011 IEEE international conference on computer vision workshops (ICCV Workshops). IEEE, 2011.
+
 🔅 3D LiDAR Based Odometry
+
 🍥 Odometry Fusion
 
 
@@ -429,43 +440,35 @@ ekf&ukf | "robot_localization": http://docs.ros.org/melodic/api/robot_localizati
 * (Survey) Cai, Ziyun, et al. "RGB-D datasets using microsoft kinect or similar sensors: a survey." Multimedia Tools and Applications 76.3 (2017): 4313-4355.
 
 💡 2D Laser Based SLAM
-* [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/): Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
-* [Gmapping](http://wiki.ros.org/gmapping): G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
-* [Hector](http://wiki.ros.org/hector_slam): S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
-* [Karto](http://wiki.ros.org/slam_karto): Vincent, R., Limketkai, B., & Eriksen, M. (2010, April). Comparison of indoor robot localization techniques in the absence of GPS. In Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XV (Vol. 7664, p. 76641Z). International Society for Optics and Photonics.
+* Cartographer https://google-cartographer-ros.readthedocs.io/en/latest/
+  * Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+* Gmapping http://wiki.ros.org/gmapping
+  * G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
+* Hector http://wiki.ros.org/hector_slam
+  * S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
+* Karto http://wiki.ros.org/slam_karto
+  * Vincent, R., Limketkai, B., & Eriksen, M. (2010, April). Comparison of indoor robot localization techniques in the absence of GPS. In Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XV (Vol. 7664, p. 76641Z). International Society for Optics and Photonics.
 
-📷 3D Visual & RGB-D Based SLAM
-* ORB-SLAM2 - Stereo, mono, RGBD
-```
-201905KITTI#40 - Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
-[Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
-[Stereo and RGB-D] Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017. PDF.
-[DBoW2 Place Recognizer] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF
-https://github.com/appliedAI-Initiative/orb_slam_2_ros
-https://github.com/ethz-asl/orb_slam_2_ros
-https://github.com/raulmur/ORB_SLAM2
-https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map
-```
-* DVO & DVO-SLAM
-```
-Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013.
-Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
-Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011.
-https://vision.in.tum.de/data/software/dvo
-https://github.com/tum-vision/dvo_slam
-```
-* RGBDv2 SLAM with ROS
-```
-"3D Mapping with an RGB-D Camera", F. Endres, J. Hess, J. Sturm, D. Cremers, W. Burgard, IEEE Transactions on Robotics, 2014.
-https://github.com/felixendres/rgbdslam_v2
-```
-* RTAB-Map - RGB-D, Stereo and Lidar
-```
-A RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. 
-M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
-http://introlab.github.io/rtabmap/
-https://github.com/introlab/rtabmap_ros
-```
+📷 3D Visual Based SLAM
+* ORB-SLAM https://github.com/raulmur/ORB_SLAM2
+  * Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015.
+  * Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012.
+
+📸 3D RGB-D/Stereo Based SLAM
+* ORB-SLAM2 https://github.com/raulmur/ORB_SLAM2
+  * Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017.
+* DVO-SLAM https://github.com/tum-vision/dvo_slam
+  * Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Dense visual SLAM for RGB-D cameras." 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2013.
+* RGBDSLAMv2 https://felixendres.github.io/rgbdslam_v2/
+  * Endres, Felix, et al. "3-D mapping with an RGB-D camera." IEEE transactions on robotics 30.1 (2013): 177-187.
+* RTAB-Map http://introlab.github.io/rtabmap/
+  * M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
+  * M. Labbé and F. Michaud, “Long-term online multi-session graph-based SPLAM with memory management,” in Autonomous Robots, vol. 42, no. 6, pp. 1133-1150, 2018.
+  * M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.
+  * M. Labbé and F. Michaud, “Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation,” in IEEE Transactions on Robotics, vol. 29, no. 3, pp. 734-745, 2013.
+  * M. Labbé and F. Michaud, “Memory management for real-time appearance-based loop closure detection,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011, pp. 1271–1276.
+
+
 * KinectFusion: the first one and the famous one
 ```
 Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
@@ -510,7 +513,7 @@ https://www.youtube.com/watch?v=QrFyaxFUs9w
 
 🔅 3D LiDAR Based SLAM
 * [Zebedee](https://research.csiro.au/robotics/zebedee/) (handheld device): M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
-* [Kaarta](https://www.kaarta.com/) (handheld device):
+* [Kaarta](https://www.kaarta.com/) (handheld device): Zhang, Ji, and Sanjiv Singh. "Laser–visual–inertial odometry and mapping with high robustness and low drift." Journal of Field Robotics 35.8 (2018): 1242-1264.
 * [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam): Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
 * [BLAM](https://github.com/erik-nelson/blam): E. Nelson, BLAM: berkeley localization and mapping, [online]. Available: https://<span></span>github.com/erik-nelson/blam.
 * [Lego-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM): T. Shan and B. Englot, "LeGO-LOAM: Lightweight and Ground- Optimized Lidar Odometry and Mapping on Variable Terrain," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4758- 4765.
