@@ -218,21 +218,35 @@ http://wiki.ros.org/Distributions
  * "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 
 🔅 Learning-Based Feature Extractor  
- * "Alexnet": Krizhevsky, Alex. "One weird trick for parallelizing convolutional neural networks." arXiv preprint arXiv:1404.5997 (2014).
- * "VGG": Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
- * "ResNet": He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
- * "InceptionV3": Szegedy, Christian, et al. "Rethinking the inception architecture for computer vision." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
- * "DenseNet": Huang, Gao, et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
- * "GoogleNet": Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
- * "MobileNet": Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
- * "SqueezeNet": Iandola, Forrest N., et al. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).
+ * "Alexnet" 
+   > Krizhevsky, Alex. "One weird trick for parallelizing convolutional neural networks." arXiv preprint arXiv:1404.5997 (2014).
+ * "VGG" 
+   > Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
+ * "ResNet" 
+   > He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+ * "InceptionV3"
+   > Szegedy, Christian, et al. "Rethinking the inception architecture for computer vision." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+ * "DenseNet"
+   > Huang, Gao, et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+ * "GoogleNet"
+   > Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+ * "MobileNet"
+   > Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
+ * "SqueezeNet"
+   > Iandola, Forrest N., et al. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).
  * Pytorch implementation: https://pytorch.org/docs/stable/torchvision/models.html
 
 🔅 Learning-Based Object Detection
- * "Faster R-CNN": Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
- * "SSD": Liu, Wei, et al. "Ssd: Single shot multibox detector." European conference on computer vision. Springer, Cham, 2016.
- * "YOLOv3": Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
-
+ * "Faster R-CNN"
+   > Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
+ * "SSD" 
+   > Liu, Wei, et al. "Ssd: Single shot multibox detector." European conference on computer vision. Springer, Cham, 2016.
+ * "YOLOv3" https://github.com/leggedrobotics/darknet_ros
+   > (v4) Bochkovskiy, Alexey, Chien-Yao Wang, and Hong-Yuan Mark Liao. "YOLOv4: Optimal Speed and Accuracy of Object Detection." arXiv preprint arXiv:2004.10934 (2020).  
+   > (v3) Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).  
+   > (v2) Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.  
+   > (v1) Redmon, Joseph, et al. "You only look once: Unified, real-time object detection." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.  
+   
 🔅 Learning-Based Human Pose Estimation
  * "OpenPose": https://github.com/CMU-Perceptual-Computing-Lab/openpose
  * "OpenPose-plugin": https://github.com/ildoonet/tf-pose-estimation
@@ -275,53 +289,53 @@ http://wiki.ros.org/Distributions
 
 🚖 Wheel Odometry
 * ros_control http://wiki.ros.org/ros_control
-  * Chitta, Sachin, et al. "ros_control: A generic and simple control framework for ROS." (2017).
+  > Chitta, Sachin, et al. "ros_control: A generic and simple control framework for ROS." (2017).
 
 💡 2D Laser Based Odometry
 * rf2o https://github.com/MAPIRlab/rf2o_laser_odometry
-  * M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
+  > M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
 
 📷 3D Visual Based Odometry
 * VINS-Mono https://github.com/HKUST-Aerial-Robotics/VINS-Mono
-  * Qin, Tong, Peiliang Li, and Shaojie Shen. "Vins-mono: A robust and versatile monocular visual-inertial state estimator." IEEE Transactions on Robotics 34.4 (2018): 1004-1020.
+  > Qin, Tong, Peiliang Li, and Shaojie Shen. "Vins-mono: A robust and versatile monocular visual-inertial state estimator." IEEE Transactions on Robotics 34.4 (2018): 1004-1020.
 * VISO2 http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
-  * Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
+  > Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
 * RotRocc+, RotRocc, ROCC, MonoROCC
-  * M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.
-  * M. Buczko, V. Willert, J. Schwehr and J. Adamy: Self-Validation for Automotive Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2018.
-  * M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.
-  * M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.
+  > M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.  
+  > M. Buczko, V. Willert, J. Schwehr and J. Adamy: Self-Validation for Automotive Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2018.  
+  > M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.  
+  > M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.  
 
 📸 3D RGB-D/Stereo Based Odometry
 * VINS-Fusion https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
-  * Qin, Tong, and Shaojie Shen. "Online temporal calibration for monocular visual-inertial systems." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
+  > Qin, Tong, and Shaojie Shen. "Online temporal calibration for monocular visual-inertial systems." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 * DVO https://github.com/tum-vision/dvo
-  * Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Robust odometry estimation for RGB-D cameras." 2013 IEEE International Conference on Robotics and Automation. IEEE, 2013.
-  * Steinbrücker, Frank, Jürgen Sturm, and Daniel Cremers. "Real-time visual odometry from dense RGB-D images." 2011 IEEE international conference on computer vision workshops (ICCV Workshops). IEEE, 2011.
+  > Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Robust odometry estimation for RGB-D cameras." 2013 IEEE International Conference on Robotics and Automation. IEEE, 2013.
+  > Steinbrücker, Frank, Jürgen Sturm, and Daniel Cremers. "Real-time visual odometry from dense RGB-D images." 2011 IEEE international conference on computer vision workshops (ICCV Workshops). IEEE, 2011.
 * SOFT https://github.com/Mayankm96/Stereo-Odometry-SOFT
-  * Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).
-  * Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.
+  > Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).  
+  > Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.  
 * VISO2 http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
-  * Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
+  > Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.  
 
 🔅 3D LiDAR Based Odometry
 * LOAM & V-LOAM https://github.com/laboshinl/loam_velodyne
-  * J Zhang, S Singh, "LOAM: Lidar Odometry and Mapping in Real-time", Robotics: Science and Systems Conference (RSS 2014)
-  * J Zhang, S Singh, "Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast", IEEE International Conference on Robotics and Automation (ICRA)
-  * J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2014.
+  > J Zhang, S Singh, "LOAM: Lidar Odometry and Mapping in Real-time", Robotics: Science and Systems Conference (RSS 2014)  
+  > J Zhang, S Singh, "Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast", IEEE International Conference on Robotics and Automation (ICRA)  
+  > J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2014.  
 * LIMO https://github.com/johannes-graeter/limo
-  * Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
+  > Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 
  🤖 Learning Based Odometry
 * DeepVO https://github.com/ChiWeiHsiao/DeepVO-pytorch | https://github.com/ildoonet/deepvo
-  * S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
+  > S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
 * VINET https://github.com/HTLife/VINet
-  * Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
+  > Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 
 🍥 Odometry Fusion
 * EKF | "robot_pose_ekf": http://wiki.ros.org/robot_pose_ekf
 * EKF & UKF | "robot_localization": http://docs.ros.org/melodic/api/robot_localization/html/index.html
-  * Moore, Thomas, and Daniel Stouch. "A generalized extended kalman filter implementation for the robot operating system." Intelligent autonomous systems 13. Springer, Cham, 2016. 335-348.
+  > Moore, Thomas, and Daniel Stouch. "A generalized extended kalman filter implementation for the robot operating system." Intelligent autonomous systems 13. Springer, Cham, 2016. 335-348.
 
 # 6_SLAM
 🏛 SLAM Theorem & Tutorial
@@ -365,70 +379,72 @@ http://wiki.ros.org/Distributions
 
 💡 2D Laser Based SLAM
 * Cartographer https://google-cartographer-ros.readthedocs.io/en/latest/
-  * Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+  > Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
 * Gmapping http://wiki.ros.org/gmapping
-  * G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
+  > G. Grisetti, C. Stachniss and W. Burgard, "Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters," IEEE Transactions on Robotics, vol. 23, no. 1, pp. 34-46, Feb. 2007.
 * Hector http://wiki.ros.org/hector_slam
-  * S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
+  > S. Kohlbrecher, O. von Stryk, J. Meyer and U. Klingauf, "A flexible and scalable SLAM system with full 3D motion estimation," 2011 IEEE International Symposium on Safety, Security, and Rescue Robotics, Kyoto, 2011, pp. 155-160.
 * Karto http://wiki.ros.org/slam_karto
-  * Vincent, R., Limketkai, B., & Eriksen, M. (2010, April). Comparison of indoor robot localization techniques in the absence of GPS. In Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XV (Vol. 7664, p. 76641Z). International Society for Optics and Photonics.
+  > Vincent, R., Limketkai, B., & Eriksen, M. (2010, April). Comparison of indoor robot localization techniques in the absence of GPS. In Detection and Sensing of Mines, Explosive Objects, and Obscured Targets XV (Vol. 7664, p. 76641Z). International Society for Optics and Photonics.
 
 📷 3D Visual Based SLAM
 * ORB-SLAM https://github.com/raulmur/ORB_SLAM2
-  * Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015.
-  * Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012.
+  > Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015.
+  > Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012.
 
 📸 3D RGB-D/Stereo Based SLAM
 * ORB-SLAM2 https://github.com/raulmur/ORB_SLAM2
-  * Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017.
+  > Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017.
 * DVO-SLAM https://github.com/tum-vision/dvo_slam
-  * Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Dense visual SLAM for RGB-D cameras." 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2013.
+  > Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Dense visual SLAM for RGB-D cameras." 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2013.
 * RGBDSLAMv2 https://felixendres.github.io/rgbdslam_v2/
-  * Endres, Felix, et al. "3-D mapping with an RGB-D camera." IEEE transactions on robotics 30.1 (2013): 177-187.
+  > Endres, Felix, et al. "3-D mapping with an RGB-D camera." IEEE transactions on robotics 30.1 (2013): 177-187.
 * RTAB-Map http://introlab.github.io/rtabmap/ | https://github.com/introlab/rtabmap_ros
-  * M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
-  * M. Labbé and F. Michaud, “Long-term online multi-session graph-based SPLAM with memory management,” in Autonomous Robots, vol. 42, no. 6, pp. 1133-1150, 2018.
-  * M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.
-  * M. Labbé and F. Michaud, “Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation,” in IEEE Transactions on Robotics, vol. 29, no. 3, pp. 734-745, 2013.
-  * M. Labbé and F. Michaud, “Memory management for real-time appearance-based loop closure detection,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011, pp. 1271–1276.
+  > M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
+  > M. Labbé and F. Michaud, “Long-term online multi-session graph-based SPLAM with memory management,” in Autonomous Robots, vol. 42, no. 6, pp. 1133-1150, 2018.
+  > M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.
+  > M. Labbé and F. Michaud, “Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation,” in IEEE Transactions on Robotics, vol. 29, no. 3, pp. 734-745, 2013.
+  > M. Labbé and F. Michaud, “Memory management for real-time appearance-based loop closure detection,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011, pp. 1271–1276.
 * KinectFusion https://www.microsoft.com/en-us/research/project/kinectfusion-project-page/
-  * Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
-  * Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
+  > Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
+  > Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
 * ElasticFusion https://github.com/mp3guy/ElasticFusion
-  * Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
-  * Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
+  > Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
+  > Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
   Dyson Robotics Laboratory at Imperial College
 * BundleFusion http://graphics.stanford.edu/projects/bundlefusion/
-  * Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
+  > Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
 * KO-Fusion https://www.youtube.com/watch?v=yigoIYoY7Wg (mobile manipulator)
-  * Houseago, Charlie, Michael Bloesch, and Stefan Leutenegger. "KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
+  > Houseago, Charlie, Michael Bloesch, and Stefan Leutenegger. "KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 * arm-slam  https://www.youtube.com/watch?v=QrFyaxFUs9w (manipulator)
-  * M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
+  > M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
 * Dense RGB-D-Inertail
-  * Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
-  * Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+  > Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
+  > Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 
 🔅 3D LiDAR Based SLAM
 * Zebedee https://research.csiro.au/robotics/zebedee/ (handheld device)
-  * M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
+  > M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
 * Kaarta https://www.kaarta.com/ (handheld device)
-  * Zhang, Ji, and Sanjiv Singh. "Laser–visual–inertial odometry and mapping with high robustness and low drift." Journal of Field Robotics 35.8 (2018): 1242-1264.
+  > Zhang, Ji, and Sanjiv Singh. "Laser–visual–inertial odometry and mapping with high robustness and low drift." Journal of Field Robotics 35.8 (2018): 1242-1264.
 * hdl_graph_slam https://github.com/koide3/hdl_graph_slam
-  * Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
+  > Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
 * BLAM https://github.com/erik-nelson/blam
-  * E. Nelson, BLAM: berkeley localization and mapping, [online]. Available: https://<span></span>github.com/erik-nelson/blam.
+  > E. Nelson, BLAM: berkeley localization and mapping, [online]. Available: https://<span></span>github.com/erik-nelson/blam.
 * Lego-LOAM https://github.com/RobustFieldAutonomyLab/LeGO-LOAM
-  * T. Shan and B. Englot, "LeGO-LOAM: Lightweight and Ground- Optimized Lidar Odometry and Mapping on Variable Terrain," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4758- 4765.
+  > T. Shan and B. Englot, "LeGO-LOAM: Lightweight and Ground- Optimized Lidar Odometry and Mapping on Variable Terrain," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, 2018, pp. 4758- 4765.
 * Cartographer https://google-cartographer-ros.readthedocs.io/en/latest/
-  * Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
+  > Wolfgang Hess ; Damon Kohler ; Holger Rapp ; Daniel Andor, “Real-time loop closure in 2D LIDAR SLAM ”, 2016 IEEE International Conference on Robotics and Automation (ICRA), Stockholm, 2016, pp. 1271-1278.
 * IMLS-SLAM
-  * Deschaud, Jean-Emmanuel. "IMLS-SLAM: scan-to-model matching based on 3D data." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+  > Deschaud, Jean-Emmanuel. "IMLS-SLAM: scan-to-model matching based on 3D data." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 
 🐭 Cognitive Related SLAM
-* Struckmeier, Oliver, et al. "ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments." 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS). IEEE, 2019.
+* ViTa-SLAM
+  > Struckmeier, Oliver, et al. "ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments." 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS). IEEE, 2019.
 
 🏷 Semantic Related SLAM
-* [Kimera](https://github.com/MIT-SPARK/Kimera): A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
+* Kimera https://github.com/MIT-SPARK/Kimera
+  > A. Rosinol, M. Abate, Y. Chang, L. Carlone. Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping. arXiv preprint arXiv:1910.02490.
 
 # 7_Localization
 📌 Localization on 2D Occupancy Grid Map
