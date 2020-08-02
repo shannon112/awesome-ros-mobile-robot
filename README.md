@@ -218,7 +218,7 @@ http://wiki.ros.org/Distributions
  * "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 
 🔅 Learning-Based Feature Extractor  
- * ```Alexnet, VGG, ResNet, InceptionV3, DenseNet, GoogleNet, MobileNet, SqueezeNet```
+ * ```Alexnet, VGG, ResNet, InceptionV3, DenseNet, GoogleNet, MobileNet, SqueezeNet, etc.```
  * Pytorch implementation: https://pytorch.org/docs/stable/torchvision/models.html
 
 🔅 Learning-Based Object Detection
@@ -251,19 +251,22 @@ http://wiki.ros.org/Distributions
  * "Calibration Guide": https://github.com/shannon112/imu_calibration/blob/master/README.md
 
 # 5_Odometry
-☠︎ Visual Based Backbone
-* Corresponding with Motion Estimation:
-  * Corresponding:
-    * Feature Based
-    * Optical Flow
+☠︎ Visual Based Ego-Motion Backbone
+* Components
+  * Feature Keypoint & Desciptor - ```SURF, SIFT, ORB``` 
+  * Feature Matching - ```Brute-Force, FLANN```
+    * https://docs.opencv.org/3.4/db/d27/tutorial_py_table_of_contents_feature2d.html
+  * Optical Flow - ```Lucas-Kanade (LK)```
   * Motion Estimation:
-    * 2D-2D geometry: Epipolar
-    * 2D-3D geometry: Perspective-n-Point (PnP)
-    * 3D-3D geometry: Iterative Closest Point (ICP)
-* Direct Method:
-  * Dense:
-  * Semi-Dense:
-  * Sparse:
+    * 2D-2D: Epipolar Geometry & Triangulation
+    * 2D-3D: Perspective-n-Point (PnP) - ```P3P, DLT, EPnP, UPnP, BA```
+    * 3D-3D: Iterative Closest Point (ICP) - ```ICP(SVD), GICP, NDT, IPDA, Non-LinearOpt```, ```point2point, point2plane```
+  * Direct Method - ```Dense, Semi-Dense, Sparse```
+* Solutions
+  * Extract Feature Keypoint -> Desciptor -> Matching -> Motion Estimation
+  * Extract Feature Keypoint -> Optical Flow -> Motion Estimation
+  * Extract Feature Keypoint -> Sparse Direct Method
+  * Semi-Dense/Dense Direct Method
 
 📚 Odometry Survey Paper
 * Delmerico, Jeffrey, and Davide Scaramuzza. "A benchmark comparison of monocular visual-inertial odometry algorithms for flying robots." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
@@ -336,15 +339,15 @@ http://wiki.ros.org/Distributions
 
 ☠︎ SLAM Backbone (Back-End)
 * Kalman Filter Family
-  * Kalman Filter (KF), Extend Kalman Filte (EKF), Unscented Kalman Filte (UKF)
-  * Extended Information Filter (EIF), Sparse Extended Information Filter (SEIF)
+  * ```Kalman Filter (KF), Extend Kalman Filte (EKF), Unscented Kalman Filte (UKF)```
+  * ```Extended Information Filter (EIF), Sparse Extended Information Filter (SEIF)```
 * Particle Filter
-  * Gmapping: Grisettiyz, Giorgio, Cyrill Stachniss, and Wolfram Burgard. "Improving grid-based slam with rao-blackwellized particle filters by adaptive proposals and selective resampling." Proceedings of the 2005 IEEE international conference on robotics and automation. IEEE, 2005.
-  * FastSLAM: Montemerlo, Michael, et al. "FastSLAM: A factored solution to the simultaneous localization and mapping problem." Aaai/iaai 593598 (2002).
-  * FastSLAM 2.0: Montemerlo, Michael, et al. "FastSLAM 2.0: An improved particle filtering algorithm for simultaneous localization and mapping that provably converges." IJCAI. 2003.
+  * ```Gmapping```: Grisettiyz, Giorgio, Cyrill Stachniss, and Wolfram Burgard. "Improving grid-based slam with rao-blackwellized particle filters by adaptive proposals and selective resampling." Proceedings of the 2005 IEEE international conference on robotics and automation. IEEE, 2005.
+  * ```FastSLAM```: Montemerlo, Michael, et al. "FastSLAM: A factored solution to the simultaneous localization and mapping problem." Aaai/iaai 593598 (2002).
+  * ```FastSLAM 2.0```: Montemerlo, Michael, et al. "FastSLAM 2.0: An improved particle filtering algorithm for simultaneous localization and mapping that provably converges." IJCAI. 2003.
 * Graph Optimization
-  * Regression: Gaussian Netwon (GN), Leverberg Marquert(LM)
-  * Efficiently Solving: Cholesky Factorization, QR Decomposition, Conjugate Gradients
+  * Regression: ```Gaussian Netwon (GN), Leverberg Marquert(LM)```
+  * Efficiently Solving: ```Cholesky Factorization, QR Decomposition, Conjugate Gradients```
   * [Ceres Solver Library](http://ceres-solver.org/): S. Agarwal and M. Keir. "Ceres solver." [online]. Available: http://<span></span>ceres-solver.org/
   * [g2o Library](https://github.com/RainerKuemmerle/g2o): Kümmerle, Rainer, et al. "g 2 o: A general framework for graph optimization." 2011 IEEE International Conference on Robotics and Automation. IEEE, 2011.
   * [GTSAM](https://gtsam.org/): Dellaert, Frank. Factor graphs and GTSAM: A hands-on introduction. Georgia Institute of Technology, 2012.
