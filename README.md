@@ -218,22 +218,7 @@ http://wiki.ros.org/Distributions
  * "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
 
 🔅 Learning-Based Feature Extractor  
- * "Alexnet" 
-   > Krizhevsky, Alex. "One weird trick for parallelizing convolutional neural networks." arXiv preprint arXiv:1404.5997 (2014).
- * "VGG" 
-   > Simonyan, Karen, et al. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
- * "ResNet" 
-   > He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
- * "InceptionV3"
-   > Szegedy, Christian, et al. "Rethinking the inception architecture for computer vision." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
- * "DenseNet"
-   > Huang, Gao, et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
- * "GoogleNet"
-   > Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
- * "MobileNet"
-   > Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
- * "SqueezeNet"
-   > Iandola, Forrest N., et al. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).
+ * ```Alexnet, VGG, ResNet, InceptionV3, DenseNet, GoogleNet, MobileNet, SqueezeNet```
  * Pytorch implementation: https://pytorch.org/docs/stable/torchvision/models.html
 
 🔅 Learning-Based Object Detection
@@ -339,7 +324,7 @@ http://wiki.ros.org/Distributions
 
 # 6_SLAM
 🏛 SLAM Theorem & Tutorial
-* T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006. 
+* T. Bailey and H. F. Durrant-Whyte, “Simultaneous localisation and map- ping (SLAM): Part II”, IEEE Robot. Auton. Syst., vol. 13, no. 3, pp. 108–117, 2006.  
 * H. F. Durrant-Whyte and T. Bailey, “Simultaneous localisation and map- ping (SLAM): Part I”, IEEE Robot. Autom. Mag., vol. 13, no. 2, pp. 99–110, Jun. 2006
 * Strasdat, Hauke, José MM Montiel, and Andrew J. Davison. "Visual SLAM: why filter?." Image and Vision Computing 30.2 (2012): 65-77. (comparison between filter and graph)
 * Grisetti, Giorgio, et al. "A tutorial on graph-based SLAM." IEEE Intelligent Transportation Systems Magazine 2.4 (2010): 31-43.
@@ -397,8 +382,8 @@ http://wiki.ros.org/Distributions
 
 📷 3D Visual Based SLAM
 * ORB-SLAM https://github.com/raulmur/ORB_SLAM2
-  > Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015.
-  > Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012.
+  > Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015.  
+  > Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012.  
 
 📸 3D RGB-D/Stereo Based SLAM
 * ORB-SLAM2 https://github.com/raulmur/ORB_SLAM2
@@ -408,18 +393,16 @@ http://wiki.ros.org/Distributions
 * RGBDSLAMv2 https://felixendres.github.io/rgbdslam_v2/
   > Endres, Felix, et al. "3-D mapping with an RGB-D camera." IEEE transactions on robotics 30.1 (2013): 177-187.
 * RTAB-Map http://introlab.github.io/rtabmap/ | https://github.com/introlab/rtabmap_ros
-  > M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke
-  > M. Labbé and F. Michaud, “Long-term online multi-session graph-based SPLAM with memory management,” in Autonomous Robots, vol. 42, no. 6, pp. 1133-1150, 2018.
-  > M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.
-  > M. Labbé and F. Michaud, “Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation,” in IEEE Transactions on Robotics, vol. 29, no. 3, pp. 734-745, 2013.
-  > M. Labbé and F. Michaud, “Memory management for real-time appearance-based loop closure detection,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011, pp. 1271–1276.
+  > M. Labbé and F. Michaud, “RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation,” in Journal of Field Robotics, vol. 36, no. 2, pp. 416–446, 2019. (Wiley) Universit ́e de Sherbrooke  
+  > M. Labbé and F. Michaud, “Long-term online multi-session graph-based SPLAM with memory management,” in Autonomous Robots, vol. 42, no. 6, pp. 1133-1150, 2018.  
+  > M. Labbé and F. Michaud, “Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2014.  
+  > M. Labbé and F. Michaud, “Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation,” in IEEE Transactions on Robotics, vol. 29, no. 3, pp. 734-745, 2013.  
+  > M. Labbé and F. Michaud, “Memory management for real-time appearance-based loop closure detection,” in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2011, pp. 1271–1276.  
 * KinectFusion https://www.microsoft.com/en-us/research/project/kinectfusion-project-page/
   > Izadi, Shahram, et al. "KinectFusion: real-time 3D reconstruction and interaction using a moving depth camera." Proceedings of the 24th annual ACM symposium on User interface software and technology. ACM, 2011.
   > Newcombe, Richard A., et al. "Kinectfusion: Real-time dense surface mapping and tracking." ISMAR. Vol. 11. No. 2011. 2011.
 * ElasticFusion https://github.com/mp3guy/ElasticFusion
   > Whelan, Thomas, et al. "ElasticFusion: Dense SLAM without a pose graph." Robotics: Science and Systems, 2015.
-  > Whelan, Thomas, et al. "ElasticFusion: Real-time dense SLAM and light source estimation." The International Journal of Robotics Research 35.14 (2016): 1697-1716.
-  Dyson Robotics Laboratory at Imperial College
 * BundleFusion http://graphics.stanford.edu/projects/bundlefusion/
   > Dai, Angela, et al. "Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration." ACM Transactions on Graphics (ToG) 36.3 (2017): 24.
 * KO-Fusion https://www.youtube.com/watch?v=yigoIYoY7Wg (mobile manipulator)
@@ -427,8 +410,8 @@ http://wiki.ros.org/Distributions
 * arm-slam  https://www.youtube.com/watch?v=QrFyaxFUs9w (manipulator)
   > M. Klingensmith, S. S. Sirinivasa and M. Kaess, "Articulated Robot Motion for Simultaneous Localization and Mapping (ARM-SLAM)," in IEEE Robotics and Automation Letters, vol. 1, no. 2, pp. 1156-1163, July 2016.
 * Dense RGB-D-Inertail
-  > Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
-  > Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+  > Laidlow, Tristan, et al. "Dense RGB-D-inertial SLAM with map deformations." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.  
+  > Hsiao, Ming, Eric Westman, and Michael Kaess. "Dense planar-inertial slam with structural constraints." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.  
 
 🔅 3D LiDAR Based SLAM
 * Zebedee https://research.csiro.au/robotics/zebedee/ (handheld device)
