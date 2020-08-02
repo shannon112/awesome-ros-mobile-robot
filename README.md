@@ -195,13 +195,7 @@ http://wiki.ros.org/Distributions
 🎙 Microphone Array
  * "microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
  * "ReSpeaker Mic Array v2.0": http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
-
-👾 Matrix Barcode (Fiducial Marker Systems, or ARTag, or Auxiliary marker)  
- * "ARTag": http://wiki.ros.org/ar_track_alvar
- * "AprilTag": http://wiki.ros.org/apriltag_ros
- * "CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
- * "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
-
+ 
 🔊 Text To Speech (TTS)  
  * "gTTS": https://pypi.org/project/gTTS/
  * "sound_play": http://wiki.ros.org/sound_play
@@ -217,12 +211,22 @@ http://wiki.ros.org/Distributions
  * "ASUS Smart Speaker": https://www.asus.com/tw/ASUS-Smart-Speaker/ASUS-Smart-Speaker-Xiao-Bu/
  * "PyAIML -- The Python AIML Interpreter": https://github.com/cdwfs/pyaiml
 
-🔅 Learning-Based Feature Extractors 
- * "Alexnet": Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems. 2012.
- * "VGG16": Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
- * "Inception": Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+👾 Matrix Barcode (Fiducial Marker Systems, or ARTag, or Auxiliary marker)  
+ * "ARTag": http://wiki.ros.org/ar_track_alvar
+ * "AprilTag": http://wiki.ros.org/apriltag_ros
+ * "CALTag": http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/
+ * "comparison": Sagitov, Artur, et al. "ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation." ICINCO (2). 2017.
+
+🔅 Learning-Based Feature Extractor  
+ * "Alexnet": Krizhevsky, Alex. "One weird trick for parallelizing convolutional neural networks." arXiv preprint arXiv:1404.5997 (2014).
+ * "VGG": Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).
  * "ResNet": He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+ * "InceptionV3": Szegedy, Christian, et al. "Rethinking the inception architecture for computer vision." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+ * "DenseNet": Huang, Gao, et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+ * "GoogleNet": Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
  * "MobileNet": Howard, Andrew G., et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications." arXiv preprint arXiv:1704.04861 (2017).
+ * "SqueezeNet": Iandola, Forrest N., et al. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).
+ * Pytorch implementation: https://pytorch.org/docs/stable/torchvision/models.html
 
 🔅 Learning-Based Object Detection
  * "Faster R-CNN": Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
@@ -230,22 +234,22 @@ http://wiki.ros.org/Distributions
  * "YOLOv3": Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
 
 🔅 Learning-Based Human Pose Estimation
- * OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
- * OpenPose-plugin: https://github.com/ildoonet/tf-pose-estimation
+ * "OpenPose": https://github.com/CMU-Perceptual-Computing-Lab/openpose
+ * "OpenPose-plugin": https://github.com/ildoonet/tf-pose-estimation
 
 # 4_Calibration
 📷 Camera Calibration (Intrinsic and Extrinsic parameters)
- * Tool: http://wiki.ros.org/camera_calibration
- * Converter: http://wiki.ros.org/camera_calibration_parsers
+ * "Tool": http://wiki.ros.org/camera_calibration
+ * "Converter": http://wiki.ros.org/camera_calibration_parsers
 
 👁 Hand-Eye Calibration
- * Tool: https://github.com/IFL-CAMP/easy_handeye
+ * "Tool": https://github.com/IFL-CAMP/easy_handeye
 
 🍎 IMU(9dof-razor-imu-m0) calibration
- * Github Wiki: https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
- * Sparkfun: https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
- * ROS Wiki: http://wiki.ros.org/razor_imu_9dof
- * Calibration Guide: https://github.com/shannon112/imu_calibration/blob/master/README.md
+ * "Github Wiki": https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
+ * "Sparkfun": https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
+ * "ROS Wiki": http://wiki.ros.org/razor_imu_9dof
+ * "Calibration Guide": https://github.com/shannon112/imu_calibration/blob/master/README.md
 
 # 5_Odometry
 ☠︎ Visual Based Backbone
