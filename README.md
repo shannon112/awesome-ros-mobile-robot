@@ -62,7 +62,7 @@ http://wiki.ros.org/Distributions
  * "Machine Learning" {STANFORD} Andrew Ng
    * https://www.coursera.org/learn/machine-learning
  * "Probabilistic Systems Analysis and Applied Probability" {MIT} John Tsitsiklis
-   * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/"
+   * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/
  * "Deep Reinforcement Learning" {UCB} Sergey Levine
    * http://rail.eecs.berkeley.edu/deeprlcourse/
  * "Vision Algorithms for Mobile Robotics" {ETHZ} 	D. Scaramuzza
@@ -77,29 +77,29 @@ http://wiki.ros.org/Distributions
  * "Sci-Hub": https://sci-hub.tw/
 
 # 1_Robot_Operating_System
-👾 Resources:
- * The ROS status: https://status.ros.org/
- * The ROS wiki: https://wiki.ros.org
- * The ROS website: https://www.ros.org
- * The ROS build farm: http://build.ros.org
- * The ROS package repository http://packages.ros.org
- * The ROS documentation site: http://docs.ros.org
+👾 ROS Official Website:
+ * "The ROS Status": https://status.ros.org/ ```(check if any server is down)```
+ * "The ROS Website": https://www.ros.org ```(home)```
+ * "The ROS Wiki": https://wiki.ros.org ```(pkg info)```
+ * "The ROS Documentation Site": http://docs.ros.org ```(msg info)```
+ * "The ROS Answer": https://answers.ros.org/questions/ ```(Q&A)```
 
-🗣 ROS Blogs & Channels & Forums:  
- * "ROS Answer": https://answers.ros.org/questions/
+🗣 ROS Related Blogs & Channels & Forums:  
  * "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
+ * "JetsonHacks": https://www.youtube.com/channel/UCQs0lwV6E4p7LQaGJ6fgy5Q
+ * "鳥哥的Linux私房菜": http://linux.vbird.org/
  * "半閒居士"： https://www.cnblogs.com/gaoxiang12/
- * "泡泡機器人": https://space.bilibili.com/38737757/
+ * "泡泡機器人頻道": https://space.bilibili.com/38737757/
  * "泡泡機器人論壇": http://paopaorobot.org/bbs/
 
 📚 Books:
  * "C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
  * "ROS by Example", python, Patrick Goebel
- * "Mastering ROS for Robotics Programming", C++, Lentin Joseph
- * "Learning ROS for Robotics Programming", C++, Enrique Fernandez
- * "Programming Robots with ROS: A Practical Introduction to...", Morgan Quigley 
- * "機器人作業系統ROS 淺析", Jason M. O'Kane著, 肖軍浩譯
- * "機器人作業系統ROS 史话36篇", 張新宇, http://www.roseducation.org/docs/ROS_history.pdf
+ * "Mastering ROS for Robotics Programming", Lentin Joseph
+ * "Learning ROS for Robotics Programming", Enrique Fernandez et al.
+ * "Programming Robots with ROS: A Practical Introduction to the Robot Operating System", Morgan Quigley et al.
+ * "機器人作業系統ROS 淺析", Jason M. O'Kane, 肖軍浩譯
+ * "機器人作業系統ROS 史話36篇", 張新宇, http://www.roseducation.org/docs/ROS_history.pdf
 
 # 2_Robotic_Platform
 🤖 ROS Robot Overview
