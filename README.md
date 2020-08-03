@@ -472,74 +472,75 @@ http://wiki.ros.org/Distributions
 
 # 8_Mapping
 📍 Basic Mapping Backbones
-* 2D Occupancy Grid Map (Binary/Probability)
-* 3D Occupancy Grid Map (Binary/Probability)
-* Octomap ```(for collision checking)``` https://octomap.github.io/ 
+* "2D Occupancy Grid Map" ```(Binary or Probability)```
+* "3D Occupancy Grid Map" ```(Binary or Probability)```
+* "Octomap": https://octomap.github.io/ ```(for collision checking)``` 
   * An Efficient Probabilistic 3D Mapping Framework Based on Octrees / 3D Probability Occupancy Grid Map
   > Hornung, Armin & Wurm, Kai & Bennewitz, Maren & Stachniss, Cyrill & Burgard, Wolfram, "OctoMap: An efficient probabilistic 3D mapping framework based on octrees. Autonomous Robots.", Autonomous Robots Journal (2013). 34. 10.1007/s10514-012-9321-0. 
 
 🗺 Basic Mapping Methods
-* map_server: http://wiki.ros.org/map_server ```(loading, saving)```
-* octomap_server: http://wiki.ros.org/octomap_server ```(loading, saving, mapping)```
+* "map_server": http://wiki.ros.org/map_server ```(loading, saving)```
+* "octomap_server": http://wiki.ros.org/octomap_server ```(loading, saving, mapping)```
 
 📍 Advanced 3D Mapping Backbones
-* Surfels
+* "Surfels"
   > Pfister, Hanspeter, et al. "Surfels: Surface elements as rendering primitives." Proceedings of the 27th annual conference on Computer graphics and interactive techniques. 2000.
-* Truncated Signed Distance Function (SDF)
+* "Truncated Signed Distance Function (SDF)"
   > Curless, Brian, and Marc Levoy. "A volumetric method for building complex models from range images." Proceedings of the 23rd annual conference on Computer graphics and interactive techniques. 1996.
-* Truncated Signed Distance Function (TSDF)
+* "Truncated Signed Distance Function (TSDF)"
   > R. A. Newcombe, S. Izadi, O. Hilliges, D. Molyneaux, D. Kim, A. J.Davison, P. Kohi, J. Shotton, S. Hodges, and A. Fitzgibbon, “Kinect-fusion: Real-time dense surface mapping and tracking,” in Mixed and augmented reality (ISMAR), 2011 10th IEEE international symposiumon, pp. 127–136, IEEE, 2011
-* Euclidean Signed Distance Fields (ESDF) ```(for collision checking)```
+* "Euclidean Signed Distance Fields (ESDF)" ```(for collision checking)```
   > Ratliff, Nathan, et al. "CHOMP: Gradient optimization techniques for efficient motion planning." 2009 IEEE International Conference on Robotics and Automation. IEEE, 2009.
 
 🗺 Advanced 3D Mapping Methods
-* voxblox (ESDF&TSDF based): https://github.com/ethz-asl/voxblox
+* "voxblox (ESDF&TSDF based)": https://github.com/ethz-asl/voxblox
   > Helen Oleynikova, et al. “Voxblox: Incremental 3D Euclidean Signed Distance Fields for On-Board MAV Planning”, in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
-* OpenChisel (TSDF based): https://github.com/personalrobotics/OpenChisel
+* "OpenChisel (TSDF based)": https://github.com/personalrobotics/OpenChisel
   > Klingensmith, Matthew, et al. "Chisel: Real Time Large Scale 3D Reconstruction Onboard a Mobile Device using Spatially Hashed Signed Distance Fields." Robotics: science and systems. Vol. 4. 2015.
-* DenseSurfelMapping (Surfel based): https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping
+* "DenseSurfelMapping (Surfel based)": https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping
   > Wang, Kaixuan, Fei Gao, and Shaojie Shen. "Real-time scalable dense surfel mapping." 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019.
 
 # 9_Navigation
 🚗 ROS Navigation Stack (move_base architecture) https://github.com/ros-planning/navigation  
-* move_base: http://wiki.ros.org/move_base
-* move_base_flex: http://wiki.ros.org/move_base_flex
+* "move_base": http://wiki.ros.org/move_base
+* "move_base_flex": http://wiki.ros.org/move_base_flex
 <img src="http://wiki.ros.org/move_base?action=AttachFile&do=get&target=overview_tf.png" width=700>
 
-🚘 Global Planner:  
+🚘 Global Planner
 * ```global_planner, carrot_planner, navfn, sbpl_lattice_planner, srl_global_planner, voronoi_planner```  
-* A* (A Star)
+* "A* (A Star)"
   > Hart, Peter E., Nils J. Nilsson, and Bertram Raphael. "A formal basis for the heuristic determination of minimum cost paths." IEEE transactions on Systems Science and Cybernetics 4.2 (1968): 100-107.
-* Dijkstra's
+* "Dijkstra's"
   > Dijkstra, Edsger W. "A note on two problems in connexion with graphs." Numerische mathematik 1.1 (1959): 269-271.
 
-🚘 Local Planner:  
+🚘 Local Planner  
 * ```dwa_local_planner, teb_local_planner, base_local_planner, eband_local_planner, robotino_local_planner, asr_ftc_local_planner, simple_local_planner```  
-* Timed Elastic Band http://wiki.ros.org/teb_local_planner
+* "Timed Elastic Band (TEB)": http://wiki.ros.org/teb_local_planner
   > C. Rösmann, W. Feiten, T. Wösch, F. Hoffmann and T. Bertram: Efficient trajectory optimization using a sparse model. Proc. IEEE European Conference on Mobile Robots, Spain, Barcelona, Sept. 2013, pp. 138–143.  
   > C. Rösmann, F. Hoffmann and T. Bertram: Integrated online trajectory planning and optimization in distinctive topologies, Robotics and Autonomous Systems, Vol. 88, 2017, pp. 142–153.  
   > C. Rösmann, F. Hoffmann and T. Bertram: Kinodynamic Trajectory Optimization and Control for Car-Like Robots, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, Sept. 2017.  
-* Dynamic Window Approach http://wiki.ros.org/dwa_local_planner
+* "Dynamic Window Approach (DWA)": http://wiki.ros.org/dwa_local_planner
   > D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
 
-🚘 Recovery Behavior:  
+🚘 Recovery Behavior
 * ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
 🏎️ Novel Navigation Strategy 
-* MIT AerospaceControlsLab DRL navigation
-    > 1. Chen, Yu Fan, et al. "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017. | https://www.youtube.com/watch?v=BryJ9jeBkbU | https://www.youtube.com/watch?v=PS2UoyCTrSw  
-    > 2. Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017. | https://www.youtube.com/watch?v=CK1szio7PyA  
-    > 3. M. Everett, et al. "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018 | https://www.youtube.com/watch?v=XHoXkWLhwYQ  
-* Google AI Research PRM-RL navigation https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
+* "MIT AerospaceControlsLab DRL navigation": http://acl.mit.edu/projects/socially-acceptable-navigation
+    > 1. Chen, Y. F., Liu, S.-Y., Liu, M., Miller, J., and How, J. P., “Motion Planning with Diffusion Maps,” IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, Korea: 2016.  
+    > 2. Chen, Yu Fan, et al. "Decentralized non-communicating multiagent collision avoidance with deep reinforcement learning." 2017 IEEE international conference on robotics and automation (ICRA). IEEE, 2017.
+    > 3. Chen, Yu Fan, et al. "Socially aware motion planning with deep reinforcement learning." 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017.
+    > 4. M. Everett, et al. "Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning," 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, 2018
+* "Google AI Research PRM-RL navigation": https://ai.googleblog.com/2019/02/long-range-robotic-navigation-via.html
   > 1. A. Faust et al. "PRM-RL: Long-range Robotic Navigation Tasks by Combining Reinforcement Learning and Sampling-Based Planning," 2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, QLD, 2018, pp. 5113-5120.  
   > 2. H. L. Chiang, et al. "Learning Navigation Behaviors End-to-End With AutoRL," in IEEE Robotics and Automation Letters, vol. 4, no. 2, pp. 2007-2014, April 2019.  
   > 3. Francis, Anthony, et al. "Long-range indoor navigation with PRM-RL." IEEE Transactions on Robotics (2020).  
-* ETHz Autonomous System Lab navigation
-  > 1. Pfeiffer, Mark, et al. "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models." 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016. | https://www.youtube.com/watch?v=GPp5mnybm8g | https://www.youtube.com/watch?v=h1rm0BW3eVE  
-  > 2. Pfeiffer, Mark, et al. "From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots." 2017 ieee international conference on robotics and automation (ICRA). IEEE, 2017. | https://www.youtube.com/watch?v=ZedKmXzwdgI
+* "ETHz Autonomous System Lab navigation": https://www.youtube.com/watch?v=GPp5mnybm8g | https://www.youtube.com/watch?v=h1rm0BW3eVE | https://www.youtube.com/watch?v=ZedKmXzwdgI
+  > 1. Pfeiffer, Mark, et al. "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models." 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016.
+  > 2. Pfeiffer, Mark, et al. "From perception to decision: A data-driven approach to end-to-end motion planning for autonomous ground robots." 2017 ieee international conference on robotics and automation (ICRA). IEEE, 2017.
 
-🧹 Coverage Navigation (cleaning or weeding robot)
-* Survey Paper:
+🛀 Coverage Navigation (cleaning or weeding robot)
+* "Survey Paper":
   > Galceran, Enric, and Marc Carreras. "A survey on coverage path planning for robotics." Robotics and Autonomous systems 61.12 (2013): 1258-1276.
 
 # 10_Manipulation
@@ -547,14 +548,16 @@ http://wiki.ros.org/Distributions
 <img src="https://moveit.ros.org/assets/images/diagrams/moveit_pipeline.png" width=700>
 
 📚 Planner Library
-* Open Motion Planning Library (OMPL): https://ompl.kavrakilab.org/
+* "Open Motion Planning Library (OMPL)"
+  * Website: https://ompl.kavrakilab.org/
   * Intro: https://moveit.ros.org/assets/pdfs/2013/icra2013tutorial/OMPLoverview-ICRA2013.pdf
   * Roadmap Based Planner: ```PRM, PRM*, Lazy-PRM, LazyPRM*```
   * Tree Based Planner: ```RRTConnect (default), RRT, RRT*, T-RRT, Bi-TRRT, LB-TRRT, SBL, STRIDE, KPIECE, B-KPIECE, LB-KPIECE, EST, Bi-EST, Proj-EST, PDST, SPARS, SPARS2```
-* Search Based Planning Library (SBPL): http://www.sbpl.net/
+* "Search Based Planning Library (SBPL)"
+  * Website: http://www.sbpl.net/
   * Intro: https://www.cs.cmu.edu/~maxim/files/tutorials/robschooltutorial_oct10.pdf
   * Search Based Planner: ```ARA*, Anytime D*, R*```
-* Covariant Hamiltonian Optimiza-tion for Motion Planning (CHOMP)
+* "Covariant Hamiltonian Optimiza-tion for Motion Planning (CHOMP)"
   * Intro: https://www.ri.cmu.edu/pub_files/2009/5/icra09-chomp.pdf
 
 # 11_Others_Non_Tech_Part
@@ -592,8 +595,8 @@ http://wiki.ros.org/Distributions
 | AAAS Science Robotics                      | https://robotics.sciencemag.org/  | https://www.sciencemag.org/journals/robotics/call-for-papers
 
 🛠 Tools:  
- * Google Scholar H5-Index Rank on Robotics: https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics  
- * Compress pdf online: https://www.pdf2go.com/compress-pdf  
+ * "Google Scholar H5-Index Rank": https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics
+ * "Compress PDF Online": https://www.pdf2go.com/compress-pdf  
 
 ## 11-3_Famous Robotics Competition
 🌎 Global:
