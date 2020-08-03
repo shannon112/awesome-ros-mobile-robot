@@ -273,51 +273,53 @@ http://wiki.ros.org/Distributions
 * G. Huang, "Visual-Inertial Navigation: A Concise Review," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 9572-9582.
 
 🏆 Odometry Algorithm Ranking
-* KITTI: http://www.cvlibs.net/datasets/kitti/eval_odometry.php
+* "KITTI": http://www.cvlibs.net/datasets/kitti/eval_odometry.php
 
 🚖 Wheel Odometry
-* ros_control http://wiki.ros.org/ros_control
+* "ros_control": http://wiki.ros.org/ros_control
   > Chitta, Sachin, et al. "ros_control: A generic and simple control framework for ROS." (2017).
 
 💡 2D Laser Based Odometry
-* rf2o https://github.com/MAPIRlab/rf2o_laser_odometry
+* "rf2o": https://github.com/MAPIRlab/rf2o_laser_odometry
   > M. Jaimez, J. Monroy, J. Gonzalez-Jimenez, Planar Odometry from a Radial Laser Scanner. A Range Flow-based Approach, IEEE International Conference on Robotics and Automation (ICRA), Stockholm, Sweden, pp. 4479-4485, 2016. 
 
 📷 3D Visual Based Odometry
-* VINS-Mono https://github.com/HKUST-Aerial-Robotics/VINS-Mono
+* "VINS-Mono": https://github.com/HKUST-Aerial-Robotics/VINS-Mono
   > Qin, Tong, Peiliang Li, and Shaojie Shen. "Vins-mono: A robust and versatile monocular visual-inertial state estimator." IEEE Transactions on Robotics 34.4 (2018): 1004-1020.
-* VISO2 http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
-  > Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.
-* RotRocc+, RotRocc, ROCC, MonoROCC
+* "VISO2": http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
+  > Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.  
+  > Kitt, Bernd, Andreas Geiger, and Henning Lategahn. "Visual odometry based on stereo image sequences with ransac-based outlier rejection scheme." 2010 ieee intelligent vehicles symposium. IEEE, 2010.
+* "RotRocc+, RotRocc, ROCC, MonoROCC"
   > M. Buczko and V. Willert: Flow-Decoupled Normalized Reprojection Error for Visual Odometry. 19th IEEE Intelligent Transportation Systems Conference (ITSC) 2016.  
   > M. Buczko, V. Willert, J. Schwehr and J. Adamy: Self-Validation for Automotive Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2018.  
   > M. Buczko and V. Willert: Monocular Outlier Detection for Visual Odometry. IEEE Intelligent Vehicles Symposium (IV) 2017.  
   > M. Buczko and V. Willert: How to Distinguish Inliers from Outliers in Visual Odometry for High-speed Automotive Applications. IEEE Intelligent Vehicles Symposium (IV) 2016.  
 
 📸 3D RGB-D/Stereo Based Odometry
-* VINS-Fusion https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
+* "VINS-Fusion": https://github.com/HKUST-Aerial-Robotics/VINS-Fusion
   > Qin, Tong, and Shaojie Shen. "Online temporal calibration for monocular visual-inertial systems." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
-* DVO https://github.com/tum-vision/dvo
+* "DVO": https://github.com/tum-vision/dvo
   > Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Robust odometry estimation for RGB-D cameras." 2013 IEEE International Conference on Robotics and Automation. IEEE, 2013.
   > Steinbrücker, Frank, Jürgen Sturm, and Daniel Cremers. "Real-time visual odometry from dense RGB-D images." 2011 IEEE international conference on computer vision workshops (ICCV Workshops). IEEE, 2011.
-* SOFT https://github.com/Mayankm96/Stereo-Odometry-SOFT
+* "SOFT": https://github.com/Mayankm96/Stereo-Odometry-SOFT
   > Cvišic, Igor, et al. "Soft-slam: Computationally efficient stereo visual slam for autonomous uavs." Journal of field robotics (2017).  
   > Cvišić, Igor, and Ivan Petrović. "Stereo odometry based on careful feature selection and tracking." 2015 European Conference on Mobile Robots (ECMR). IEEE, 2015.  
-* VISO2 http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
+* "VISO2": http://wiki.ros.org/viso2_ros | http://www.cvlibs.net/software/libviso/
   > Geiger, Andreas, Julius Ziegler, and Christoph Stiller. "Stereoscan: Dense 3d reconstruction in real-time." 2011 IEEE Intelligent Vehicles Symposium (IV). Ieee, 2011.  
+  > Kitt, Bernd, Andreas Geiger, and Henning Lategahn. "Visual odometry based on stereo image sequences with ransac-based outlier rejection scheme." 2010 ieee intelligent vehicles symposium. IEEE, 2010.
 
 🔅 3D LiDAR Based Odometry
-* LOAM & V-LOAM https://github.com/laboshinl/loam_velodyne
+* "LOAM & V-LOAM": https://github.com/laboshinl/loam_velodyne
   > J Zhang, S Singh, "LOAM: Lidar Odometry and Mapping in Real-time", Robotics: Science and Systems Conference (RSS 2014)  
   > J Zhang, S Singh, "Visual-lidar Odometry and Mapping: Low-drift, Robust, and Fast", IEEE International Conference on Robotics and Automation (ICRA)  
   > J. Zhang, M. Kaess and S. Singh: Real-time Depth Enhanced Monocular Odometry. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2014.  
-* LIMO https://github.com/johannes-graeter/limo
+* "LIMO": https://github.com/johannes-graeter/limo
   > Graeter, Johannes, Alexander Wilczynski, and Martin Lauer. "Limo: Lidar-monocular visual odometry." 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 
  🤖 Learning Based Odometry
-* DeepVO https://github.com/ChiWeiHsiao/DeepVO-pytorch | https://github.com/ildoonet/deepvo
+* "DeepVO": https://github.com/ChiWeiHsiao/DeepVO-pytorch | https://github.com/ildoonet/deepvo
   > S. Wang, R. Clark, H. Wen and N. Trigoni, "DeepVO: Towards end-to-end visual odometry with deep Recurrent Convolutional Neural Networks," 2017 IEEE International Conference on Robotics and Automation (ICRA), Singapore, 2017, pp. 2043-2050.
-* VINET https://github.com/HTLife/VINet
+* "VINET": https://github.com/HTLife/VINet
   > Clark, Ronald, et al. "VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem." AAAI. 2017.
 
 🍥 Odometry Fusion
