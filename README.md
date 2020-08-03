@@ -595,7 +595,7 @@ http://wiki.ros.org/Distributions
 | AAAS Science Robotics                      | https://robotics.sciencemag.org/  | https://www.sciencemag.org/journals/robotics/call-for-papers
 
 🛠 Tools:  
- * "Google Scholar H5-Index Rank": https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics
+ * "Google Scholar Rank": https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics ```(h5-index, h5-median)```
  * "Journal Citation Reports (JCR)": https://jcr.clarivate.com/ ```(Impact Factor, Eigenfactor Score, Article Influence Score)```
  * "Compress PDF Online": https://www.pdf2go.com/compress-pdf  
 
