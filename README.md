@@ -103,7 +103,7 @@ http://wiki.ros.org/Distributions
 
 # 2_Robotic_Platform
 🤖 ROS Robot Overview
- * https://robots.ros.org/  
+ * "Aerial, Ground, Marine, Manipulator, Component": https://robots.ros.org/  
 
 🚘 Wheel Robot Configurations  
 > (ref: Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza. Introduction to autonomous mobile robots. MIT press, 2011, Table 2.1, p.34~36)  
@@ -138,17 +138,17 @@ http://wiki.ros.org/Distributions
  * "Universal Robot 3/5/10/e": https://github.com/ros-industrial/universal_robot
  * "Techman Robot": https://github.com/kentsai0319/techman_robot
 
-💻 Processing Unit  
- * Raspberry Pi 3(RPi3), BeagleBone Black(BBB)
- * Odroid XU4, Odroid N2, Asus tinker board
+💻 Processing Unit (SBC/IPC)
+ * Raspberry Pi(RPI), BeagleBone Black(BBB), Odroid XU4, Odroid N2, Asus Tinker Board
  * NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, NVIDIA Jetson Xavier
+ * ADLINK Neuron, 
 
 🕹 Motor & Controller & Encoder:  
- * Elmo Motion Control Ltd,
- * Dr. Fritz Faulhaber GmbH & Co. KG,
- * Maxon group motors & drivers, 
- * Dexmart motors & drivers (Trumman Technology Corp)
+ * Elmo Motion Control Ltd
  * RLS d.o.o. (Rotary and Linear Motion Sensors)
+ * Dr. Fritz Faulhaber GmbH & Co. KG
+ * Maxon group motors & drivers 
+ * Dexmart motors & drivers (Trumman Technology Corp)
 
 # 3_Robotic_Sensing
 📷 RGB Camera  
@@ -157,17 +157,17 @@ http://wiki.ros.org/Distributions
  * "opencv camera": http://wiki.ros.org/cv_camera
 
 📸 RGB-D Camera  
- * "microsoft kinectv1 with openni": https://github.com/ros-drivers/openni_camera
- * "microsoft kinectv1 with freenect": https://github.com/ros-drivers/freenect_stack
- * "microsoft kinect one/v2": https://github.com/code-iai/iai_kinect2
- * "asus xtion with openni2": https://github.com/ros-drivers/openni2_camera
- * "intel realsense d435": https://github.com/intel-ros/realsense
+ * "Microsoft kinectv1 with openni": https://github.com/ros-drivers/openni_camera
+ * "Microsoft kinectv1 with freenect": https://github.com/ros-drivers/freenect_stack
+ * "Microsoft kinect one/v2": https://github.com/code-iai/iai_kinect2
+ * "Asus xtion with openni2": https://github.com/ros-drivers/openni2_camera
+ * "Intel RealSense d455/d435/d435i/d415": https://github.com/intel-ros/realsense
 
 🎥 Stereo Camera
  * "Stereolabs ZED": http://wiki.ros.org/zed-ros-wrapper
  * "Carnegie Robotics MultiSense™ S7": http://docs.carnegierobotics.com/S7/
  * "e-Con Systems Tara Stereo Camera": https://github.com/dilipkumar25/see3cam
- * "nerian SP1": http://wiki.ros.org/nerian_sp1
+ * "Nerian SP1": http://wiki.ros.org/nerian_sp1
 
 🔦 Laser Rangefinder [laser scanners] [scanning rangefinder]  
 – often represent 2D laser scanning  
@@ -179,7 +179,7 @@ http://wiki.ros.org/Distributions
 
 💡 LIDAR [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
 – often represent 3D laser scanning  
- * "velodyne": http://wiki.ros.org/velodyne
+ * "Velodyne": http://wiki.ros.org/velodyne
 
 🍎 IMU [inertial measurement unit]:  
  * "Xsense": http://wiki.ros.org/xsens_driver
@@ -188,12 +188,12 @@ http://wiki.ros.org/Distributions
 
 🚨 3D Scanning & Novel Sensing Device
  * "Kaarta": https://www.kaarta.com/
- * "matterport": https://matterport.com/
- * "Intel LiDAR Camera L515": https://www.intelrealsense.com/lidar-camera-l515/
- * "microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
+ * "Matterport": https://matterport.com/
+ * "Microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
+ * "Intel RealSense Tracking Camera T265": https://www.intelrealsense.com/tracking-camera-t265/
+ * "Intel RealSense LiDAR Camera L515": https://www.intelrealsense.com/lidar-camera-l515/
 
 🎙 Microphone Array
- * "microsoft azure-kinect-dk": https://azure.microsoft.com/zh-tw/services/kinect-dk/
  * "ReSpeaker Mic Array v2.0": http://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/
  
 🔊 Text To Speech (TTS)  
@@ -219,14 +219,14 @@ http://wiki.ros.org/Distributions
 
 🔅 Learning-Based Feature Extractor  
  * ```Alexnet, VGG, ResNet, InceptionV3, DenseNet, GoogleNet, MobileNet, SqueezeNet, etc.```
- * Pytorch implementation: https://pytorch.org/docs/stable/torchvision/models.html
+ * "Pytorch implementation": https://pytorch.org/docs/stable/torchvision/models.html
 
 🔅 Learning-Based Object Detection
  * "Faster R-CNN"
    > Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems. 2015.
  * "SSD" 
    > Liu, Wei, et al. "Ssd: Single shot multibox detector." European conference on computer vision. Springer, Cham, 2016.
- * "YOLOv3" https://github.com/leggedrobotics/darknet_ros
+ * "YOLOv3": https://github.com/leggedrobotics/darknet_ros
    > (v4) Bochkovskiy, Alexey, Chien-Yao Wang, and Hong-Yuan Mark Liao. "YOLOv4: Optimal Speed and Accuracy of Object Detection." arXiv preprint arXiv:2004.10934 (2020).  
    > (v3) Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).  
    > (v2) Redmon, Joseph, and Ali Farhadi. "YOLO9000: better, faster, stronger." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.  
@@ -238,17 +238,17 @@ http://wiki.ros.org/Distributions
 
 # 4_Calibration
 📷 Camera Calibration (Intrinsic and Extrinsic parameters)
- * "Tool": http://wiki.ros.org/camera_calibration
- * "Converter": http://wiki.ros.org/camera_calibration_parsers
+ * "camera_calibration": http://wiki.ros.org/camera_calibration
+ * "format converter": http://wiki.ros.org/camera_calibration_parsers
 
 👁 Hand-Eye Calibration
- * "Tool": https://github.com/IFL-CAMP/easy_handeye
+ * "easy_handeye": https://github.com/IFL-CAMP/easy_handeye
 
-🍎 IMU(9dof-razor-imu-m0) calibration
+🍎 IMU (Sparkfun Razer 9dof-razor-imu-m0) Calibration
  * "Github Wiki": https://github.com/Razor-AHRS/razor-9dof-ahrs/wiki/Tutorial
- * "Sparkfun": https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
  * "ROS Wiki": http://wiki.ros.org/razor_imu_9dof
- * "Calibration Guide": https://github.com/shannon112/imu_calibration/blob/master/README.md
+ * "Sparkfun Official Guide": https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide/all
+ * "My Calibration Guide": https://github.com/shannon112/imu_calibration/blob/master/README.md
 
 # 5_Odometry
 ☠︎ Visual Based Ego-Motion Backbone
