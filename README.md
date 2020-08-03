@@ -452,7 +452,7 @@ http://wiki.ros.org/Distributions
   > Deschaud, Jean-Emmanuel. "IMLS-SLAM: scan-to-model matching based on 3D data." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 
 🐭 Cognitive Related SLAM
-* "ViTa-SLAM"
+* "ViTa-SLAM": https://github.com/aalto-intelligent-robotics/ViTa-SLAM
   > Struckmeier, Oliver, et al. "ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments." 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS). IEEE, 2019.
 
 🏷 Semantic Related SLAM
@@ -610,7 +610,7 @@ http://wiki.ros.org/Distributions
  * "SKS 新光保全智慧型保全機器人競賽": https://www.facebook.com/sksrobot/
  * "PMC 全國智慧機器人競賽 Robot competition": http://www.pmccontest.com/
  * "HIWIN 上銀智慧機械手實作競賽": http://www.hiwin.org.tw/Awards/HIWIN_ROBOT/Original.aspx
- * "SiliconAwards 旺宏金矽獎"http://www.mxeduc.org.tw/SiliconAwards/
+ * "SiliconAwards 旺宏金矽獎": http://www.mxeduc.org.tw/SiliconAwards/
 
 ## 11-4_Famous ROS Organizations & Activities
 🚀 ROS Related Work:
@@ -626,7 +626,7 @@ http://wiki.ros.org/Distributions
 
 🎪 Activities: 
  * "ROScon": https://roscon.ros.org/
- * "ROSDevCon": http://www.theconstructsim.com/ros-developers-online-conference-2019-rdc-worldwide/
+ * "ROSDevCon": http://www.rosdevcon.com/
  * "ROS Summer School(CN)": http://www.roseducation.org/
 
 -----
