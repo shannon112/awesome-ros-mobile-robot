@@ -596,6 +596,7 @@ http://wiki.ros.org/Distributions
 
 🛠 Tools:  
  * "Google Scholar H5-Index Rank": https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics
+ * "Journal Citation Reports (JCR)": https://jcr.clarivate.com/ ```(Impact Factor, Eigenfactor Score, Article Influence Score)```
  * "Compress PDF Online": https://www.pdf2go.com/compress-pdf  
 
 ## 11-3_Famous Robotics Competition
