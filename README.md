@@ -440,6 +440,8 @@ http://wiki.ros.org/Distributions
   > M. Bosse, R. Zlot and P. Flick, "Zebedee: Design of a Spring-Mounted 3-D Range Sensor with Application to Mobile Mapping," in IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1104-1119, Oct. 2012.
 * "Kaarta": https://www.kaarta.com/ (handheld device)
   > Zhang, Ji, and Sanjiv Singh. "Laser–visual–inertial odometry and mapping with high robustness and low drift." Journal of Field Robotics 35.8 (2018): 1242-1264.
+* "LIO-SAM": https://github.com/TixiaoShan/LIO-SAM (handheld device)
+  > Shan, Tixiao and Englot, Brendan and Meyers, Drew and Wang, Wei and Ratti, Carlo and Rus Daniela, "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping," 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Las Vegas, 2020
 * "hdl_graph_slam": https://github.com/koide3/hdl_graph_slam
   > Kenji Koide, Jun Miura, and Emanuele Menegatti, A Portable 3D LIDAR-based System for Long-term and Wide-area People Behavior Measurement, Advanced Robotic Systems, 2019
 * "BLAM": https://github.com/erik-nelson/blam
