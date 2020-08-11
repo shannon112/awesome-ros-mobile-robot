@@ -74,8 +74,10 @@ http://wiki.ros.org/Distributions
  * "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
  * "arXiv.org e-Print archive": https://arxiv.org/
  * "Google Scholar": https://scholar.google.com/
- * "Sci-Hub": https://sci-hub.tw/
-
+ * "Sci-Hub": https://sci-hub.tw/  
+ * "Airiti Library ": http://www.airitilibrary.com/home/index/  
+ * "National Digital Library of Theses and Dissertations in Taiwan": https://ndltd.ncl.edu.tw
+ 
 # 1_Robot_Operating_System
 👾 ROS Official Website:
  * "The ROS Status": https://status.ros.org/ ```(check if any server is down)```
