@@ -25,7 +25,7 @@ http://wiki.ros.org/Distributions
   * 11-4. Famous ros organizations & activities  
 
 # 0_Robotics
-📚 Books:
+📚 Books
  * "Introduction to Algorithms", Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
  * "Multiple View Geometry in Computer Vision", Richard Hartley, Andrew Zisserman
  * "Probabilistic Robotics", Sebastian Thrun 
@@ -34,7 +34,7 @@ http://wiki.ros.org/Distributions
  * "Introduction to autonomous mobile robots" Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza
  * "視覺 SLAM 十四講：從理論到實踐", 高翔
 
-📖 Courses:
+📖 Courses
  * "Matlab Lecture" {Matlab}
    * https://www.youtube.com/user/MATLAB/playlists
  * "Control System Lecture" {Brian Douglas} Brian Douglas
@@ -70,7 +70,7 @@ http://wiki.ros.org/Distributions
  * "Self-Driving Cars" {TORONTO}
    * https://www.coursera.org/specializations/self-driving-cars
 
-📜 Paper Libraries:
+📜 Paper Libraries
  * "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
  * "arXiv.org e-Print archive": https://arxiv.org/
  * "Google Scholar": https://scholar.google.com/
@@ -79,14 +79,14 @@ http://wiki.ros.org/Distributions
  * "National Digital Library of Theses and Dissertations in Taiwan": https://ndltd.ncl.edu.tw
  
 # 1_Robot_Operating_System
-👾 ROS Official Website:
+👾 ROS Official Website
  * "The ROS Status": https://status.ros.org/ ```(check if any server is down)```
  * "The ROS Website": https://www.ros.org ```(home)```
  * "The ROS Wiki": https://wiki.ros.org ```(pkg info)```
  * "The ROS Documentation Site": http://docs.ros.org ```(msg info)```
  * "The ROS Answer": https://answers.ros.org/questions/ ```(Q&A)```
 
-🗣 ROS Related Blogs & Channels & Forums:  
+🗣 ROS Related Blogs & Channels & Forums
  * "The construct": https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
  * "JetsonHacks": https://www.youtube.com/channel/UCQs0lwV6E4p7LQaGJ6fgy5Q
  * "鳥哥的Linux私房菜": http://linux.vbird.org/
@@ -94,7 +94,7 @@ http://wiki.ros.org/Distributions
  * "泡泡機器人頻道": https://space.bilibili.com/38737757/
  * "泡泡機器人論壇": http://paopaorobot.org/bbs/
 
-📚 Books:
+📚 Books
  * "C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
  * "ROS by Example", python, Patrick Goebel
  * "Mastering ROS for Robotics Programming", Lentin Joseph
@@ -102,6 +102,13 @@ http://wiki.ros.org/Distributions
  * "Programming Robots with ROS: A Practical Introduction to the Robot Operating System", Morgan Quigley et al.
  * "機器人作業系統ROS 淺析", Jason M. O'Kane, 肖軍浩譯
  * "機器人作業系統ROS 史話36篇", 張新宇, http://www.roseducation.org/docs/ROS_history.pdf
+
+🤝 System Integration Tool
+* Multiple Machines with Multi-Master: http://wiki.ros.org/multimaster_fkie
+* Multiple Machines with One Master: http://wiki.ros.org/ROS/NetworkSetup
+* Multiple Tasks with Smach(state machine): http://wiki.ros.org/smach
+* Bridge for Non-ROS Programs(JSON API): https://wiki.ros.org/rosbridge_suite
+* Bridge communication between ROS 1 and ROS 2: https://github.com/ros2/ros1_bridge
 
 # 2_Robotic_Platform
 🤖 ROS Robot Overview
@@ -145,7 +152,7 @@ http://wiki.ros.org/Distributions
  * NVIDIA Jetson TX1, NVIDIA Jetson TX2, NVIDIA Jetson NANO, NVIDIA Jetson Xavier
  * ADLINK Neuron, 
 
-🕹 Motor & Controller & Encoder:  
+🕹 Motor & Controller & Encoder
  * Elmo Motion Control Ltd
  * RLS d.o.o. (Rotary and Linear Motion Sensors)
  * Dr. Fritz Faulhaber GmbH & Co. KG
@@ -183,7 +190,7 @@ http://wiki.ros.org/Distributions
 – often represent 3D laser scanning  
  * "Velodyne": http://wiki.ros.org/velodyne
 
-🍎 IMU [inertial measurement unit]:  
+🍎 IMU [inertial measurement unit]
  * "Xsense": http://wiki.ros.org/xsens_driver
  * "MicroStrain 3DM-GX2": http://wiki.ros.org/microstrain_3dmgx2_imu
  * "SparkFun 9DOF Razor IMUM0": http://wiki.ros.org/razor_imu_9dof
