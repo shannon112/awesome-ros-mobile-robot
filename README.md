@@ -533,6 +533,14 @@ http://wiki.ros.org/Distributions
 * "Dynamic Window Approach (DWA)": http://wiki.ros.org/dwa_local_planner
   > D. Fox, W. Burgard and S. Thrun, "The dynamic window approach to collision avoidance," in IEEE Robotics & Automation Magazine, vol. 4, no. 1, pp. 23-33, March 1997.
 
+🚘 Advanced Local Planner
+* Velocity Obstacle (VO)
+  > Fiorini, Paolo, and Zvi Shiller. "Motion planning in dynamic environments using velocity obstacles." The International Journal of Robotics Research 17.7 (1998): 760-772.
+* Reciprocal Velocity Obstacle (RVO) http://gamma.cs.unc.edu/RVO2/ | https://github.com/daenny/collvoid
+  > Van den Berg, Jur, Ming Lin, and Dinesh Manocha. "Reciprocal velocity obstacles for real-time multi-agent navigation." 2008 IEEE International Conference on Robotics and Automation. IEEE, 2008.
+* Optimal Reciprocal Collision Avoidance (ORCA) http://gamma.cs.unc.edu/ORCA/
+  > Van Den Berg, Jur, et al. "Reciprocal n-body collision avoidance." Robotics research. Springer, Berlin, Heidelberg, 2011. 3-19.
+
 🚘 Recovery Behavior
 * ```rotate_recovery, move_slow_and_clear, stepback_and_steerturn_recovery```  
 
