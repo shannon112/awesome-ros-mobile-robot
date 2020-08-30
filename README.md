@@ -647,7 +647,8 @@ http://wiki.ros.org/Distributions
 🎪 Activities: 
  * "ROScon": https://roscon.ros.org/
  * "ROSDevCon": http://www.rosdevcon.com/
- * "ROS Summer School(CN)": http://www.roseducation.org/
+ * "ROS Summer School(CN)": http://www.roseducation.org/  
+ * "ROS Summer School(TW)": http://www.taoyuan-ros.com.tw/  
 
 -----
 
