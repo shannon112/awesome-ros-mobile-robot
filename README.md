@@ -189,6 +189,7 @@ http://wiki.ros.org/Distributions
 💡 LIDAR [light detection and ranging] [light imaging, detection, and ranging] [3D laser scanning ]   
 – often represent 3D laser scanning  
  * "Velodyne": http://wiki.ros.org/velodyne
+ * "Livox": https://github.com/hku-mars/loam_livox
 
 🍎 IMU [inertial measurement unit]
  * "Xsense": http://wiki.ros.org/xsens_driver
@@ -597,7 +598,7 @@ http://wiki.ros.org/Distributions
 | ROS2.0 | ADLINK(DDS), ROBOTIS(Turtlebot3) |  
 | CleaningBot | iRobot, Xiaomi | 
 | Gripper | ROBOTIQ, TOYO |  
-| Self-Driving Cars | Alphabet_Waymo, Uber_ATG, Apple_Project_Titan, Tesla, Toyota_Research_Institute(TRI) |
+| Self-Driving Cars | Alphabet_Waymo, Uber_ATG, Apple_Project_Titan, Tesla, Toyota_Research_Institute(TRI), Baidu_Apollo, AutoX |
 
 ## 11-2_Famous Robotics Publications
 📝 Top conferences:  
