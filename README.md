@@ -592,7 +592,7 @@ http://wiki.ros.org/Distributions
 | Humanoid | Boston_Dynamics, Softbank_Robotics, Pal_Robotics, UBTECH_Robotics |
 | Quadruped | Boston_Dynamics, Unitree_Robotics, MIT_Cheetah, ANYrobotics(ANYmal), Standford＿Doggo, Innfos |
 | Research Robot | Willow_Garage(Pr2), Facebook(pyrobot), ROBOTIS(turtlebot3), Fetch_Robotics, Robotnik(RB-1) |
-| Educational Rotbot Kit | Trossen_Robotics, Niryo, Oz_Robotics |
+| Educational Robot Kit | Trossen_Robotics, Niryo, Oz_Robotics |
 | Drone | Dji, Tello |
 | ROS2.0 | ADLINK(DDS), ROBOTIS(Turtlebot3) |  
 | CleaningBot | iRobot, Xiaomi | 
