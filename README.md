@@ -2,7 +2,7 @@
 This repository provides some useful resources and informations about **autonomous mobile robots (AMR)** research based on **ROS**. It would mainly focus on basic function of mobile robots(like **odometry**, **SLAM**, **navigation** and **manipulation**).  
 (including both **Chinese** and **English** materials)  
 
-<img src="https://wiki.ros.org/boxturtle?action=AttachFile&do=get&target=Box_Turtle.320.png" height="100"> <img src="https://wiki.ros.org/custom/images/wiki/cturtle.jpg" height="100"> <img src="https://wiki.ros.org/custom/images/wiki/diamondback_posterLo-240w.jpg" height="100"> <img src="https://www.ros.org/news/resources/2011/electric_640w.png" height="100"> <img src="https://wiki.ros.org/custom/images/fuerte-320w.jpg" height="100"> <img src="https://wiki.ros.org/custom/images/groovygalapagos-320w.jpg" height="100"> <img src="http://i.imgur.com/xvfZPAo.png" height="100"> <img src="http://i.imgur.com/YBCUixi.png" height="100"> <img src="http://i.imgur.com/99oTyT5.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/kinetic.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/lunar_with_bg.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/melodic_with_bg.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/noetic.png" height="100">  
+<img src="http://wiki.ros.org/boxturtle?action=AttachFile&do=get&target=Box_Turtle.320.png" height="100"> <img src="http://wiki.ros.org/custom/images/wiki/cturtle.jpg" height="100"> <img src="https://wiki.ros.org/custom/images/wiki/diamondback_posterLo-240w.jpg" height="100"> <img src="https://www.ros.org/news/resources/2011/electric_640w.png" height="100"> <img src="https://wiki.ros.org/custom/images/fuerte-320w.jpg" height="100"> <img src="https://wiki.ros.org/custom/images/groovygalapagos-320w.jpg" height="100"> <img src="http://i.imgur.com/xvfZPAo.png" height="100"> <img src="http://i.imgur.com/YBCUixi.png" height="100"> <img src="http://i.imgur.com/99oTyT5.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/kinetic.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/lunar_with_bg.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/melodic_with_bg.png" height="100"> <img src="https://raw.githubusercontent.com/ros-infrastructure/artwork/master/distributions/noetic.png" height="100">  
 [<img src="https://www.ros.org/wp-content/uploads/2013/10/rosorg-logo1.png" align="right" width="86">](https://www.ros.org/)
 http://wiki.ros.org/Distributions
 
@@ -611,9 +611,10 @@ http://wiki.ros.org/Distributions
 | -------- | -------- | ------------
 | IEEE Robotics and Automation Society (RAS) | https://www.ieee-ras.org/ | https://ras.papercept.net/conferences/scripts/start.pl  
 | IEEE Industrial Electronics Society (IES)  | http://www.ieee-ies.org/  | http://www.ieee-ies.org/conferences  
-| IEEE Control System Society (CSS)          | http://www.ieeecss.org/   | http://ieeecss.org/conferences/general-information
+| IEEE Control System Society (CSS)          | http://ieeecss.org/   | http://ieeecss.org/conferences/general-information
 | IEEE Systems, Man and Cybernetics (SMC)    | https://www.ieeesmc.org/  | https://www.ieeesmc.org/conferences/calendar/
 | AAAS Science Robotics                      | https://robotics.sciencemag.org/  | https://www.sciencemag.org/journals/robotics/call-for-papers
+| Conference on Robot Learning (CoRL)        | https://www.robot-learning.org | https://www.robot-learning.org/program/paper-explorer
 
 🛠 Tools:  
  * "Google Scholar Rank": https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics ```(h5-index, h5-median)```
