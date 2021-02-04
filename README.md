@@ -571,14 +571,16 @@ http://wiki.ros.org/Distributions
 * "Open Motion Planning Library (OMPL)"
   * Website: https://ompl.kavrakilab.org/
   * Intro: https://moveit.ros.org/assets/pdfs/2013/icra2013tutorial/OMPLoverview-ICRA2013.pdf
-  * Roadmap Based Planner: ```PRM, PRM*, Lazy-PRM, LazyPRM*```
-  * Tree Based Planner: ```RRTConnect (default), RRT, RRT*, T-RRT, Bi-TRRT, LB-TRRT, SBL, STRIDE, KPIECE, B-KPIECE, LB-KPIECE, EST, Bi-EST, Proj-EST, PDST, SPARS, SPARS2```
+  * Roadmap Based Planner: ```PRM(Probabilistic roadmap), PRM*, Lazy-PRM, LazyPRM*```
+  * Tree Based Planner: ```RRTConnect (default), RRT(Rapidly-exploring random tree), RRT*, T-RRT, Bi-TRRT, LB-TRRT, SBL, STRIDE, KPIECE, B-KPIECE, LB-KPIECE, EST, Bi-EST, Proj-EST, PDST, SPARS, SPARS2```
 * "Search Based Planning Library (SBPL)"
   * Website: http://www.sbpl.net/
   * Intro: https://www.cs.cmu.edu/~maxim/files/tutorials/robschooltutorial_oct10.pdf
   * Search Based Planner: ```ARA*, Anytime D*, R*```
 * "Covariant Hamiltonian Optimiza-tion for Motion Planning (CHOMP)"
   * Intro: https://www.ri.cmu.edu/pub_files/2009/5/icra09-chomp.pdf
+* Orocos Kinematics and Dynamics Library (KDL) for FK/IK modeling
+  * https://www.orocos.org/kdl.html
 
 # 11_Others_Non_Tech_Part
 ## 11-1_Famous Robotics Related Company
