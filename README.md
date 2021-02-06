@@ -423,6 +423,11 @@ http://wiki.ros.org/Distributions
   > Newcombe, Richard A., Steven J. Lovegrove, and Andrew J. Davison. "DTAM: Dense tracking and mapping in real-time." 2011 international conference on computer vision. IEEE, 2011.
 * "ORB-SLAM2": https://github.com/raulmur/ORB_SLAM2
   > Raúl Mur-Artal and Juan D. Tardós. ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras. IEEE Transactions on Robotics, vol. 33, no. 5, pp. 1255-1262, 2017.
+* "ORB-SLAM3": https://github.com/UZ-SLAMLab/ORB_SLAM3
+  > [ORB-SLAM3] Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM, Under review.  
+  > [IMU-Initialization] Carlos Campos, J. M. M. Montiel and Juan D. Tardós, Inertial-Only Optimization for Visual-Inertial Initialization, ICRA 2020.  
+  > [ORBSLAM-Atlas] Richard Elvira, J. M. M. Montiel and Juan D. Tardós, ORBSLAM-Atlas: a robust and accurate multi-map system, IROS 2019.  
+  > [ORBSLAM-VI] Raúl Mur-Artal, and Juan D. Tardós, Visual-inertial monocular SLAM with map reuse, IEEE Robotics and Automation Letters, vol. 2 no. 2, pp. 796-803, 2017.  
 * "DVO-SLAM": https://github.com/tum-vision/dvo_slam
   > Kerl, Christian, Jürgen Sturm, and Daniel Cremers. "Dense visual SLAM for RGB-D cameras." 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2013.
 * "RGBDSLAMv2": https://felixendres.github.io/rgbdslam_v2/
