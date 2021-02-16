@@ -69,6 +69,8 @@ http://wiki.ros.org/Distributions
    * http://rpg.ifi.uzh.ch/teaching.html
  * "Self-Driving Cars" {TORONTO}
    * https://www.coursera.org/specializations/self-driving-cars
+ * "Hello (Real) World with ROS – Robot Operating System" {TUDelft}
+   * https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system
 
 📜 Paper Libraries
  * "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
