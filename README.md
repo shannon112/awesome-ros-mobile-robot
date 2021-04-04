@@ -96,6 +96,7 @@ http://wiki.ros.org/Distributions
 
 📚 Books
  * "C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
+ * "C++ Concurrency in Action - SECOND EDITION", Anthony Williams
  * "ROS by Example", python, Patrick Goebel
  * "Mastering ROS for Robotics Programming", Lentin Joseph
  * "Learning ROS for Robotics Programming", Enrique Fernandez et al.
