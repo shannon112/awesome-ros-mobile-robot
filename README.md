@@ -35,6 +35,8 @@ http://wiki.ros.org/Distributions
  * "視覺 SLAM 十四講：從理論到實踐", 高翔
 
 📖 Courses
+ * "5 Minutes with Cyrill" {Cyrill Stachniss} Cyrill Stachniss
+   * https://www.youtube.com/playlist?list=PLgnQpQtFTOGSO8HC48K9sPuNliY1qxzV9
  * "Matlab Lecture" {Matlab}
    * https://www.youtube.com/user/MATLAB/playlists
  * "Control System Lecture" {Brian Douglas} Brian Douglas
