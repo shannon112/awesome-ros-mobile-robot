@@ -174,6 +174,7 @@ http://wiki.ros.org/Distributions
  * "Microsoft kinect one/v2": https://github.com/code-iai/iai_kinect2
  * "Asus xtion with openni2": https://github.com/ros-drivers/openni2_camera
  * "Intel RealSense d455/d435/d435i/d415": https://github.com/intel-ros/realsense
+ * "Occipital Structure Sensor/Core": https://structure.io/
 
 🎥 Stereo Camera
  * "Stereolabs ZED": http://wiki.ros.org/zed-ros-wrapper
