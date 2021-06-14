@@ -598,7 +598,7 @@ http://wiki.ros.org/Distributions
 | --------   | -------- |
 | Research center | Toyota_Research_Institute(TRI), Microsoft_Research, Google_AI, DeepMind, Facebook_Artificial_Intelligence_Research(FAIR), Berkeley_Artificial_Intelligence_Research (BAIR), Nvidia_Research |
 | Manipulator | ABB, FANUC, KUKA, YASKAWA, Techman_Robot, HIWIN, Universal_Robots, Innfos |
-| Mobile Robot(AGV, base only) | Omron_Robotics, Clearpath_Robotics&OTTO_Motors, Amazon_Robotics(Kiva_System), Yujin_Robotics, ROBOTIS, Fetch_Robotics, GreenTrans, KUKA, iRobot, Pal_Robotics, Robotnik | 
+| Mobile Robot(AGV, base only) | Omron_Robotics, Clearpath_Robotics&OTTO_Motors, Amazon_Robotics(Kiva_System/Canvas_Tech), Yujin_Robotics, ROBOTIS, Fetch_Robotics, GreenTrans, KUKA, iRobot, Pal_Robotics, Robotnik | 
 | Service robot(with torso) | Willow_Garage, Softbank_Robotics, Fetch_Robotics, Pal_Robotics, Innfos, Robotnik |  
 | Dual Arms | ABB, Rethink_Robotics |
 | Humanoid | Boston_Dynamics, Softbank_Robotics, Pal_Robotics, UBTECH_Robotics |
@@ -610,6 +610,7 @@ http://wiki.ros.org/Distributions
 | CleaningBot | iRobot, Xiaomi | 
 | Gripper | ROBOTIQ, TOYO |  
 | Self-Driving Cars | Alphabet_Waymo, Uber_ATG, Apple_Project_Titan, Tesla, Toyota_Research_Institute(TRI), Baidu_Apollo, AutoX |
+| Delivery Robots | Starship, Amazon_Robotics_Scout(Dispatch) |
 
 ## 11-2_Famous Robotics Publications
 📝 Top conferences:  
