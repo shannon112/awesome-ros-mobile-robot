@@ -98,8 +98,10 @@ http://wiki.ros.org/Distributions
 
 📚 Books
  * "C++ Primer", Stanley B. Lippman, Josée Lajoie, Barbara E. Moo
- * "C++ Concurrency in Action - SECOND EDITION", Anthony Williams
+ * "C++ Concurrency in Action, 2nd Edition", Anthony Williams
  * "Design Patterns: Elements of Reusable Object-Oriented Software", The "Gang of Four": Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+ * "Head First Design Patterns, 2nd Edition", Eric Freeman, Elisabeth Robson
+ * "Clean Code: A Handbook of Agile Software Craftsmanship", Robert C. Martin
  * "ROS by Example", python, Patrick Goebel
  * "Mastering ROS for Robotics Programming", Lentin Joseph
  * "Learning ROS for Robotics Programming", Enrique Fernandez et al.
