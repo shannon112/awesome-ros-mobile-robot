@@ -76,6 +76,7 @@ http://wiki.ros.org/Distributions
  * "IEEE Xplore Digital Library": https://ieeexplore.ieee.org/Xplore/home.jsp
  * "arXiv.org e-Print archive": https://arxiv.org/
  * "Open review": https://openreview.net/
+ * "CVF open access": https://openaccess.thecvf.com/menu
  * "Google Scholar": https://scholar.google.com/
  * "Sci-Hub": https://sci-hub.tw/  
  * "Airiti Library ": http://www.airitilibrary.com/home/index/  
